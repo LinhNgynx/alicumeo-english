@@ -1,0 +1,8 @@
+
+{
+  "name": "A LI CU MÉO TOEIC",
+  "description": "A friendly and responsive English learning platform for beginners featuring vocabulary flashcards, contextual grammar lessons, and Duolingo-style sentence building.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
