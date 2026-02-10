@@ -53,7 +53,7 @@ export const Layout: React.FC<LayoutProps> = ({
             {/* Logo Container */}
             <div className="w-10 h-10 sm:w-14 sm:h-14 bg-orange-500 rounded-xl sm:rounded-2xl flex items-center justify-center overflow-hidden shadow-lg shadow-orange-500/20 group-hover:rotate-6 transition-transform duration-300">
               <img
-                src="./images/avatar.jpg"
+                src="/images/avatar.jpg"
                 alt="Orange Cat Logo"
                 className="w-full h-full object-cover"
               />
@@ -203,7 +203,7 @@ export const Layout: React.FC<LayoutProps> = ({
   <div className="flex justify-center mb-6">
     <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-full overflow-hidden border-4 border-orange-500 shadow-orange-200 dark:shadow-orange-900/20 shadow-2xl">
       <img 
-        src="./images/avatar.jpg" 
+        src="/images/avatar.jpg" 
         alt="Orange Cat Footer" 
         className="w-full h-full object-cover"
       />

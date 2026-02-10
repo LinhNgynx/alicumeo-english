@@ -13,7 +13,7 @@ const About: React.FC = () => {
       
       <div className="relative w-32 h-32 sm:w-44 sm:h-44 bg-white rounded-full p-1.5 border-4 border-orange-500 shadow-2xl overflow-hidden">
         <img 
-          src="./images/about.jpg" 
+          src="/images/about.jpg" 
           alt="A LI CU MÉO Mascot" 
           className="w-full h-full object-cover rounded-full transition-transform duration-700 group-hover:scale-110"
         />

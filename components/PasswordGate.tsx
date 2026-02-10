@@ -59,7 +59,7 @@ export const PasswordGate: React.FC<PasswordGateProps> = ({
               <div className="flex flex-col items-center mb-8">
                 <div className="w-24 h-24 sm:w-28 sm:h-28 bg-orange-500 rounded-2xl sm:rounded-3xl flex items-center justify-center overflow-hidden shadow-lg shadow-orange-500/30 mb-6 transition-transform hover:scale-105 duration-300">
                   <img 
-                    src="./images/avatar.jpg" 
+                    src="/images/avatar.jpg" 
                     alt="A LI CU MÉO" 
                     className="w-full h-full object-cover"
                   />

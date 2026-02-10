@@ -139,7 +139,7 @@ const App: React.FC = () => {
       }
     `}>
       <img 
-        src={toaster.type === 'success' ? "./images/right.jpg" : "./images/wrong.jpg"}
+        src={toaster.type === 'success' ? "/images/right.jpg" : "/images/wrong.jpg"}
         alt={toaster.type === 'success' ? 'Success Cat' : 'Error Cat'}
         className="w-full h-full object-cover scale-110"
       />

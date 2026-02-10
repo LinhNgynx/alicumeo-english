@@ -16,7 +16,7 @@ const Home: React.FC<HomeProps> = ({ onStart, onSelectLesson }) => {
   {/* Profile Circle */}
   <div className="w-56 h-56 bg-white dark:bg-slate-800 rounded-full flex items-center justify-center border-8 border-orange-500 shadow-orange-soft overflow-hidden mb-4 transition-transform hover:scale-105 duration-500">
     <img 
-      src="./images/lì.jpg" 
+      src="/images/lì.jpg" 
       alt="Orange Cat" 
       className="w-full h-full object-cover"
     />

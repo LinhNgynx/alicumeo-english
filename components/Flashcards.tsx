@@ -94,7 +94,7 @@ const Flashcards: React.FC<FlashcardsProps> = ({ lesson, showVi, toggleVi, onNex
              <div className="absolute top-0 right-0 -translate-y-8 translate-x-8 sm:-translate-y-12 sm:translate-x-12 rotate-12 pointer-events-none">
   <div className="w-40 h-40 sm:w-64 sm:h-64 overflow-hidden rounded-3xl opacity-20 grayscale">
     <img 
-      src="./images/flashcard.jpg" 
+      src="/images/flashcard.jpg" 
       alt="" 
       className="w-full h-full object-cover"
     />
