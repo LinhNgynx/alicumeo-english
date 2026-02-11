@@ -97,24 +97,24 @@ const App: React.FC = () => {
   const renderContent = () => {
     switch (currentPage) {
       case 'home':
-        return <Home onStart={() => setCurrentPage('flashcards')} onSelectLesson={handleSelectLesson} />;
+        return <Home onStart={() => setCurrentPage('flashcards')} onSelectLesson={handleSelectLesson} isDarkMode={isDarkMode} />;
       case 'flashcards':
-        return <Flashcards lesson={currentLesson} showVi={showVi} toggleVi={toggleTranslation} onNextLesson={nextLesson} onPrevLesson={prevLesson} hasNext={currentLessonIndex < LESSONS.length - 1} hasPrev={currentLessonIndex > 0} />;
+        return <Flashcards lesson={currentLesson} showVi={showVi} toggleVi={toggleTranslation} onNextLesson={nextLesson} onPrevLesson={prevLesson} hasNext={currentLessonIndex < LESSONS.length - 1} hasPrev={currentLessonIndex > 0} isDarkMode={isDarkMode} />;
       case 'grammar':
-        return <Grammar lesson={currentLesson} showVi={showVi} onCorrect={() => triggerToaster('success')} onIncorrect={() => triggerToaster('fail')} onNextLesson={nextLesson} onPrevLesson={prevLesson} hasNext={currentLessonIndex < LESSONS.length - 1} hasPrev={currentLessonIndex > 0} />;
+        return <Grammar lesson={currentLesson} showVi={showVi} onCorrect={() => triggerToaster('success')} onIncorrect={() => triggerToaster('fail')} onNextLesson={nextLesson} onPrevLesson={prevLesson} hasNext={currentLessonIndex < LESSONS.length - 1} hasPrev={currentLessonIndex > 0} isDarkMode={isDarkMode} />;
       case 'rearrange':
-        return <Rearrange lesson={currentLesson} showVi={showVi} onCorrect={() => triggerToaster('success')} onIncorrect={() => triggerToaster('fail')} onNextLesson={nextLesson} onPrevLesson={prevLesson} hasNext={currentLessonIndex < LESSONS.length - 1} hasPrev={currentLessonIndex > 0} />;
+        return <Rearrange lesson={currentLesson} showVi={showVi} onCorrect={() => triggerToaster('success')} onIncorrect={() => triggerToaster('fail')} onNextLesson={nextLesson} onPrevLesson={prevLesson} hasNext={currentLessonIndex < LESSONS.length - 1} hasPrev={currentLessonIndex > 0} isDarkMode={isDarkMode} />;
       case 'about':
-        return <About />;
+        return <About isDarkMode={isDarkMode} />;
       default:
-        return <Home onStart={() => setCurrentPage('flashcards')} onSelectLesson={handleSelectLesson} />;
+        return <Home onStart={() => setCurrentPage('flashcards')} onSelectLesson={handleSelectLesson} isDarkMode={isDarkMode} />;
     }
   };
 
   return (
     <PasswordGate password="toeic123alicumeo">
       <div className={`${isDarkMode ? 'bg-slate-950 text-slate-100' : 'bg-[#fafafc] text-slate-900'} min-h-screen transition-all duration-500 relative flex flex-col`}>
-        {isSnowing && <SnowEffect />}
+        {isSnowing && (isDarkMode ? <SnowEffect /> : <RainEffect />)}
       
       {/* Elegant Toaster Implementation - Bigger Image & Premium Style */}
 {/* Elegant Toaster Implementation - Orange & Slate Theme */}
@@ -147,7 +147,7 @@ const App: React.FC = () => {
     
     <div className="flex-grow pt-1">
       <h4 className="text-white font-black text-xl sm:text-2xl tracking-tight leading-none mb-1.5 drop-shadow-sm">
-        {toaster.type === 'success' ? 'Đúng mà nối!' : 'Sai mà nối!'}
+        {toaster.type === 'success' ? 'Đúng rồi mà nối!' : 'Sai rồi mà nối!'}
       </h4>
       <p className="text-white/90 text-[11px] sm:text-xs font-bold uppercase tracking-[0.15em]">
         {toaster.type === 'success' ? 'Chọt dô nách cái' : 'Chọt dô nách cái'}
@@ -157,7 +157,11 @@ const App: React.FC = () => {
   </div>
 </div>
 
-      <Layout 
+  {/* Success / Fail visual effects */}
+  {toaster.show && toaster.type === 'success' && <ConfettiEffect />}
+  {toaster.show && toaster.type === 'fail' && <ThunderEffect />}
+
+  <Layout 
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
         isDarkMode={isDarkMode}
@@ -212,6 +216,171 @@ const SnowEffect: React.FC = () => {
           {p.char}
         </div>
       ))}
+    </div>
+  );
+};
+
+const RainEffect: React.FC = () => {
+  const drops = useMemo(() => {
+    return Array.from({ length: 80 }).map((_, i) => ({
+      id: i,
+      left: `${Math.random() * 100}vw`,
+      duration: `${Math.random() * 0.8 + 0.8}s`,
+      delay: `-${Math.random() * 1.5}s`,
+      height: `${Math.random() * 18 + 8}px`,
+      opacity: `${Math.random() * 0.6 + 0.4}`,
+    }));
+  }, []);
+
+  return (
+    <div className="rain-container pointer-events-none">
+      {drops.map((d) => (
+        <div
+          key={d.id}
+          className="rain-drop"
+          style={{
+            left: d.left,
+            animationDelay: d.delay,
+            animationDuration: d.duration,
+            height: d.height,
+            opacity: d.opacity,
+          }}
+        />
+      ))}
+    </div>
+  );
+};
+
+const ConfettiEffect: React.FC = () => {
+  const pieces = useMemo(() => {
+    const colors = ['#FF6B6B', '#FFD166', '#06D6A0', '#4D96FF', '#9B5DE5', '#FF8FAB'];
+    return Array.from({ length: 36 }).map((_, i) => ({
+      id: i,
+      left: `${Math.random() * 100}vw`,
+      delay: `${Math.random() * 0.5}s`,
+      duration: `${Math.random() * 1.2 + 1.1}s`,
+      size: `${Math.random() * 10 + 8}px`,
+      color: colors[i % colors.length],
+      rotate: Math.floor(Math.random() * 360),
+    }));
+  }, []);
+
+  useEffect(() => {
+    const style = document.createElement('style');
+    style.innerHTML = `
+      @keyframes confetti-fall {
+        0% { transform: translateY(-10vh) rotate(0deg); opacity: 1; }
+        100% { transform: translateY(110vh) rotate(720deg); opacity: 1; }
+      }
+    `;
+    document.head.appendChild(style);
+    return () => style.remove();
+  }, []);
+
+  return (
+    <div className="pointer-events-none fixed inset-0 z-[450] overflow-hidden">
+      {pieces.map((p) => (
+        <div
+          key={p.id}
+          style={{
+            position: 'absolute',
+            left: p.left,
+            top: '-10vh',
+            width: p.size,
+            height: `calc(${p.size} * 0.6)`,
+            background: p.color,
+            borderRadius: '3px',
+            transform: `rotate(${p.rotate}deg)`,
+            animation: `confetti-fall ${p.duration} cubic-bezier(.2,.8,.2,1) ${p.delay} forwards`,
+            boxShadow: '0 6px 18px rgba(0,0,0,0.12)'
+          }}
+        />
+      ))}
+    </div>
+  );
+};
+
+const ThunderEffect: React.FC = () => {
+  const [flash, setFlash] = useState(false);
+  const [boltVisible, setBoltVisible] = useState(false);
+  const bolt = useMemo(() => ({ left: `${20 + Math.random() * 60}vw`, scale: 0.9 + Math.random() * 1.4 }), []);
+
+  useEffect(() => {
+    // inject necessary keyframes for bolt drawing
+    const style = document.createElement('style');
+    style.innerHTML = `
+      @keyframes bolt-fade {
+        0% { opacity: 0; transform: translateY(-6vh) scale(1); }
+        10% { opacity: 1; }
+        100% { opacity: 0; transform: translateY(8vh) scale(1.05); }
+      }
+      @keyframes bolt-draw {
+        0% { stroke-dashoffset: 1000; }
+        60% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 0; }
+      }
+    `;
+    document.head.appendChild(style);
+
+    // Quick double-flash + bolt sequence
+    const t1 = setTimeout(() => { setFlash(true); setBoltVisible(true); }, 60);
+    const t2 = setTimeout(() => { setFlash(false); setBoltVisible(false); }, 180);
+    const t3 = setTimeout(() => { setFlash(true); setBoltVisible(true); }, 360);
+    const t4 = setTimeout(() => { setFlash(false); setBoltVisible(false); }, 480);
+
+    return () => {
+      clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); clearTimeout(t4);
+      style.remove();
+    };
+  }, []);
+
+  return (
+    <div className="pointer-events-none fixed inset-0 z-[450]">
+      {/* global dim layer */}
+      <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.24)' }} />
+
+      {/* flash overlay */}
+      <div style={{ position: 'absolute', inset: 0, background: flash ? 'rgba(255,255,255,0.94)' : 'transparent', transition: 'opacity 120ms' }} />
+
+      {/* lightning bolt SVG */}
+      {boltVisible && (
+        <div style={{ position: 'absolute', left: bolt.left, top: '12vh', transform: `scale(${bolt.scale})`, pointerEvents: 'none', width: '140px', height: '260px' }}>
+          <svg viewBox="0 0 140 260" width="140" height="260" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <filter id="boltGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="6" result="coloredBlur" />
+                <feMerge>
+                  <feMergeNode in="coloredBlur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+            </defs>
+            <path
+              d="M60 0 L28 96 L72 88 L40 220 L112 80 L68 96 L100 0 Z"
+              fill="none"
+              stroke="#FFF7C2"
+              strokeWidth={8}
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              style={{
+                filter: 'url(#boltGlow)',
+                strokeDasharray: 1000,
+                strokeDashoffset: 1000,
+                animation: 'bolt-draw 420ms ease-out forwards, bolt-fade 480ms linear forwards'
+              }}
+            />
+            <path
+              d="M60 0 L28 96 L72 88 L40 220 L112 80 L68 96 L100 0 Z"
+              fill="#FFD94D"
+              opacity={0.85}
+              style={{
+                transformOrigin: 'center top',
+                animation: 'bolt-fade 480ms linear forwards'
+              }}
+            />
+          </svg>
+        </div>
+      )}
     </div>
   );
 };

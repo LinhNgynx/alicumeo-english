@@ -10,9 +10,10 @@ interface FlashcardsProps {
   onPrevLesson: () => void;
   hasNext: boolean;
   hasPrev: boolean;
+  isDarkMode: boolean;
 }
 
-const Flashcards: React.FC<FlashcardsProps> = ({ lesson, showVi, toggleVi, onNextLesson, onPrevLesson, hasNext, hasPrev }) => {
+const Flashcards: React.FC<FlashcardsProps> = ({ lesson, showVi, toggleVi, onNextLesson, onPrevLesson, hasNext, hasPrev, isDarkMode }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -51,21 +52,21 @@ const Flashcards: React.FC<FlashcardsProps> = ({ lesson, showVi, toggleVi, onNex
       >
         <div className={`flashcard-inner w-full h-full relative ${isFlipped ? 'flashcard-flipped' : ''}`}>
           {/* Front */}
-        <div className={`flashcard-front absolute inset-0 w-full h-full bg-white dark:bg-slate-800 rounded-[2.5rem] sm:rounded-[3rem] shadow-xl flex flex-col items-center justify-center p-6 sm:p-10 border-4 border-slate-100 dark:border-slate-700 transition-all group-hover:border-orange-500`}>
+        <div className={`flashcard-front absolute inset-0 w-full h-full ${isDarkMode ? 'bg-slate-800' : 'bg-white'} rounded-[2.5rem] sm:rounded-[3rem] shadow-xl flex flex-col items-center justify-center p-6 sm:p-10 ${isDarkMode ? 'border-slate-700' : 'border-slate-100'} border-4 transition-all group-hover:border-orange-500`}>
              <div className="mb-4">
-                <span className="bg-orange-100 dark:bg-orange-900/40 text-orange-600 dark:text-orange-400 text-[10px] sm:text-[12px] font-black uppercase tracking-widest px-3 py-1 rounded-full border border-orange-200 dark:border-orange-800">
+                <span className={`${isDarkMode ? 'bg-orange-900/40 text-orange-400 border-orange-800' : 'bg-orange-100 text-orange-600 border-orange-200'} text-[10px] sm:text-[12px] font-black uppercase tracking-widest px-3 py-1 rounded-full border`}>
                   {currentWord.form}
                 </span>
              </div>
              <div className="text-orange-500 text-4xl sm:text-5xl mb-4 sm:mb-6 font-black tracking-tight text-center">{currentWord.word}</div>
-             <div className="text-slate-400 dark:text-slate-500 font-mono text-lg sm:text-xl mb-8 sm:mb-10 bg-slate-50 dark:bg-slate-900 px-4 py-2 rounded-xl">{currentWord.ipa}</div>
+             <div className={`text-slate-400 dark:text-slate-500 font-mono text-lg sm:text-xl mb-8 sm:mb-10 ${isDarkMode ? 'bg-slate-900' : 'bg-slate-50'} px-4 py-2 rounded-xl`}>{currentWord.ipa}</div>
              <button 
                 onClick={playPronunciation}
                 className="w-16 h-16 sm:w-20 sm:h-20 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl sm:text-3xl hover:scale-110 transition-all shadow-xl shadow-orange-500/20 active:scale-95"
              >
                 🔊
              </button>
-             <p className="mt-8 sm:mt-12 text-[10px] sm:text-xs font-black text-slate-400 dark:text-slate-500 uppercase tracking-widest">TAP TO REVEAL</p>
+             <p className={`mt-8 sm:mt-12 text-[10px] sm:text-xs font-black ${isDarkMode ? 'text-slate-500' : 'text-slate-400'} uppercase tracking-widest`}>TAP TO REVEAL</p>
           </div>
 
           {/* Back */}
@@ -109,37 +110,37 @@ const Flashcards: React.FC<FlashcardsProps> = ({ lesson, showVi, toggleVi, onNex
         <div className="flex items-center gap-4 sm:gap-6">
           <button 
             onClick={handlePrev}
-            className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-800 shadow-xl border-4 border-slate-100 dark:border-slate-700 flex items-center justify-center text-xl sm:text-2xl hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all active:scale-95 text-slate-400 dark:text-slate-300"
+            className={`w-12 h-12 sm:w-16 sm:h-16 rounded-2xl sm:rounded-3xl ${isDarkMode ? 'bg-slate-800 border-slate-700 text-slate-300' : 'bg-white border-slate-100 text-slate-400'} shadow-xl border-4 flex items-center justify-center text-xl sm:text-2xl hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all active:scale-95`}
           >
             ←
           </button>
           <button 
             onClick={() => setIsFlipped(!isFlipped)}
-            className="flex-grow sm:flex-none px-8 sm:px-12 py-3.5 sm:py-4 bg-orange-600 dark:bg-slate-100 text-white dark:text-slate-900 font-black rounded-2xl sm:rounded-3xl shadow-2xl hover:bg-orange-500 transition-all active:scale-95 text-xs sm:text-sm uppercase tracking-widest"
+            className={`flex-grow sm:flex-none px-8 sm:px-12 py-3.5 sm:py-4 ${isDarkMode ? 'bg-slate-100 text-slate-900' : 'bg-orange-600 text-white'} font-black rounded-2xl sm:rounded-3xl shadow-2xl hover:bg-orange-500 transition-all active:scale-95 text-xs sm:text-sm uppercase tracking-widest`}
           >
             {isFlipped ? 'HIDE BACK' : 'SHOW BACK'}
           </button>
           <button 
             onClick={handleNext}
-            className="w-12 h-12 sm:w-16 sm:h-16 rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-800 shadow-xl border-4 border-slate-100 dark:border-slate-700 flex items-center justify-center text-xl sm:text-2xl hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all active:scale-95 text-slate-400 dark:text-slate-300"
+            className={`w-12 h-12 sm:w-16 sm:h-16 rounded-2xl sm:rounded-3xl ${isDarkMode ? 'bg-slate-800 border-slate-700 text-slate-300' : 'bg-white border-slate-100 text-slate-400'} shadow-xl border-4 flex items-center justify-center text-xl sm:text-2xl hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all active:scale-95`}
           >
             →
           </button>
         </div>
 
         {/* Lesson Navigation */}
-        <div className="flex items-center gap-3 sm:gap-4 w-full border-t-2 border-slate-200 dark:border-slate-800 pt-6 sm:pt-8">
+        <div className={`flex items-center gap-3 sm:gap-4 w-full ${isDarkMode ? 'border-slate-800' : 'border-slate-200'} border-t-2 pt-6 sm:pt-8`}>
            <button 
             disabled={!hasPrev}
             onClick={onPrevLesson}
-            className="flex-1 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl bg-slate-200 dark:bg-slate-800 text-slate-600 dark:text-slate-400 font-black text-[10px] sm:text-xs hover:bg-orange-500 hover:text-white disabled:opacity-30 transition-all uppercase whitespace-nowrap"
+            className={`flex-1 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl ${isDarkMode ? 'bg-slate-800 text-slate-400' : 'bg-slate-200 text-slate-600'} font-black text-[10px] sm:text-xs hover:bg-orange-500 hover:text-white disabled:opacity-30 transition-all uppercase whitespace-nowrap`}
            >
              PREV LESSON
            </button>
            <button 
             disabled={!hasNext}
             onClick={onNextLesson}
-            className="flex-1 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 font-black text-[10px] sm:text-xs hover:bg-orange-500 hover:text-white disabled:opacity-30 transition-all uppercase whitespace-nowrap"
+            className={`flex-1 px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl ${isDarkMode ? 'bg-orange-900/30 text-orange-400' : 'bg-orange-100 text-orange-600'} font-black text-[10px] sm:text-xs hover:bg-orange-500 hover:text-white disabled:opacity-30 transition-all uppercase whitespace-nowrap`}
            >
              NEXT LESSON
            </button>

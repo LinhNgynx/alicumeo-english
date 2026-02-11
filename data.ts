@@ -10,7 +10,7 @@ import { GrammarLesson } from './types';
 export const LESSONS: GrammarLesson[] = [
   {
     id: 'l5',
-    topic: 'Day 1: Transportation & Actions',
+    topic: 'Day 26-1: Transportation & Actions',
     focus: 'Present Continuous & Action Verbs',
     explanation: 'Use Present Continuous (am/is/are + verb-ing) for actions happening now. Learn transportation and action vocabulary.',
     explanationVi: 'Sử dụng thì Hiện tại tiếp diễn (am/is/are + động từ-ing) cho hành động đang xảy ra. Học từ vựng về giao thông và hành động.',
@@ -245,7 +245,7 @@ export const LESSONS: GrammarLesson[] = [
 
   {
     id: 'l6',
-    topic: 'Day 2: Workplace Success',
+    topic: 'Day 27-1: Workplace Success',
     focus: 'Despite + Noun & Professional Vocabulary',
     explanation: 'Use "despite" + noun to show contrast. Learn workplace and business vocabulary.',
     explanationVi: 'Sử dụng "despite" + danh từ để thể hiện sự tương phản. Học từ vựng về công việc và kinh doanh.',
@@ -547,7 +547,7 @@ export const LESSONS: GrammarLesson[] = [
 
   {
     id: 'l7',
-    topic: 'Day 3: Communication & Character',
+    topic: 'Day 9-2: Communication & Character',
     focus: 'Adjectives, Conjunctions & Media Vocabulary',
     explanation: 'Learn descriptive adjectives, conjunctions like "although" and "despite", and communication vocabulary.',
     explanationVi: 'Học tính từ mô tả, liên từ như "although" và "despite", và từ vựng về truyền thông.',
@@ -1120,5 +1120,722 @@ export const LESSONS: GrammarLesson[] = [
         sentenceVi: "Tôi không thể chịu đựng sự thô lỗ."
       }
     ]
-  }
+  },
+  {
+  id: 'l8',
+  topic: 'Day 10-2: Business & Decision Making',
+  focus: 'Conditionals (If/Had), Business & Retail Vocabulary',
+  explanation: 'Learn conditional sentences (past unreal: "If S had V3, S would have V3" or "Had S V3, S would have V3") and professional business vocabulary.',
+  explanationVi: 'Học câu điều kiện (quá khứ không có thật: "If S had V3, S would have V3" hoặc "Had S V3, S would have V3") và từ vựng kinh doanh chuyên nghiệp.',
+  storyEn: [
+    "The retail outlet obtained a business license to incorporate as a legal company.",
+    "The mayor promised substantial support to the city council.",
+    "They exhibit a vast assortment of reasonably priced products with limitless options.",
+    "The initial display was modified; otherwise, it would have failed.",
+    "Had the guard landed a hand, we would have proceeded into the store earlier.",
+    "Even if the market changes, our cultural heritage items remain priceless artifacts.",
+    "The work crew was fiercely determined to demonstrate they were worthy of recognition.",
+    "Thus, the advanced forecast and statistical data helped us hold the team accountable.",
+    "We are supposed to enroll in the program; we feel nervous but remain outwardly calm.",
+    "The optimal strategy is better than a mediocre one with constructive suggestions nightly reviewed."
+  ],
+  storyVi: [
+    "Cửa hàng bán lẻ đã có được giấy phép kinh doanh để thành lập công ty hợp pháp.",
+    "Thị trưởng hứa hỗ trợ đáng kể cho hội đồng thành phố.",
+    "Họ trưng bày đa dạng sản phẩm với giá phải chăng và lựa chọn không giới hạn.",
+    "Màn trưng bày ban đầu đã được điều chỉnh; nếu không thì đã thất bại.",
+    "Nếu người bảo vệ giúp đỡ, chúng tôi đã vào cửa hàng sớm hơn.",
+    "Ngay cả khi thị trường thay đổi, các vật phẩm di sản văn hóa của chúng tôi vẫn là hiện vật vô giá.",
+    "Đội công nhân quyết tâm cao độ để chứng minh họ xứng đáng được công nhận.",
+    "Do đó, dự báo nâng cao và dữ liệu thống kê giúp chúng tôi buộc đội phải chịu trách nhiệm.",
+    "Chúng tôi được cho là phải đăng ký chương trình; chúng tôi cảm thấy lo lắng nhưng tỏ ra bình thản.",
+    "Chiến lược tối ưu tốt hơn chiến lược trung bình với các góp ý xây dựng được xem xét hằng đêm."
+  ],
+  vocabulary: [
+    {
+      word: "obtain",
+      ipa: "/əbˈteɪn/",
+      form: "verb",
+      meaningEn: "To get or acquire something.",
+      meaningVi: "Có được, đạt được",
+      exampleEn: "We need to obtain a business license.",
+      exampleVi: "Chúng ta cần có được giấy phép kinh doanh."
+    },
+    {
+      word: "retail outlet",
+      ipa: "/ˈriːteɪl ˈaʊtlet/",
+      form: "noun phrase",
+      meaningEn: "A store that sells goods directly to customers.",
+      meaningVi: "Cửa hàng bán lẻ",
+      exampleEn: "The retail outlet is open daily.",
+      exampleVi: "Cửa hàng bán lẻ mở cửa hằng ngày."
+    },
+    {
+      word: "business license",
+      ipa: "/ˈbɪznəs ˈlaɪsns/",
+      form: "noun phrase",
+      meaningEn: "Official permission to operate a business.",
+      meaningVi: "Giấy phép kinh doanh",
+      exampleEn: "You must have a business license to operate legally.",
+      exampleVi: "Bạn phải có giấy phép kinh doanh để hoạt động hợp pháp."
+    },
+    {
+      word: "engage in",
+      ipa: "/ɪnˈɡeɪdʒ ɪn/",
+      form: "verb phrase",
+      meaningEn: "To participate or take part in an activity.",
+      meaningVi: "Tham gia vào",
+      exampleEn: "They engage in community service projects.",
+      exampleVi: "Họ tham gia vào các dự án phục vụ cộng đồng."
+    },
+    {
+      word: "incorporate",
+      ipa: "/ɪnˈkɔːpəreɪt/",
+      form: "verb",
+      meaningEn: "To form a legal corporation; to include.",
+      meaningVi: "Thành lập công ty hợp pháp; kết hợp",
+      exampleEn: "We decided to incorporate our business.",
+      exampleVi: "Chúng tôi quyết định thành lập công ty hợp pháp."
+    },
+    {
+      word: "promise",
+      ipa: "/ˈprɒmɪs/",
+      form: "verb/noun",
+      meaningEn: "To give assurance; a commitment to do something.",
+      meaningVi: "Hứa; lời hứa",
+      exampleEn: "The mayor made a promise to improve education.",
+      exampleVi: "Thị trưởng đã hứa cải thiện giáo dục."
+    },
+    {
+      word: "substantial",
+      ipa: "/səbˈstænʃl/",
+      form: "adjective",
+      meaningEn: "Large in amount, value, or importance.",
+      meaningVi: "Đáng kể, quan trọng",
+      exampleEn: "They received substantial funding.",
+      exampleVi: "Họ đã nhận được nguồn vốn đáng kể."
+    },
+    {
+      word: "mayor",
+      ipa: "/meə/",
+      form: "noun",
+      meaningEn: "The elected head of a city government.",
+      meaningVi: "Thị trưởng",
+      exampleEn: "The mayor announced new policies today.",
+      exampleVi: "Thị trưởng đã công bố chính sách mới hôm nay."
+    },
+    {
+      word: "city council",
+      ipa: "/ˈsɪti ˈkaʊnsl/",
+      form: "noun phrase",
+      meaningEn: "A group of elected officials who govern a city.",
+      meaningVi: "Hội đồng thành phố",
+      exampleEn: "The city council voted on the new budget.",
+      exampleVi: "Hội đồng thành phố đã bỏ phiếu về ngân sách mới."
+    },
+    {
+      word: "vast assortment of",
+      ipa: "/vɑːst əˈsɔːtmənt ɒv/",
+      form: "noun phrase",
+      meaningEn: "A large variety of different things.",
+      meaningVi: "Đa dạng, nhiều loại",
+      exampleEn: "The store offers a vast assortment of products.",
+      exampleVi: "Cửa hàng cung cấp nhiều loại sản phẩm đa dạng."
+    },
+    {
+      word: "reasonably priced",
+      ipa: "/ˈriːznəbli praɪst/",
+      form: "adjective phrase",
+      meaningEn: "Affordable; not too expensive.",
+      meaningVi: "Giá phải chăng",
+      exampleEn: "All items here are reasonably priced.",
+      exampleVi: "Tất cả hàng hóa ở đây đều có giá phải chăng."
+    },
+    {
+      word: "limitless",
+      ipa: "/ˈlɪmɪtləs/",
+      form: "adjective",
+      meaningEn: "Without limits; unlimited.",
+      meaningVi: "Không giới hạn",
+      exampleEn: "The possibilities are limitless.",
+      exampleVi: "Các khả năng là không giới hạn."
+    },
+    {
+      word: "initial",
+      ipa: "/ɪˈnɪʃl/",
+      form: "adjective",
+      meaningEn: "First; happening at the beginning.",
+      meaningVi: "Ban đầu, đầu tiên",
+      exampleEn: "The initial plan was modified later.",
+      exampleVi: "Kế hoạch ban đầu đã được điều chỉnh sau này."
+    },
+    {
+      word: "exhibit",
+      ipa: "/ɪɡˈzɪbɪt/",
+      form: "verb",
+      meaningEn: "To display or show publicly.",
+      meaningVi: "Trưng bày, thể hiện",
+      exampleEn: "The museum exhibits ancient artifacts.",
+      exampleVi: "Bảo tàng trưng bày các hiện vật cổ đại."
+    },
+    {
+      word: "otherwise",
+      ipa: "/ˈʌðəwaɪz/",
+      form: "adverb",
+      meaningEn: "In a different way; if not (used at the start of a sentence).",
+      meaningVi: "Nếu không thì",
+      exampleEn: "Hurry up; otherwise, we'll be late.",
+      exampleVi: "Nhanh lên; nếu không chúng ta sẽ muộn."
+    },
+    {
+      word: "even if",
+      ipa: "/ˈiːvn ɪf/",
+      form: "conjunction",
+      meaningEn: "Despite the possibility that (introduces a hypothetical condition).",
+      meaningVi: "Ngay cả khi",
+      exampleEn: "Even if it rains, we will go hiking.",
+      exampleVi: "Ngay cả khi trời mưa, chúng tôi vẫn sẽ đi leo núi."
+    },
+    {
+      word: "proceed into",
+      ipa: "/prəˈsiːd ˈɪntuː/",
+      form: "verb phrase",
+      meaningEn: "To move forward into a place or continue.",
+      meaningVi: "Đi vào, tiến vào",
+      exampleEn: "Please proceed into the conference room.",
+      exampleVi: "Vui lòng đi vào phòng hội nghị."
+    },
+    {
+      word: "guard",
+      ipa: "/ɡɑːd/",
+      form: "noun",
+      meaningEn: "A person who protects or watches over something.",
+      meaningVi: "Người bảo vệ",
+      exampleEn: "The security guard checked our IDs.",
+      exampleVi: "Người bảo vệ đã kiểm tra thẻ của chúng tôi."
+    },
+    {
+      word: "lend a hand",
+      ipa: "/lend ə hænd/",
+      form: "idiom",
+      meaningEn: "To help or assist someone.",
+      meaningVi: "Giúp đỡ",
+      exampleEn: "Can you lend a hand with this project?",
+      exampleVi: "Bạn có thể giúp đỡ dự án này không?"
+    },
+    {
+      word: "modified",
+      ipa: "/ˈmɒdɪfaɪd/",
+      form: "adjective",
+      meaningEn: "Changed or adjusted slightly.",
+      meaningVi: "Được điều chỉnh, thay đổi",
+      exampleEn: "The modified design is better.",
+      exampleVi: "Thiết kế đã được điều chỉnh tốt hơn."
+    },
+    {
+      word: "cultural heritage",
+      ipa: "/ˈkʌltʃərəl ˈherɪtɪdʒ/",
+      form: "noun phrase",
+      meaningEn: "The traditions, monuments, and artifacts of a culture.",
+      meaningVi: "Di sản văn hóa",
+      exampleEn: "We must protect our cultural heritage.",
+      exampleVi: "Chúng ta phải bảo vệ di sản văn hóa của mình."
+    },
+    {
+      word: "seek to preserve",
+      ipa: "/siːk tuː prɪˈzɜːv/",
+      form: "verb phrase",
+      meaningEn: "To try to protect or maintain something.",
+      meaningVi: "Tìm cách bảo tồn",
+      exampleEn: "They seek to preserve historical buildings.",
+      exampleVi: "Họ tìm cách bảo tồn các tòa nhà lịch sử."
+    },
+    {
+      word: "priceless artifact",
+      ipa: "/ˈpraɪsləs ˈɑːtɪfækt/",
+      form: "noun phrase",
+      meaningEn: "An object of great historical value that cannot be priced.",
+      meaningVi: "Hiện vật vô giá",
+      exampleEn: "The museum has many priceless artifacts.",
+      exampleVi: "Bảo tàng có nhiều hiện vật vô giá."
+    },
+    {
+      word: "dimension",
+      ipa: "/daɪˈmenʃn/",
+      form: "noun",
+      meaningEn: "A measurable extent (length, width, height); an aspect.",
+      meaningVi: "Chiều không gian, khía cạnh",
+      exampleEn: "What are the dimensions of this room?",
+      exampleVi: "Các kích thước của căn phòng này là gì?"
+    },
+    {
+      word: "border",
+      ipa: "/ˈbɔːdə/",
+      form: "noun",
+      meaningEn: "A line separating two areas, countries, or regions.",
+      meaningVi: "Biên giới, ranh giới",
+      exampleEn: "We crossed the border into Canada.",
+      exampleVi: "Chúng tôi đã băng qua biên giới vào Canada."
+    },
+    {
+      word: "expression",
+      ipa: "/ɪkˈspreʃn/",
+      form: "noun",
+      meaningEn: "A look on someone's face; a phrase or saying.",
+      meaningVi: "Biểu cảm, biểu hiện",
+      exampleEn: "Her expression showed happiness.",
+      exampleVi: "Biểu cảm của cô ấy thể hiện sự vui mừng."
+    },
+    {
+      word: "work crew",
+      ipa: "/wɜːk kruː/",
+      form: "noun phrase",
+      meaningEn: "A group of workers doing a job together.",
+      meaningVi: "Đội công nhân",
+      exampleEn: "The work crew finished the project on time.",
+      exampleVi: "Đội công nhân đã hoàn thành dự án đúng hạn."
+    },
+    {
+      word: "fiercely determined",
+      ipa: "/ˈfɪəsli dɪˈtɜːmɪnd/",
+      form: "adjective phrase",
+      meaningEn: "Highly motivated with strong resolve.",
+      meaningVi: "Quyết tâm cao độ",
+      exampleEn: "She is fiercely determined to succeed.",
+      exampleVi: "Cô ấy quyết tâm cao độ để thành công."
+    },
+    {
+      word: "demonstrate",
+      ipa: "/ˈdemənstreɪt/",
+      form: "verb",
+      meaningEn: "To show or prove something clearly.",
+      meaningVi: "Chứng minh, trình diễn",
+      exampleEn: "Let me demonstrate how this works.",
+      exampleVi: "Để tôi trình diễn cách hoạt động của cái này."
+    },
+    {
+      word: "be worthy of",
+      ipa: "/bi ˈwɜːði ɒv/",
+      form: "phrase",
+      meaningEn: "To deserve something; to be good enough for.",
+      meaningVi: "Xứng đáng với",
+      exampleEn: "Your work is worthy of recognition.",
+      exampleVi: "Công việc của bạn xứng đáng được công nhận."
+    },
+    {
+      word: "thus",
+      ipa: "/ðʌs/",
+      form: "adverb",
+      meaningEn: "Therefore; as a result; in this way.",
+      meaningVi: "Do đó, vì vậy",
+      exampleEn: "He studied hard; thus, he passed the exam.",
+      exampleVi: "Anh ấy học chăm chỉ; do đó, anh ấy đã đậu kỳ thi."
+    },
+    {
+      word: "advanced",
+      ipa: "/ədˈvɑːnst/",
+      form: "adjective",
+      meaningEn: "At a higher level; sophisticated.",
+      meaningVi: "Nâng cao, tiên tiến",
+      exampleEn: "This is an advanced course in mathematics.",
+      exampleVi: "Đây là khóa học toán nâng cao."
+    },
+    {
+      word: "forecast",
+      ipa: "/ˈfɔːkɑːst/",
+      form: "verb/noun",
+      meaningEn: "To predict future events or conditions.",
+      meaningVi: "Dự báo",
+      exampleEn: "The weather forecast predicts rain.",
+      exampleVi: "Dự báo thời tiết dự đoán mưa."
+    },
+    {
+      word: "statistical",
+      ipa: "/stəˈtɪstɪkl/",
+      form: "adjective",
+      meaningEn: "Relating to statistics or numerical data.",
+      meaningVi: "Thuộc thống kê",
+      exampleEn: "We need statistical evidence for this claim.",
+      exampleVi: "Chúng ta cần bằng chứng thống kê cho tuyên bố này."
+    },
+    {
+      word: "hold accountable for",
+      ipa: "/həʊld əˈkaʊntəbl fɔː/",
+      form: "verb phrase",
+      meaningEn: "To make someone responsible for something.",
+      meaningVi: "Buộc phải chịu trách nhiệm",
+      exampleEn: "We hold managers accountable for team performance.",
+      exampleVi: "Chúng tôi buộc các quản lý phải chịu trách nhiệm về hiệu suất của đội."
+    },
+    {
+      word: "be supposed to",
+      ipa: "/bi səˈpəʊzd tuː/",
+      form: "phrase",
+      meaningEn: "To be expected or required to do something.",
+      meaningVi: "Được cho là, được yêu cầu",
+      exampleEn: "You are supposed to arrive at 9 AM.",
+      exampleVi: "Bạn được yêu cầu đến lúc 9 giờ sáng."
+    },
+    {
+      word: "nightly",
+      ipa: "/ˈnaɪtli/",
+      form: "adjective/adverb",
+      meaningEn: "Happening every night.",
+      meaningVi: "Hằng đêm, mỗi đêm",
+      exampleEn: "We have nightly meetings to review progress.",
+      exampleVi: "Chúng tôi có các cuộc họp hằng đêm để xem xét tiến độ."
+    },
+    {
+      word: "optimal",
+      ipa: "/ˈɒptɪməl/",
+      form: "adjective",
+      meaningEn: "Best or most favorable; ideal.",
+      meaningVi: "Tối ưu",
+      exampleEn: "This is the optimal solution to the problem.",
+      exampleVi: "Đây là giải pháp tối ưu cho vấn đề."
+    },
+    {
+      word: "mediocre",
+      ipa: "/ˌmiːdiˈəʊkə/",
+      form: "adjective",
+      meaningEn: "Of average or moderate quality; not very good.",
+      meaningVi: "Trung bình, tầm thường",
+      exampleEn: "The food was mediocre at best.",
+      exampleVi: "Đồ ăn chỉ ở mức trung bình."
+    },
+    {
+      word: "constructive suggestion",
+      ipa: "/kənˈstrʌktɪv səˈdʒestʃən/",
+      form: "noun phrase",
+      meaningEn: "A helpful recommendation meant to improve something.",
+      meaningVi: "Góp ý xây dựng",
+      exampleEn: "Thank you for your constructive suggestions.",
+      exampleVi: "Cảm ơn bạn vì những góp ý xây dựng."
+    },
+    {
+      word: "enroll in",
+      ipa: "/ɪnˈrəʊl ɪn/",
+      form: "verb phrase",
+      meaningEn: "To register or sign up for a course or program.",
+      meaningVi: "Ghi danh, đăng ký",
+      exampleEn: "I want to enroll in a language course.",
+      exampleVi: "Tôi muốn đăng ký một khóa học ngôn ngữ."
+    },
+    {
+      word: "nervous",
+      ipa: "/ˈnɜːvəs/",
+      form: "adjective",
+      meaningEn: "Worried or anxious about something.",
+      meaningVi: "Lo lắng",
+      exampleEn: "I feel nervous before exams.",
+      exampleVi: "Tôi cảm thấy lo lắng trước kỳ thi."
+    },
+    {
+      word: "outwardly calm",
+      ipa: "/ˈaʊtwədli kɑːm/",
+      form: "adjective phrase",
+      meaningEn: "Appearing calm on the outside, regardless of inner feelings.",
+      meaningVi: "Tỏ ra bình thản",
+      exampleEn: "Despite her anxiety, she remained outwardly calm.",
+      exampleVi: "Mặc dù lo lắng, cô ấy vẫn tỏ ra bình thản."
+    }
+  ],
+  exercises: [
+    {
+      id: 'e8_1',
+      type: 'fill',
+      questionEn: "Had he studied harder, he ____ (pass) the exam.",
+      questionVi: "Nếu anh ấy học chăm hơn, anh ấy ____ kỳ thi.",
+      correctAnswer: "would have passed"
+    },
+    {
+      id: 'e8_2',
+      type: 'mcq',
+      questionEn: "We need to ____ a business license before opening.",
+      questionVi: "Chúng ta cần ____ giấy phép kinh doanh trước khi mở cửa.",
+      options: ["obtain", "maintain", "reject"],
+      correctAnswer: "obtain"
+    },
+    {
+      id: 'e8_3',
+      type: 'complete',
+      questionEn: "The store offers products at ____ prices.",
+      questionVi: "Cửa hàng cung cấp sản phẩm với giá ____.",
+      correctAnswer: "reasonable"
+    },
+    {
+      id: 'e8_4',
+      type: 'meaning',
+      questionEn: "Which phrase means 'to help someone'?",
+      questionVi: "Cụm từ nào có nghĩa là 'giúp đỡ ai đó'?",
+      options: ["Lend a hand", "Hold accountable", "Proceed into"],
+      correctAnswer: "Lend a hand"
+    },
+    {
+      id: 'e8_5',
+      type: 'fill',
+      questionEn: "The ____ promised to improve public services.",
+      questionVi: "____ hứa cải thiện các dịch vụ công.",
+      correctAnswer: "mayor"
+    },
+    {
+      id: 'e8_6',
+      type: 'mcq',
+      questionEn: "____ we had more time, we would have finished the project.",
+      questionVi: "____ chúng tôi có nhiều thời gian hơn, chúng tôi đã hoàn thành dự án.",
+      options: ["If", "Had", "Both are correct"],
+      correctAnswer: "Both are correct"
+    },
+    {
+      id: 'e8_7',
+      type: 'complete',
+      questionEn: "The museum exhibits ____ artifacts from ancient civilizations.",
+      questionVi: "Bảo tàng trưng bày các hiện vật ____ từ các nền văn minh cổ đại.",
+      correctAnswer: "priceless"
+    },
+    {
+      id: 'e8_8',
+      type: 'fill',
+      questionEn: "____ you don't hurry, we will miss the bus.",
+      questionVi: "____ bạn không nhanh lên, chúng ta sẽ lỡ xe buýt.",
+      correctAnswer: "If"
+    },
+    {
+      id: 'e8_9',
+      type: 'mcq',
+      questionEn: "The team was ____ to win the championship.",
+      questionVi: "Đội đã ____ để giành chức vô địch.",
+      options: ["fiercely determined", "outwardly calm", "reasonably priced"],
+      correctAnswer: "fiercely determined"
+    },
+    {
+      id: 'e8_10',
+      type: 'complete',
+      questionEn: "We must seek to ____ our cultural heritage.",
+      questionVi: "Chúng ta phải tìm cách ____ di sản văn hóa của mình.",
+      correctAnswer: "preserve"
+    },
+    {
+      id: 'e8_11',
+      type: 'fill',
+      questionEn: "The company decided to ____ as a legal entity.",
+      questionVi: "Công ty quyết định ____ như một thực thể hợp pháp.",
+      correctAnswer: "incorporate"
+    },
+    {
+      id: 'e8_12',
+      type: 'mcq',
+      questionEn: "Which word means 'unlimited'?",
+      questionVi: "Từ nào có nghĩa là 'không giới hạn'?",
+      options: ["Limited", "Limitless", "Initial"],
+      correctAnswer: "Limitless"
+    },
+    {
+      id: 'e8_13',
+      type: 'complete',
+      questionEn: "We hold employees ____ for their performance.",
+      questionVi: "Chúng tôi buộc nhân viên phải ____ về hiệu suất của họ.",
+      correctAnswer: "accountable"
+    },
+    {
+      id: 'e8_14',
+      type: 'fill',
+      questionEn: "The plan was ____; otherwise, it would have failed.",
+      questionVi: "Kế hoạch đã được ____; nếu không nó đã thất bại.",
+      correctAnswer: "modified"
+    },
+    {
+      id: 'e8_15',
+      type: 'mcq',
+      questionEn: "What does 'optimal' mean?",
+      questionVi: "'Optimal' có nghĩa là gì?",
+      options: ["Average", "Best or most favorable", "Worst"],
+      correctAnswer: "Best or most favorable"
+    },
+    {
+      id: 'e8_16',
+      type: 'complete',
+      questionEn: "Students must ____ in the course by Friday.",
+      questionVi: "Sinh viên phải ____ khóa học trước thứ Sáu.",
+      correctAnswer: "enroll"
+    },
+    {
+      id: 'e8_17',
+      type: 'fill',
+      questionEn: "The ____ council approved the new regulations.",
+      questionVi: "Hội đồng ____ đã phê duyệt các quy định mới.",
+      correctAnswer: "city"
+    },
+    {
+      id: 'e8_18',
+      type: 'mcq',
+      questionEn: "____ if the weather is bad, we will continue with the event.",
+      questionVi: "____ thời tiết xấu, chúng tôi vẫn tiếp tục sự kiện.",
+      options: ["Although", "Even if", "Despite"],
+      correctAnswer: "Even if"
+    },
+    {
+      id: 'e8_19',
+      type: 'complete',
+      questionEn: "The store has a ____ assortment of products.",
+      questionVi: "Cửa hàng có ____ các sản phẩm đa dạng.",
+      correctAnswer: "vast"
+    },
+    {
+      id: 'e8_20',
+      type: 'fill',
+      questionEn: "She is ____ to arrive at 8 AM tomorrow.",
+      questionVi: "Cô ấy ____ đến lúc 8 giờ sáng ngày mai.",
+      correctAnswer: "supposed"
+    },
+    {
+      id: 'e8_21',
+      type: 'mcq',
+      questionEn: "The opposite of 'mediocre' is ____.",
+      questionVi: "Trái nghĩa của 'mediocre' là ____.",
+      options: ["average", "excellent", "poor"],
+      correctAnswer: "excellent"
+    },
+    {
+      id: 'e8_22',
+      type: 'complete',
+      questionEn: "We use ____ data to make informed decisions.",
+      questionVi: "Chúng tôi sử dụng dữ liệu ____ để đưa ra quyết định có cơ sở.",
+      correctAnswer: "statistical"
+    },
+    {
+      id: 'e8_23',
+      type: 'fill',
+      questionEn: "The work ____ completed the construction ahead of schedule.",
+      questionVi: "____ công nhân đã hoàn thành công trình trước thời hạn.",
+      correctAnswer: "crew"
+    },
+    {
+      id: 'e8_24',
+      type: 'mcq',
+      questionEn: "What does 'demonstrate' mean?",
+      questionVi: "'Demonstrate' có nghĩa là gì?",
+      options: ["To hide", "To show or prove", "To cancel"],
+      correctAnswer: "To show or prove"
+    },
+    {
+      id: 'e8_25',
+      type: 'complete',
+      questionEn: "Your hard work is ____ of recognition.",
+      questionVi: "Công việc chăm chỉ của bạn ____ được công nhận.",
+      correctAnswer: "worthy"
+    },
+    {
+      id: 'e8_26',
+      type: 'fill',
+      questionEn: "He felt nervous but remained ____ calm during the presentation.",
+      questionVi: "Anh ấy cảm thấy lo lắng nhưng vẫn tỏ ra ____ trong buổi thuyết trình.",
+      correctAnswer: "outwardly"
+    },
+    {
+      id: 'e8_27',
+      type: 'mcq',
+      questionEn: "The ____ design turned out to be better than expected.",
+      questionVi: "Thiết kế ____ hóa ra tốt hơn dự kiến.",
+      options: ["initial", "final", "modified"],
+      correctAnswer: "initial"
+    },
+    {
+      id: 'e8_28',
+      type: 'complete',
+      questionEn: "They made a ____ contribution to the project.",
+      questionVi: "Họ đã có đóng góp ____ cho dự án.",
+      correctAnswer: "substantial"
+    },
+    {
+      id: 'e8_29',
+      type: 'fill',
+      questionEn: "We review performance data ____.",
+      questionVi: "Chúng tôi xem xét dữ liệu hiệu suất ____.",
+      correctAnswer: "nightly"
+    },
+    {
+      id: 'e8_30',
+      type: 'meaning',
+      questionEn: "What is a 'retail outlet'?",
+      questionVi: "'Retail outlet' là gì?",
+      options: ["A factory", "A store selling to customers", "An office"],
+      correctAnswer: "A store selling to customers"
+    }
+  ],
+  rearrangeExercises: [
+    {
+      sentenceEn: "The retail outlet obtained a business license.",
+      sentenceVi: "Cửa hàng bán lẻ đã có được giấy phép kinh doanh."
+    },
+    {
+      sentenceEn: "The mayor promised substantial support.",
+      sentenceVi: "Thị trưởng hứa hỗ trợ đáng kể."
+    },
+    {
+      sentenceEn: "We exhibit a vast assortment of products.",
+      sentenceVi: "Chúng tôi trưng bày đa dạng sản phẩm."
+    },
+    {
+      sentenceEn: "Had the guard helped, we would have entered earlier.",
+      sentenceVi: "Nếu người bảo vệ giúp đỡ, chúng tôi đã vào sớm hơn."
+    },
+    {
+      sentenceEn: "The company decided to incorporate legally.",
+      sentenceVi: "Công ty quyết định thành lập hợp pháp."
+    },
+    {
+      sentenceEn: "The initial plan was modified.",
+      sentenceVi: "Kế hoạch ban đầu đã được điều chỉnh."
+    },
+    {
+      sentenceEn: "We seek to preserve cultural heritage.",
+      sentenceVi: "Chúng tôi tìm cách bảo tồn di sản văn hóa."
+    },
+    {
+      sentenceEn: "The work crew was fiercely determined.",
+      sentenceVi: "Đội công nhân quyết tâm cao độ."
+    },
+    {
+      sentenceEn: "Thus, the forecast helped us plan.",
+      sentenceVi: "Do đó, dự báo đã giúp chúng tôi lập kế hoạch."
+    },
+    {
+      sentenceEn: "We hold managers accountable for results.",
+      sentenceVi: "Chúng tôi buộc các quản lý chịu trách nhiệm về kết quả."
+    },
+    {
+      sentenceEn: "Students are supposed to enroll by Friday.",
+      sentenceVi: "Sinh viên được yêu cầu đăng ký trước thứ Sáu."
+    },
+    {
+      sentenceEn: "The optimal strategy is better than mediocre ones.",
+      sentenceVi: "Chiến lược tối ưu tốt hơn các chiến lược trung bình."
+    },
+    {
+      sentenceEn: "She remained outwardly calm despite feeling nervous.",
+      sentenceVi: "Cô ấy vẫn tỏ ra bình thản mặc dù cảm thấy lo lắng."
+    },
+    {
+      sentenceEn: "Even if prices rise, we will continue.",
+      sentenceVi: "Ngay cả khi giá tăng, chúng tôi vẫn sẽ tiếp tục."
+    },
+    {
+      sentenceEn: "Otherwise, the project would have failed.",
+      sentenceVi: "Nếu không, dự án đã thất bại."
+    },
+    {
+      sentenceEn: "The museum exhibits priceless artifacts.",
+      sentenceVi: "Bảo tàng trưng bày các hiện vật vô giá."
+    },
+    {
+      sentenceEn: "We need constructive suggestions to improve.",
+      sentenceVi: "Chúng tôi cần góp ý xây dựng để cải thiện."
+    },
+    {
+      sentenceEn: "The city council approved the new budget.",
+      sentenceVi: "Hội đồng thành phố đã phê duyệt ngân sách mới."
+    }
+  ]
+}
 ];

@@ -84,7 +84,7 @@ export const Layout: React.FC<LayoutProps> = ({
                 className={`px-3 sm:px-5 py-2 sm:py-2.5 rounded-lg sm:rounded-xl text-[10px] sm:text-xs font-black uppercase tracking-wider sm:tracking-widest transition-all whitespace-nowrap ${
                   currentPage === p
                     ? "bg-orange-500 text-white shadow-lg shadow-orange-500/30"
-                    : `hover:bg-white dark:hover:bg-slate-700 ${isDarkMode ? "text-slate-400" : "text-slate-600"}`
+                    : ` ${isDarkMode ? "text-slate-400 hover:bg-slate-700" : "text-slate-600 hover:bg-white"}`
                 }`}
               >
                 {p}
@@ -142,9 +142,10 @@ export const Layout: React.FC<LayoutProps> = ({
               </button>
               <button
                 onClick={toggleSnow}
+                aria-label={isDarkMode ? (isSnowing ? 'Snowing' : 'Toggle snow') : (isSnowing ? 'Raining' : 'Toggle rain')}
                 className={`p-1.5 sm:p-2.5 rounded-lg sm:rounded-xl transition-all shadow-sm ${isSnowing ? "bg-blue-500 text-white shadow-blue-500/30" : isDarkMode ? "bg-slate-800 text-white" : "bg-white border border-slate-100 text-slate-600"}`}
               >
-                ❄️
+                {isDarkMode ? '❄️' : '🌧️'}
               </button>
               <button
                 onClick={toggleTranslation}
