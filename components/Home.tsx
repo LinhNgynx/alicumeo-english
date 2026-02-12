@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React, { useMemo } from 'react';
 import { LESSONS } from '../data';
 
 interface HomeProps {
@@ -9,25 +8,51 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ onStart, onSelectLesson, isDarkMode }) => {
+  // Big list of varied icons
+  const iconPool = [
+    '🚗', '💼', '📡', '🏪', '📊', '🎯', '🌍', '💡', 
+    '🤝', '📈', '⚙️', '🎓', '🔬', '💻', '📱', '🏗️',
+    '🚀', '📝', '🎨', '🔍', '✈️', '🏫', '🍎', '📚',
+    '🎭', '🌟', '⭐', '🎪', '🎬', '🎤', '🎧', '🎵',
+    '🎸', '🎹', '🎺', '🎻', '🥁', '🎮', '🎲', '🎰',
+    '🏆', '🥇', '🥈', '🥉', '🏅', '🎖️', '🏵️', '🎗️',
+    '🎫', '🎟️', '🎠', '🎡', '🎢', '🎰', '🗿', '🗽',
+    '⛲', '⛺', '🌁', '🌃', '🏙️', '🌆', '🌇', '🌉',
+    '♨️', '🎑', '🏔️', '⛰️', '🌋', '🗻', '🏕️', '🏖️',
+    '🏜️', '🏝️', '🏞️', '🏟️', '🏛️', '🏗️', '🧱', '🪨',
+    '🪵', '🛖', '🏘️', '🏚️', '🏠', '🏡', '🏢', '🏣',
+    '🏤', '🏥', '🏦', '🏨', '🏩', '🏪', '🏫', '🏬',
+    '🏭', '🏯', '🏰', '💒', '🗼', '🗾', '⛩️', '🕌'
+  ];
+
+  // Use useMemo to maintain consistent random assignment across re-renders
+  const lessonIcons = useMemo(() => {
+    // Create a shuffled copy of the icon pool
+    const shuffled = [...iconPool].sort(() => Math.random() - 0.5);
+    
+    // Map each lesson to a random icon
+    return LESSONS.map((_, index) => shuffled[index % shuffled.length]);
+  }, [LESSONS.length]); // Only recreate if number of lessons changes
+
   return (
     <div className="flex flex-col items-center space-y-16 py-12">
       {/* Hero Section */}
       <div className="text-center space-y-8 flex flex-col items-center">
         <div className="relative">
-  {/* Profile Circle */}
-  <div className={`w-56 h-56 ${isDarkMode ? 'bg-slate-800' : 'bg-white'} rounded-full flex items-center justify-center border-8 border-orange-500 shadow-orange-soft overflow-hidden mb-4 transition-transform hover:scale-105 duration-500`}>
-    <img 
-      src="/images/lì.jpg" 
-      alt="Orange Cat" 
-      className="w-full h-full object-cover scale-[1.35]"
-    />
-  </div>
+          {/* Profile Circle */}
+          <div className={`w-56 h-56 ${isDarkMode ? 'bg-slate-800' : 'bg-white'} rounded-full flex items-center justify-center border-8 border-orange-500 shadow-orange-soft overflow-hidden mb-4 transition-transform hover:scale-105 duration-500`}>
+            <img 
+              src="/images/lì.jpg" 
+              alt="Orange Cat" 
+              className="w-full h-full object-cover scale-[1.35]"
+            />
+          </div>
 
-  {/* Bounce Badge */}
-  <div className="absolute -bottom-2 -right-2 bg-orange-600 text-white px-6 py-2 rounded-full text-lg font-black shadow-xl animate-bounce">
-    MÀ NỐI
-  </div>
-</div>
+          {/* Bounce Badge */}
+          <div className="absolute -bottom-2 -right-2 bg-orange-600 text-white px-6 py-2 rounded-full text-lg font-black shadow-xl animate-bounce">
+            MÀ NỐI
+          </div>
+        </div>
 
         <div className="max-w-2xl px-4">
           <h1 className="text-6xl font-black mb-4 tracking-tight">
@@ -66,8 +91,8 @@ const Home: React.FC<HomeProps> = ({ onStart, onSelectLesson, isDarkMode }) => {
               className={`group cursor-pointer ${isDarkMode ? 'bg-slate-800 border-slate-700' : 'bg-white border-slate-100'} p-8 rounded-[2.5rem] border-4 hover:border-orange-500 shadow-xl transition-all hover:-translate-y-2 text-left`}
             >
                <div className="flex justify-between items-start mb-4">
-                 <div className={`w-14 h-14 ${isDarkMode ? 'bg-orange-900/50' : 'bg-orange-100'} rounded-2xl flex items-center justify-center text-3xl group-hover:bg-orange-500 group-hover:text-white transition-colors shadow-sm`}>
-                   {index === 0 ? '🏠' : index === 1 ? '✈️' : index === 2 ? '🏫' : '🍎'}
+                 <div className={`w-16 h-16 ${isDarkMode ? 'bg-orange-900/50' : 'bg-orange-100'} rounded-2xl flex items-center justify-center text-4xl group-hover:bg-orange-500 transition-all duration-300 shadow-sm group-hover:scale-110 group-hover:rotate-3`}>
+                   {lessonIcons[index]}
                  </div>
                  <span className={`text-sm font-black ${isDarkMode ? 'text-slate-600' : 'text-slate-300'} uppercase`}>Lesson {index + 1}</span>
                </div>
