@@ -1837,5 +1837,536 @@ export const LESSONS: GrammarLesson[] = [
       sentenceVi: "Hội đồng thành phố đã phê duyệt ngân sách mới."
     }
   ]
+},
+{
+  id: 'l9',
+  topic: 'Day 12-2: Business Operations & Problem Solving',
+  focus: 'Professional Vocabulary & Synonyms',
+  explanation: 'Learn essential business terminology, decision-making vocabulary, and professional synonyms for workplace communication.',
+  explanationVi: 'Học từ vựng kinh doanh thiết yếu, từ vựng ra quyết định và từ đồng nghĩa chuyên nghiệp cho giao tiếp nơi làm việc.',
+  storyEn: [
+    "The board members review the approval process for new proposals.",
+    "They occasionally revise the organized stack of documents on their desks.",
+    "Despite being optimistic about growth, some remain pessimistic about market conditions.",
+    "We suspect the building has badly deteriorated and needs renovation.",
+    "The company can be salvaged if we address the flaws immediately.",
+    "The brake system requires inspection as part of the safety protocol.",
+    "The time it takes to complete renovation will depend on resources.",
+    "Our facility will undergo renovation next quarter.",
+    "Management is not yet aware of the defects in the new product line.",
+    "A stable workforce and good employee retention are crucial for success.",
+    "The team was reluctant to change the established procedures."
+  ],
+  storyVi: [
+    "Các thành viên hội đồng quản trị xem xét quy trình phê duyệt cho các đề xuất mới.",
+    "Họ thỉnh thoảng xem lại chồng tài liệu được sắp gọn gàng trên bàn làm việc.",
+    "Mặc dù tích cực về tăng trưởng, một số vẫn bi quan về điều kiện thị trường.",
+    "Chúng tôi nghi ngờ tòa nhà đã xuống cấp nghiêm trọng và cần cải tạo.",
+    "Công ty có thể được cứu vãn nếu chúng ta giải quyết các lỗi ngay lập tức.",
+    "Hệ thống phanh cần kiểm tra như một phần của quy trình an toàn.",
+    "Thời gian hoàn thành việc cải tạo sẽ phụ thuộc vào nguồn lực.",
+    "Cơ sở của chúng tôi sẽ trải qua cải tạo vào quý tới.",
+    "Ban quản lý chưa biết về các lỗi trong dòng sản phẩm mới.",
+    "Lực lượng lao động ổn định và giữ chân nhân viên tốt là rất quan trọng cho sự thành công.",
+    "Đội ngũ do dự thay đổi các quy trình đã thiết lập."
+  ],
+  vocabulary: [
+    {
+      word: "approval process",
+      ipa: "/əˈpruːvəl ˈprəʊses/",
+      form: "noun phrase",
+      meaningEn: "The formal procedure for getting authorization or permission.",
+      meaningVi: "Quy trình phê duyệt",
+      exampleEn: "The approval process takes about two weeks.",
+      exampleVi: "Quy trình phê duyệt mất khoảng hai tuần."
+    },
+    {
+      word: "proposal",
+      ipa: "/prəˈpəʊzl/",
+      form: "noun",
+      meaningEn: "A formal suggestion or plan put forward for consideration.",
+      meaningVi: "Đề xuất",
+      exampleEn: "We submitted a proposal for the new project.",
+      exampleVi: "Chúng tôi đã nộp đề xuất cho dự án mới."
+    },
+    {
+      word: "suggestion",
+      ipa: "/səˈdʒestʃən/",
+      form: "noun",
+      meaningEn: "An idea or plan put forward for consideration (synonym of proposal).",
+      meaningVi: "Đề xuất, gợi ý",
+      exampleEn: "Thank you for your helpful suggestion.",
+      exampleVi: "Cảm ơn bạn vì đề xuất hữu ích."
+    },
+    {
+      word: "occasionally revise",
+      ipa: "/əˈkeɪʒnəli rɪˈvaɪz/",
+      form: "verb phrase",
+      meaningEn: "To update or review something from time to time.",
+      meaningVi: "Thỉnh thoảng xem lại, chỉnh sửa",
+      exampleEn: "We occasionally revise our company policies.",
+      exampleVi: "Chúng tôi thỉnh thoảng xem lại các chính sách công ty."
+    },
+    {
+      word: "organized stack",
+      ipa: "/ˈɔːɡənaɪzd stæk/",
+      form: "noun phrase",
+      meaningEn: "A neat pile of items arranged in order.",
+      meaningVi: "Một chồng được sắp gọn gàng",
+      exampleEn: "Keep your files in an organized stack.",
+      exampleVi: "Giữ các tệp của bạn trong một chồng được sắp gọn gàng."
+    },
+    {
+      word: "optimistic",
+      ipa: "/ˌɒptɪˈmɪstɪk/",
+      form: "adjective",
+      meaningEn: "Hopeful and confident about the future; positive.",
+      meaningVi: "Tích cực, lạc quan",
+      exampleEn: "We are optimistic about the company's future.",
+      exampleVi: "Chúng tôi tích cực về tương lai của công ty."
+    },
+    {
+      word: "pessimistic",
+      ipa: "/ˌpesɪˈmɪstɪk/",
+      form: "adjective",
+      meaningEn: "Tending to see the worst aspect of things; negative.",
+      meaningVi: "Bi quan",
+      exampleEn: "Don't be so pessimistic about the outcome.",
+      exampleVi: "Đừng quá bi quan về kết quả."
+    },
+    {
+      word: "board members",
+      ipa: "/bɔːd ˈmembəz/",
+      form: "noun phrase",
+      meaningEn: "People elected or appointed to the governing body of an organization.",
+      meaningVi: "Thành viên hội đồng quản trị",
+      exampleEn: "The board members voted on the merger.",
+      exampleVi: "Các thành viên hội đồng quản trị đã bỏ phiếu về việc sáp nhập."
+    },
+    {
+      word: "suspect",
+      ipa: "/səˈspekt/",
+      form: "verb",
+      meaningEn: "To believe something to be true without proof; to doubt.",
+      meaningVi: "Nghi ngờ",
+      exampleEn: "I suspect there may be some errors in the report.",
+      exampleVi: "Tôi nghi ngờ có thể có một số lỗi trong báo cáo."
+    },
+    {
+      word: "doubt",
+      ipa: "/daʊt/",
+      form: "verb/noun",
+      meaningEn: "To feel uncertain about something (synonym of suspect).",
+      meaningVi: "Nghi ngờ",
+      exampleEn: "I doubt he will arrive on time.",
+      exampleVi: "Tôi nghi ngờ anh ấy sẽ đến đúng giờ."
+    },
+    {
+      word: "badly deteriorated",
+      ipa: "/ˈbædli dɪˈtɪəriəreɪtɪd/",
+      form: "adjective phrase",
+      meaningEn: "Severely worsened in condition or quality.",
+      meaningVi: "Xuống cấp nghiêm trọng",
+      exampleEn: "The building has badly deteriorated over the years.",
+      exampleVi: "Tòa nhà đã xuống cấp nghiêm trọng qua nhiều năm."
+    },
+    {
+      word: "be salvaged",
+      ipa: "/bi ˈsælvɪdʒd/",
+      form: "verb phrase (passive)",
+      meaningEn: "To be rescued or saved from loss or destruction.",
+      meaningVi: "Được cứu vãn",
+      exampleEn: "The project can still be salvaged if we act quickly.",
+      exampleVi: "Dự án vẫn có thể được cứu vãn nếu chúng ta hành động nhanh."
+    },
+    {
+      word: "brake",
+      ipa: "/breɪk/",
+      form: "noun",
+      meaningEn: "A device for slowing or stopping a vehicle.",
+      meaningVi: "Phanh xe",
+      exampleEn: "The brake system needs maintenance.",
+      exampleVi: "Hệ thống phanh cần bảo trì."
+    },
+    {
+      word: "the time sb takes to do sth",
+      ipa: "/ðə taɪm ... teɪks tuː duː .../",
+      form: "phrase",
+      meaningEn: "The duration required for someone to complete an action.",
+      meaningVi: "Thời gian ai đó mất để làm gì",
+      exampleEn: "The time it takes to finish depends on experience.",
+      exampleVi: "Thời gian mất để hoàn thành phụ thuộc vào kinh nghiệm."
+    },
+    {
+      word: "how long it takes to do sth",
+      ipa: "/haʊ lɒŋ ɪt teɪks tuː duː .../",
+      form: "phrase",
+      meaningEn: "The duration needed to complete something (synonym phrase).",
+      meaningVi: "Mất bao lâu để làm gì",
+      exampleEn: "How long does it take to process the application?",
+      exampleVi: "Mất bao lâu để xử lý đơn đăng ký?"
+    },
+    {
+      word: "undergo renovation",
+      ipa: "/ˌʌndəˈɡəʊ ˌrenəˈveɪʃn/",
+      form: "verb phrase",
+      meaningEn: "To experience repair and improvement work.",
+      meaningVi: "Trải qua cải tạo",
+      exampleEn: "The office will undergo renovation this summer.",
+      exampleVi: "Văn phòng sẽ trải qua cải tạo vào mùa hè này."
+    },
+    {
+      word: "not yet aware of",
+      ipa: "/nɒt jet əˈweə ɒv/",
+      form: "phrase",
+      meaningEn: "Not having knowledge about something at this time.",
+      meaningVi: "Chưa biết về",
+      exampleEn: "They are not yet aware of the changes.",
+      exampleVi: "Họ chưa biết về những thay đổi."
+    },
+    {
+      word: "flaw",
+      ipa: "/flɔː/",
+      form: "noun",
+      meaningEn: "A defect or imperfection; a fault.",
+      meaningVi: "Lỗi, khuyết điểm",
+      exampleEn: "We found a major flaw in the design.",
+      exampleVi: "Chúng tôi tìm thấy một lỗi lớn trong thiết kế."
+    },
+    {
+      word: "defect",
+      ipa: "/ˈdiːfekt/",
+      form: "noun",
+      meaningEn: "A shortcoming or imperfection (synonym of flaw).",
+      meaningVi: "Lỗi kỹ thuật, khuyết tật",
+      exampleEn: "The product has several defects.",
+      exampleVi: "Sản phẩm có một số lỗi kỹ thuật."
+    },
+    {
+      word: "fault",
+      ipa: "/fɔːlt/",
+      form: "noun",
+      meaningEn: "A defect or mistake (synonym of flaw and defect).",
+      meaningVi: "Lỗi",
+      exampleEn: "It's not your fault that the system crashed.",
+      exampleVi: "Không phải lỗi của bạn khi hệ thống gặp sự cố."
+    },
+    {
+      word: "stable workforce",
+      ipa: "/ˈsteɪbl ˈwɜːkfɔːs/",
+      form: "noun phrase",
+      meaningEn: "A consistent and reliable group of employees.",
+      meaningVi: "Lực lượng lao động ổn định",
+      exampleEn: "A stable workforce leads to better productivity.",
+      exampleVi: "Lực lượng lao động ổn định dẫn đến năng suất tốt hơn."
+    },
+    {
+      word: "consistent staff",
+      ipa: "/kənˈsɪstənt stɑːf/",
+      form: "noun phrase",
+      meaningEn: "Employees who remain with the company over time (synonym).",
+      meaningVi: "Đội ngũ nhân viên ổn định",
+      exampleEn: "We value our consistent staff members.",
+      exampleVi: "Chúng tôi đánh giá cao các thành viên nhân viên ổn định."
+    },
+    {
+      word: "employee retention",
+      ipa: "/ɪmˈplɔɪiː rɪˈtenʃn/",
+      form: "noun phrase",
+      meaningEn: "The ability to keep employees working for the company.",
+      meaningVi: "Giữ chân nhân viên",
+      exampleEn: "Employee retention is a key priority for HR.",
+      exampleVi: "Giữ chân nhân viên là ưu tiên chính của phòng nhân sự."
+    },
+    {
+      word: "as well as",
+      ipa: "/əz wel æz/",
+      form: "conjunction",
+      meaningEn: "In addition to; and also.",
+      meaningVi: "Cũng như",
+      exampleEn: "We offer training as well as development programs.",
+      exampleVi: "Chúng tôi cung cấp đào tạo cũng như các chương trình phát triển."
+    },
+    {
+      word: "be reluctant to",
+      ipa: "/bi rɪˈlʌktənt tuː/",
+      form: "phrase",
+      meaningEn: "To be unwilling or hesitant to do something.",
+      meaningVi: "Do dự, miễn cưỡng",
+      exampleEn: "Employees are reluctant to accept the new policy.",
+      exampleVi: "Nhân viên do dự chấp nhận chính sách mới."
+    },
+    {
+      word: "hesitate to",
+      ipa: "/ˈhezɪteɪt tuː/",
+      form: "verb phrase",
+      meaningEn: "To pause before doing something (synonym of be reluctant to).",
+      meaningVi: "Do dự",
+      exampleEn: "Don't hesitate to ask for help.",
+      exampleVi: "Đừng do dự để yêu cầu giúp đỡ."
+    },
+    {
+      word: "unwilling to",
+      ipa: "/ʌnˈwɪlɪŋ tuː/",
+      form: "adjective phrase",
+      meaningEn: "Not ready or wanting to do something (synonym).",
+      meaningVi: "Không sẵn lòng",
+      exampleEn: "They are unwilling to compromise.",
+      exampleVi: "Họ không sẵn lòng thỏa hiệp."
+    }
+  ],
+  exercises: [
+    {
+      id: 'e9_1',
+      type: 'fill',
+      questionEn: "The ____ process usually takes two weeks.",
+      questionVi: "Quy trình ____ thường mất hai tuần.",
+      correctAnswer: "approval"
+    },
+    {
+      id: 'e9_2',
+      type: 'mcq',
+      questionEn: "We need to submit a ____ for the new project.",
+      questionVi: "Chúng ta cần nộp một ____ cho dự án mới.",
+      options: ["proposal", "approval", "renovation"],
+      correctAnswer: "proposal"
+    },
+    {
+      id: 'e9_3',
+      type: 'complete',
+      questionEn: "We ____ revise our policies every year.",
+      questionVi: "Chúng tôi ____ xem lại chính sách hằng năm.",
+      correctAnswer: "occasionally"
+    },
+    {
+      id: 'e9_4',
+      type: 'meaning',
+      questionEn: "Which word means 'hopeful about the future'?",
+      questionVi: "Từ nào có nghĩa là 'hy vọng về tương lai'?",
+      options: ["Pessimistic", "Optimistic", "Reluctant"],
+      correctAnswer: "Optimistic"
+    },
+    {
+      id: 'e9_5',
+      type: 'fill',
+      questionEn: "The ____ members will vote on the decision tomorrow.",
+      questionVi: "Các thành viên ____ sẽ bỏ phiếu về quyết định vào ngày mai.",
+      correctAnswer: "board"
+    },
+    {
+      id: 'e9_6',
+      type: 'mcq',
+      questionEn: "I ____ there might be some errors in the report.",
+      questionVi: "Tôi ____ có thể có một số lỗi trong báo cáo.",
+      options: ["suspect", "suggest", "salvage"],
+      correctAnswer: "suspect"
+    },
+    {
+      id: 'e9_7',
+      type: 'complete',
+      questionEn: "The building has badly ____.",
+      questionVi: "Tòa nhà đã ____ nghiêm trọng.",
+      correctAnswer: "deteriorated"
+    },
+    {
+      id: 'e9_8',
+      type: 'fill',
+      questionEn: "The project can still ____ salvaged if we act now.",
+      questionVi: "Dự án vẫn có thể ____ cứu vãn nếu chúng ta hành động ngay.",
+      correctAnswer: "be"
+    },
+    {
+      id: 'e9_9',
+      type: 'mcq',
+      questionEn: "What is a synonym for 'flaw'?",
+      questionVi: "Từ đồng nghĩa của 'flaw' là gì?",
+      options: ["Perfect", "Defect", "Quality"],
+      correctAnswer: "Defect"
+    },
+    {
+      id: 'e9_10',
+      type: 'complete',
+      questionEn: "The office will undergo ____ next month.",
+      questionVi: "Văn phòng sẽ trải qua ____ tháng tới.",
+      correctAnswer: "renovation"
+    },
+    {
+      id: 'e9_11',
+      type: 'fill',
+      questionEn: "They are not ____ aware of the changes.",
+      questionVi: "Họ chưa ____ về những thay đổi.",
+      correctAnswer: "yet"
+    },
+    {
+      id: 'e9_12',
+      type: 'mcq',
+      questionEn: "A ____ workforce is important for company success.",
+      questionVi: "Lực lượng lao động ____ quan trọng cho sự thành công của công ty.",
+      options: ["stable", "unstable", "temporary"],
+      correctAnswer: "stable"
+    },
+    {
+      id: 'e9_13',
+      type: 'complete',
+      questionEn: "Employee ____ is a key priority for HR.",
+      questionVi: "____ nhân viên là ưu tiên chính của phòng nhân sự.",
+      correctAnswer: "retention"
+    },
+    {
+      id: 'e9_14',
+      type: 'fill',
+      questionEn: "Employees are ____ to accept the new changes.",
+      questionVi: "Nhân viên ____ chấp nhận những thay đổi mới.",
+      correctAnswer: "reluctant"
+    },
+    {
+      id: 'e9_15',
+      type: 'mcq',
+      questionEn: "What does 'as well as' mean?",
+      questionVi: "'As well as' có nghĩa là gì?",
+      options: ["Instead of", "In addition to", "Because of"],
+      correctAnswer: "In addition to"
+    },
+    {
+      id: 'e9_16',
+      type: 'complete',
+      questionEn: "Don't ____ to ask for help when you need it.",
+      questionVi: "Đừng ____ yêu cầu giúp đỡ khi bạn cần.",
+      correctAnswer: "hesitate"
+    },
+    {
+      id: 'e9_17',
+      type: 'fill',
+      questionEn: "The ____ system needs to be checked regularly.",
+      questionVi: "Hệ thống ____ cần được kiểm tra thường xuyên.",
+      correctAnswer: "brake"
+    },
+    {
+      id: 'e9_18',
+      type: 'mcq',
+      questionEn: "The opposite of 'optimistic' is ____.",
+      questionVi: "Trái nghĩa của 'optimistic' là ____.",
+      options: ["positive", "pessimistic", "organized"],
+      correctAnswer: "pessimistic"
+    },
+    {
+      id: 'e9_19',
+      type: 'complete',
+      questionEn: "Keep your documents in an organized ____.",
+      questionVi: "Giữ tài liệu của bạn trong một ____ được sắp gọn gàng.",
+      correctAnswer: "stack"
+    },
+    {
+      id: 'e9_20',
+      type: 'fill',
+      questionEn: "How long does it ____ to complete the training?",
+      questionVi: "Mất bao lâu để ____ khóa đào tạo?",
+      correctAnswer: "take"
+    },
+    {
+      id: 'e9_21',
+      type: 'meaning',
+      questionEn: "Which phrase means 'to update from time to time'?",
+      questionVi: "Cụm từ nào có nghĩa là 'cập nhật theo thời gian'?",
+      options: ["Occasionally revise", "Badly deteriorate", "Undergo renovation"],
+      correctAnswer: "Occasionally revise"
+    },
+    {
+      id: 'e9_22',
+      type: 'mcq',
+      questionEn: "We found a major ____ in the software.",
+      questionVi: "Chúng tôi tìm thấy một ____ lớn trong phần mềm.",
+      options: ["proposal", "flaw", "board"],
+      correctAnswer: "flaw"
+    },
+    {
+      id: 'e9_23',
+      type: 'fill',
+      questionEn: "The team is ____ to change their approach.",
+      questionVi: "Đội ngũ ____ thay đổi cách tiếp cận của họ.",
+      correctAnswer: "unwilling"
+    },
+    {
+      id: 'e9_24',
+      type: 'complete',
+      questionEn: "A 'suggestion' is another word for a ____.",
+      questionVi: "'Suggestion' là từ khác của ____.",
+      correctAnswer: "proposal"
+    },
+    {
+      id: 'e9_25',
+      type: 'mcq',
+      questionEn: "What do we call people on the governing body of an organization?",
+      questionVi: "Chúng ta gọi những người trong cơ quan quản lý của một tổ chức là gì?",
+      options: ["Board members", "Work crew", "City council"],
+      correctAnswer: "Board members"
+    }
+  ],
+  rearrangeExercises: [
+    {
+      sentenceEn: "The approval process takes two weeks.",
+      sentenceVi: "Quy trình phê duyệt mất hai tuần."
+    },
+    {
+      sentenceEn: "We occasionally revise our policies.",
+      sentenceVi: "Chúng tôi thỉnh thoảng xem lại chính sách."
+    },
+    {
+      sentenceEn: "Board members voted on the proposal.",
+      sentenceVi: "Các thành viên hội đồng quản trị bỏ phiếu về đề xuất."
+    },
+    {
+      sentenceEn: "I suspect there are some errors.",
+      sentenceVi: "Tôi nghi ngờ có một số lỗi."
+    },
+    {
+      sentenceEn: "The building has badly deteriorated.",
+      sentenceVi: "Tòa nhà đã xuống cấp nghiêm trọng."
+    },
+    {
+      sentenceEn: "The project can be salvaged.",
+      sentenceVi: "Dự án có thể được cứu vãn."
+    },
+    {
+      sentenceEn: "The office will undergo renovation.",
+      sentenceVi: "Văn phòng sẽ trải qua cải tạo."
+    },
+    {
+      sentenceEn: "They are not yet aware of the changes.",
+      sentenceVi: "Họ chưa biết về những thay đổi."
+    },
+    {
+      sentenceEn: "We found a flaw in the design.",
+      sentenceVi: "Chúng tôi tìm thấy lỗi trong thiết kế."
+    },
+    {
+      sentenceEn: "A stable workforce improves productivity.",
+      sentenceVi: "Lực lượng lao động ổn định cải thiện năng suất."
+    },
+    {
+      sentenceEn: "Employee retention is very important.",
+      sentenceVi: "Giữ chân nhân viên rất quan trọng."
+    },
+    {
+      sentenceEn: "They are reluctant to change procedures.",
+      sentenceVi: "Họ do dự thay đổi quy trình."
+    },
+    {
+      sentenceEn: "We are optimistic about the future.",
+      sentenceVi: "Chúng tôi tích cực về tương lai."
+    },
+    {
+      sentenceEn: "Don't be pessimistic about the results.",
+      sentenceVi: "Đừng bi quan về kết quả."
+    },
+    {
+      sentenceEn: "Keep files in an organized stack.",
+      sentenceVi: "Giữ các tệp trong một chồng được sắp gọn gàng."
+    },
+    {
+      sentenceEn: "The brake system needs maintenance.",
+      sentenceVi: "Hệ thống phanh cần bảo trì."
+    }
+  ]
 }
 ];
