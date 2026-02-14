@@ -2368,5 +2368,595 @@ export const LESSONS: GrammarLesson[] = [
       sentenceVi: "Hệ thống phanh cần bảo trì."
     }
   ]
+},
+{
+  id: 'l10',
+  topic: 'Day 13-2: Customer Service & Workplace Communication',
+  focus: 'Conditional Phrases, Service Vocabulary & Professional Expressions',
+  explanation: 'Learn customer service vocabulary, conditional expressions (on condition that, as opposed to), and professional workplace communication terms.',
+  explanationVi: 'Học từ vựng dịch vụ khách hàng, cụm điều kiện (on condition that, as opposed to), và thuật ngữ giao tiếp chuyên nghiệp tại nơi làm việc.',
+  storyEn: [
+    "The flight attendant helped passengers retrieve their luggage from overhead compartments.",
+    "Nearly all customers were in favor of the new service policy.",
+    "In contrast to the previous system, the new process eliminates unnecessary extra work.",
+    "The sales associate served customers in a professional manner.",
+    "The entrepreneur prefers an aisle seat as opposed to a window seat when traveling.",
+    "On condition that the plan is followed precisely, we will achieve our goals.",
+    "A minority of employees were unsure of what caused the system delay.",
+    "The team discussed why certain procedures cause unnecessary complications.",
+    "Attendants must handle complaints in a calm manner to maintain customer satisfaction."
+  ],
+  storyVi: [
+    "Tiếp viên hàng không đã giúp hành khách lấy hành lý từ ngăn trên đầu.",
+    "Gần như tất cả khách hàng đều ủng hộ chính sách dịch vụ mới.",
+    "Trái ngược với hệ thống trước đây, quy trình mới loại bỏ công việc thừa thãi không cần thiết.",
+    "Nhân viên bán hàng phục vụ khách hàng một cách chuyên nghiệp.",
+    "Doanh nhân thích ghế cạnh lối đi thay vì ghế cạnh cửa sổ khi đi du lịch.",
+    "Với điều kiện là kế hoạch được thực hiện chính xác, chúng ta sẽ đạt được mục tiêu.",
+    "Thiểu số nhân viên không chắc chắn về điều gì gây ra sự chậm trễ của hệ thống.",
+    "Đội ngũ thảo luận tại sao một số quy trình gây ra những phức tạp không cần thiết.",
+    "Nhân viên phục vụ phải xử lý khiếu nại một cách bình tĩnh để duy trì sự hài lòng của khách hàng."
+  ],
+  vocabulary: [
+    {
+      word: "retrieve",
+      ipa: "/rɪˈtriːv/",
+      form: "verb",
+      meaningEn: "To get back or recover something; to fetch.",
+      meaningVi: "Lấy lại, thu hồi lại",
+      exampleEn: "Please retrieve your belongings from the locker.",
+      exampleVi: "Vui lòng lấy lại đồ của bạn từ tủ khóa."
+    },
+    {
+      word: "attendant",
+      ipa: "/əˈtendənt/",
+      form: "noun",
+      meaningEn: "A person employed to provide service to customers or passengers.",
+      meaningVi: "Người phục vụ, nhân viên hỗ trợ",
+      exampleEn: "The parking attendant will help you find a spot.",
+      exampleVi: "Nhân viên bãi đỗ xe sẽ giúp bạn tìm chỗ."
+    },
+    {
+      word: "flight attendant",
+      ipa: "/flaɪt əˈtendənt/",
+      form: "noun phrase",
+      meaningEn: "A person who serves passengers on an aircraft.",
+      meaningVi: "Tiếp viên hàng không",
+      exampleEn: "The flight attendant demonstrated safety procedures.",
+      exampleVi: "Tiếp viên hàng không đã trình diễn các quy trình an toàn."
+    },
+    {
+      word: "nearly",
+      ipa: "/ˈnɪəli/",
+      form: "adverb",
+      meaningEn: "Almost; very close to; not quite.",
+      meaningVi: "Hầu như, gần như",
+      exampleEn: "Nearly all employees attended the meeting.",
+      exampleVi: "Hầu như tất cả nhân viên đã tham dự cuộc họp."
+    },
+    {
+      word: "nearly all",
+      ipa: "/ˈnɪəli ɔːl/",
+      form: "phrase",
+      meaningEn: "Almost everyone or everything in a group.",
+      meaningVi: "Gần như tất cả",
+      exampleEn: "Nearly all customers were satisfied with the service.",
+      exampleVi: "Gần như tất cả khách hàng đều hài lòng với dịch vụ."
+    },
+    {
+      word: "minority",
+      ipa: "/maɪˈnɒrəti/",
+      form: "noun",
+      meaningEn: "A smaller number or part; less than half.",
+      meaningVi: "Thiểu số, số ít",
+      exampleEn: "Only a minority of people disagreed with the decision.",
+      exampleVi: "Chỉ thiểu số người không đồng ý với quyết định."
+    },
+    {
+      word: "in favor of",
+      ipa: "/ɪn ˈfeɪvər ɒv/",
+      form: "phrase",
+      meaningEn: "In support of; approving of something.",
+      meaningVi: "Ủng hộ, tán thành",
+      exampleEn: "Most voters were in favor of the new policy.",
+      exampleVi: "Hầu hết cử tri đều ủng hộ chính sách mới."
+    },
+    {
+      word: "entrepreneur",
+      ipa: "/ˌɒntrəprəˈnɜː/",
+      form: "noun",
+      meaningEn: "A person who starts and runs a business.",
+      meaningVi: "Doanh nhân, chủ doanh nghiệp",
+      exampleEn: "She is a successful entrepreneur in the tech industry.",
+      exampleVi: "Cô ấy là một doanh nhân thành công trong ngành công nghệ."
+    },
+    {
+      word: "sales associate",
+      ipa: "/seɪlz əˈsəʊʃiət/",
+      form: "noun phrase",
+      meaningEn: "An employee who helps customers and sells products.",
+      meaningVi: "Nhân viên bán hàng",
+      exampleEn: "The sales associate provided excellent customer service.",
+      exampleVi: "Nhân viên bán hàng đã cung cấp dịch vụ khách hàng xuất sắc."
+    },
+    {
+      word: "manner",
+      ipa: "/ˈmænə/",
+      form: "noun",
+      meaningEn: "The way something is done or happens; behavior or attitude.",
+      meaningVi: "Cách thức, thái độ, cử chỉ",
+      exampleEn: "She spoke in a calm and professional manner.",
+      exampleVi: "Cô ấy nói một cách bình tĩnh và chuyên nghiệp."
+    },
+    {
+      word: "unnecessary extra work",
+      ipa: "/ʌnˈnesəsəri ˈekstrə wɜːk/",
+      form: "noun phrase",
+      meaningEn: "Additional tasks that are not needed; redundant effort.",
+      meaningVi: "Công việc thừa thãi không cần thiết",
+      exampleEn: "The new system eliminates unnecessary extra work.",
+      exampleVi: "Hệ thống mới loại bỏ công việc thừa thãi không cần thiết."
+    },
+    {
+      word: "followed precisely",
+      ipa: "/ˈfɒləʊd prɪˈsaɪsli/",
+      form: "verb phrase",
+      meaningEn: "Done exactly as instructed or planned.",
+      meaningVi: "Được thực hiện chính xác",
+      exampleEn: "The instructions must be followed precisely.",
+      exampleVi: "Hướng dẫn phải được thực hiện chính xác."
+    },
+    {
+      word: "aisle seat",
+      ipa: "/aɪl siːt/",
+      form: "noun phrase",
+      meaningEn: "A seat next to the passage between rows (on plane or bus).",
+      meaningVi: "Ghế cạnh lối đi",
+      exampleEn: "I prefer an aisle seat for easy access.",
+      exampleVi: "Tôi thích ghế cạnh lối đi để dễ di chuyển."
+    },
+    {
+      word: "window seat",
+      ipa: "/ˈwɪndəʊ siːt/",
+      form: "noun phrase",
+      meaningEn: "A seat next to the window on a plane, train, or bus.",
+      meaningVi: "Ghế cạnh cửa sổ",
+      exampleEn: "Children usually want the window seat to see outside.",
+      exampleVi: "Trẻ em thường muốn ghế cạnh cửa sổ để nhìn ra ngoài."
+    },
+    {
+      word: "in contrast to",
+      ipa: "/ɪn ˈkɒntrɑːst tuː/",
+      form: "phrase",
+      meaningEn: "Showing a difference when compared with something.",
+      meaningVi: "Trái ngược với",
+      exampleEn: "In contrast to last year, sales have increased.",
+      exampleVi: "Trái ngược với năm ngoái, doanh số đã tăng."
+    },
+    {
+      word: "as opposed to",
+      ipa: "/æz əˈpəʊzd tuː/",
+      form: "phrase",
+      meaningEn: "In contrast with; rather than; instead of.",
+      meaningVi: "Thay vì, đối lập với",
+      exampleEn: "We chose quality as opposed to quantity.",
+      exampleVi: "Chúng tôi chọn chất lượng thay vì số lượng."
+    },
+    {
+      word: "on condition that",
+      ipa: "/ɒn kənˈdɪʃn ðæt/",
+      form: "phrase",
+      meaningEn: "Only if; provided that; with the requirement that.",
+      meaningVi: "Với điều kiện là",
+      exampleEn: "I will help you on condition that you finish your homework first.",
+      exampleVi: "Tôi sẽ giúp bạn với điều kiện là bạn hoàn thành bài tập trước."
+    },
+    {
+      word: "what + S + V",
+      ipa: "/wɒt .../",
+      form: "phrase structure",
+      meaningEn: "Used to introduce a noun clause about something unknown.",
+      meaningVi: "Điều mà (cấu trúc mệnh đề danh từ)",
+      exampleEn: "What you said was very helpful.",
+      exampleVi: "Điều bạn nói rất hữu ích."
+    },
+    {
+      word: "why + S + V",
+      ipa: "/waɪ .../",
+      form: "phrase structure",
+      meaningEn: "Used to introduce a noun clause about reasons.",
+      meaningVi: "Lý do tại sao (cấu trúc mệnh đề danh từ)",
+      exampleEn: "I understand why you are upset.",
+      exampleVi: "Tôi hiểu lý do tại sao bạn khó chịu."
+    },
+    {
+      word: "unsure of",
+      ipa: "/ʌnˈʃɔːr ɒv/",
+      form: "adjective phrase",
+      meaningEn: "Not confident about; uncertain about something.",
+      meaningVi: "Không chắc chắn về",
+      exampleEn: "I am unsure of the correct answer.",
+      exampleVi: "Tôi không chắc chắn về câu trả lời đúng."
+    },
+    {
+      word: "cause something to do",
+      ipa: "/kɔːz ˈsʌmθɪŋ tuː duː/",
+      form: "verb pattern",
+      meaningEn: "To make something happen; to bring about a result.",
+      meaningVi: "Gây ra việc gì, khiến cái gì đó bị làm sao",
+      exampleEn: "The error caused the system to crash.",
+      exampleVi: "Lỗi đã khiến hệ thống bị sập."
+    },
+    {
+      word: "overhead compartment",
+      ipa: "/ˌəʊvəˈhed kəmˈpɑːtmənt/",
+      form: "noun phrase",
+      meaningEn: "Storage space above seats on an airplane.",
+      meaningVi: "Ngăn hành lý trên đầu (máy bay)",
+      exampleEn: "Please store your bag in the overhead compartment.",
+      exampleVi: "Vui lòng cất túi của bạn vào ngăn trên đầu."
+    },
+    {
+      word: "passenger",
+      ipa: "/ˈpæsɪndʒə/",
+      form: "noun",
+      meaningEn: "A person traveling in a vehicle, plane, or ship.",
+      meaningVi: "Hành khách",
+      exampleEn: "All passengers must fasten their seatbelts.",
+      exampleVi: "Tất cả hành khách phải thắt dây an toàn."
+    },
+    {
+      word: "luggage",
+      ipa: "/ˈlʌɡɪdʒ/",
+      form: "noun",
+      meaningEn: "Bags and suitcases used for traveling.",
+      meaningVi: "Hành lý",
+      exampleEn: "You can collect your luggage at baggage claim.",
+      exampleVi: "Bạn có thể lấy hành lý ở khu vực nhận hành lý."
+    },
+    {
+      word: "eliminate",
+      ipa: "/ɪˈlɪmɪneɪt/",
+      form: "verb",
+      meaningEn: "To remove or get rid of something completely.",
+      meaningVi: "Loại bỏ",
+      exampleEn: "We need to eliminate unnecessary steps in the process.",
+      exampleVi: "Chúng ta cần loại bỏ các bước không cần thiết trong quy trình."
+    },
+    {
+      word: "complaint",
+      ipa: "/kəmˈpleɪnt/",
+      form: "noun",
+      meaningEn: "A statement expressing dissatisfaction about something.",
+      meaningVi: "Khiếu nại",
+      exampleEn: "We received several complaints about the service.",
+      exampleVi: "Chúng tôi nhận được nhiều khiếu nại về dịch vụ."
+    },
+    {
+      word: "maintain",
+      ipa: "/meɪnˈteɪn/",
+      form: "verb",
+      meaningEn: "To keep something in good condition; to preserve.",
+      meaningVi: "Duy trì",
+      exampleEn: "We must maintain high standards of customer service.",
+      exampleVi: "Chúng ta phải duy trì tiêu chuẩn dịch vụ khách hàng cao."
+    },
+    {
+      word: "customer satisfaction",
+      ipa: "/ˈkʌstəmə ˌsætɪsˈfækʃn/",
+      form: "noun phrase",
+      meaningEn: "The degree to which customers are pleased with services or products.",
+      meaningVi: "Sự hài lòng của khách hàng",
+      exampleEn: "Customer satisfaction is our top priority.",
+      exampleVi: "Sự hài lòng của khách hàng là ưu tiên hàng đầu của chúng tôi."
+    },
+    {
+      word: "system delay",
+      ipa: "/ˈsɪstəm dɪˈleɪ/",
+      form: "noun phrase",
+      meaningEn: "A slowdown or pause in a system's operation.",
+      meaningVi: "Sự chậm trễ của hệ thống",
+      exampleEn: "The system delay affected all transactions.",
+      exampleVi: "Sự chậm trễ của hệ thống đã ảnh hưởng đến tất cả giao dịch."
+    }
+  ],
+  exercises: [
+    {
+      id: 'e10_1',
+      type: 'fill',
+      questionEn: "Please ____ your luggage from the overhead compartment.",
+      questionVi: "Vui lòng ____ hành lý của bạn từ ngăn trên đầu.",
+      correctAnswer: "retrieve"
+    },
+    {
+      id: 'e10_2',
+      type: 'mcq',
+      questionEn: "A ____ helps serve passengers on an airplane.",
+      questionVi: "____ giúp phục vụ hành khách trên máy bay.",
+      options: ["flight attendant", "entrepreneur", "sales associate"],
+      correctAnswer: "flight attendant"
+    },
+    {
+      id: 'e10_3',
+      type: 'complete',
+      questionEn: "____ all customers were satisfied with the service.",
+      questionVi: "____ tất cả khách hàng đều hài lòng với dịch vụ.",
+      correctAnswer: "Nearly"
+    },
+    {
+      id: 'e10_4',
+      type: 'meaning',
+      questionEn: "What does 'in favor of' mean?",
+      questionVi: "'In favor of' có nghĩa là gì?",
+      options: ["Against", "In support of", "Unsure about"],
+      correctAnswer: "In support of"
+    },
+    {
+      id: 'e10_5',
+      type: 'fill',
+      questionEn: "The ____ provided excellent customer service.",
+      questionVi: "____ đã cung cấp dịch vụ khách hàng xuất sắc.",
+      correctAnswer: "sales associate"
+    },
+    {
+      id: 'e10_6',
+      type: 'mcq',
+      questionEn: "She spoke in a professional ____.",
+      questionVi: "Cô ấy nói một cách chuyên nghiệp ____.",
+      options: ["manner", "minority", "delay"],
+      correctAnswer: "manner"
+    },
+    {
+      id: 'e10_7',
+      type: 'complete',
+      questionEn: "The new system eliminates ____ extra work.",
+      questionVi: "Hệ thống mới loại bỏ công việc thừa thãi ____.",
+      correctAnswer: "unnecessary"
+    },
+    {
+      id: 'e10_8',
+      type: 'fill',
+      questionEn: "I prefer an ____ seat ____ opposed to a window seat.",
+      questionVi: "Tôi thích ghế cạnh lối đi ____ vì ghế cạnh cửa sổ.",
+      correctAnswer: "as"
+    },
+    {
+      id: 'e10_9',
+      type: 'mcq',
+      questionEn: "____ contrast to last year, sales have increased.",
+      questionVi: "____ ngược với năm ngoái, doanh số đã tăng.",
+      options: ["As", "In", "On"],
+      correctAnswer: "In"
+    },
+    {
+      id: 'e10_10',
+      type: 'complete',
+      questionEn: "You can go ____ condition that you finish your work.",
+      questionVi: "Bạn có thể đi ____ điều kiện là bạn hoàn thành công việc.",
+      correctAnswer: "on"
+    },
+    {
+      id: 'e10_11',
+      type: 'fill',
+      questionEn: "Only a ____ of people disagreed with the decision.",
+      questionVi: "Chỉ ____ người không đồng ý với quyết định.",
+      correctAnswer: "minority"
+    },
+    {
+      id: 'e10_12',
+      type: 'mcq',
+      questionEn: "She is a successful ____ in the tech industry.",
+      questionVi: "Cô ấy là một ____ thành công trong ngành công nghệ.",
+      options: ["attendant", "entrepreneur", "passenger"],
+      correctAnswer: "entrepreneur"
+    },
+    {
+      id: 'e10_13',
+      type: 'complete',
+      questionEn: "I am ____ of the correct answer.",
+      questionVi: "Tôi không ____ về câu trả lời đúng.",
+      correctAnswer: "unsure"
+    },
+    {
+      id: 'e10_14',
+      type: 'fill',
+      questionEn: "The error caused the system ____ crash.",
+      questionVi: "Lỗi đã khiến hệ thống ____ sập.",
+      correctAnswer: "to"
+    },
+    {
+      id: 'e10_15',
+      type: 'mcq',
+      questionEn: "What is the opposite of 'nearly all'?",
+      questionVi: "Trái nghĩa của 'nearly all' là gì?",
+      options: ["Majority", "Minority", "Everyone"],
+      correctAnswer: "Minority"
+    },
+    {
+      id: 'e10_16',
+      type: 'complete',
+      questionEn: "The instructions must be followed ____.",
+      questionVi: "Hướng dẫn phải được thực hiện ____.",
+      correctAnswer: "precisely"
+    },
+    {
+      id: 'e10_17',
+      type: 'fill',
+      questionEn: "We must ____ high standards of customer service.",
+      questionVi: "Chúng ta phải ____ tiêu chuẩn dịch vụ khách hàng cao.",
+      correctAnswer: "maintain"
+    },
+    {
+      id: 'e10_18',
+      type: 'mcq',
+      questionEn: "All ____ must fasten their seatbelts.",
+      questionVi: "Tất cả ____ phải thắt dây an toàn.",
+      options: ["passengers", "entrepreneurs", "associates"],
+      correctAnswer: "passengers"
+    },
+    {
+      id: 'e10_19',
+      type: 'complete',
+      questionEn: "We received several ____ about the service.",
+      questionVi: "Chúng tôi nhận được nhiều ____ về dịch vụ.",
+      correctAnswer: "complaints"
+    },
+    {
+      id: 'e10_20',
+      type: 'fill',
+      questionEn: "Customer ____ is our top priority.",
+      questionVi: "____ của khách hàng là ưu tiên hàng đầu của chúng tôi.",
+      correctAnswer: "satisfaction"
+    },
+    {
+      id: 'e10_21',
+      type: 'meaning',
+      questionEn: "Which phrase means 'rather than' or 'instead of'?",
+      questionVi: "Cụm từ nào có nghĩa là 'thay vì' hoặc 'đối lập với'?",
+      options: ["In favor of", "As opposed to", "On condition that"],
+      correctAnswer: "As opposed to"
+    },
+    {
+      id: 'e10_22',
+      type: 'mcq',
+      questionEn: "The ____ affected all transactions.",
+      questionVi: "____ đã ảnh hưởng đến tất cả giao dịch.",
+      options: ["system delay", "aisle seat", "overhead compartment"],
+      correctAnswer: "system delay"
+    },
+    {
+      id: 'e10_23',
+      type: 'fill',
+      questionEn: "I understand ____ you are upset about the situation.",
+      questionVi: "Tôi hiểu ____ bạn khó chịu về tình huống.",
+      correctAnswer: "why"
+    },
+    {
+      id: 'e10_24',
+      type: 'complete',
+      questionEn: "Store your bag in the overhead ____.",
+      questionVi: "Cất túi của bạn vào ____ trên đầu.",
+      correctAnswer: "compartment"
+    },
+    {
+      id: 'e10_25',
+      type: 'mcq',
+      questionEn: "What does 'eliminate' mean?",
+      questionVi: "'Eliminate' có nghĩa là gì?",
+      options: ["To add", "To remove completely", "To maintain"],
+      correctAnswer: "To remove completely"
+    },
+    {
+      id: 'e10_26',
+      type: 'fill',
+      questionEn: "You can collect your ____ at baggage claim.",
+      questionVi: "Bạn có thể lấy ____ ở khu vực nhận hành lý.",
+      correctAnswer: "luggage"
+    },
+    {
+      id: 'e10_27',
+      type: 'complete',
+      questionEn: "____ you said was very helpful.",
+      questionVi: "____ bạn nói rất hữu ích.",
+      correctAnswer: "What"
+    },
+    {
+      id: 'e10_28',
+      type: 'mcq',
+      questionEn: "Attendants must handle complaints in a calm ____.",
+      questionVi: "Nhân viên phục vụ phải xử lý khiếu nại một cách bình tĩnh ____.",
+      options: ["minority", "manner", "delay"],
+      correctAnswer: "manner"
+    },
+    {
+      id: 'e10_29',
+      type: 'fill',
+      questionEn: "I will agree ____ condition that the plan is followed precisely.",
+      questionVi: "Tôi sẽ đồng ý ____ điều kiện là kế hoạch được thực hiện chính xác.",
+      correctAnswer: "on"
+    },
+    {
+      id: 'e10_30',
+      type: 'meaning',
+      questionEn: "What is an 'aisle seat'?",
+      questionVi: "'Aisle seat' là gì?",
+      options: ["A seat next to the window", "A seat next to the passage", "A seat in the back"],
+      correctAnswer: "A seat next to the passage"
+    }
+  ],
+  rearrangeExercises: [
+    {
+      sentenceEn: "The flight attendant helped retrieve luggage.",
+      sentenceVi: "Tiếp viên hàng không đã giúp lấy hành lý."
+    },
+    {
+      sentenceEn: "Nearly all customers were satisfied.",
+      sentenceVi: "Gần như tất cả khách hàng đều hài lòng."
+    },
+    {
+      sentenceEn: "Most people are in favor of the new policy.",
+      sentenceVi: "Hầu hết mọi người đều ủng hộ chính sách mới."
+    },
+    {
+      sentenceEn: "The sales associate serves customers professionally.",
+      sentenceVi: "Nhân viên bán hàng phục vụ khách hàng chuyên nghiệp."
+    },
+    {
+      sentenceEn: "The entrepreneur prefers an aisle seat.",
+      sentenceVi: "Doanh nhân thích ghế cạnh lối đi."
+    },
+    {
+      sentenceEn: "In contrast to last year, sales increased.",
+      sentenceVi: "Trái ngược với năm ngoái, doanh số tăng."
+    },
+    {
+      sentenceEn: "We chose quality as opposed to quantity.",
+      sentenceVi: "Chúng tôi chọn chất lượng thay vì số lượng."
+    },
+    {
+      sentenceEn: "On condition that you finish first.",
+      sentenceVi: "Với điều kiện là bạn hoàn thành trước."
+    },
+    {
+      sentenceEn: "I am unsure of the answer.",
+      sentenceVi: "Tôi không chắc chắn về câu trả lời."
+    },
+    {
+      sentenceEn: "The error caused the system to crash.",
+      sentenceVi: "Lỗi đã khiến hệ thống bị sập."
+    },
+    {
+      sentenceEn: "The new system eliminates unnecessary work.",
+      sentenceVi: "Hệ thống mới loại bỏ công việc không cần thiết."
+    },
+    {
+      sentenceEn: "Instructions must be followed precisely.",
+      sentenceVi: "Hướng dẫn phải được thực hiện chính xác."
+    },
+    {
+      sentenceEn: "Only a minority of people disagreed.",
+      sentenceVi: "Chỉ thiểu số người không đồng ý."
+    },
+    {
+      sentenceEn: "We must maintain customer satisfaction.",
+      sentenceVi: "Chúng ta phải duy trì sự hài lòng của khách hàng."
+    },
+    {
+      sentenceEn: "Handle complaints in a calm manner.",
+      sentenceVi: "Xử lý khiếu nại một cách bình tĩnh."
+    },
+    {
+      sentenceEn: "All passengers must fasten seatbelts.",
+      sentenceVi: "Tất cả hành khách phải thắt dây an toàn."
+    },
+    {
+      sentenceEn: "Store your bag in the overhead compartment.",
+      sentenceVi: "Cất túi vào ngăn trên đầu."
+    },
+    {
+      sentenceEn: "I understand why you are upset.",
+      sentenceVi: "Tôi hiểu tại sao bạn khó chịu."
+    }
+  ]
 }
 ];
