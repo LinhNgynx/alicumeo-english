@@ -2962,28 +2962,32 @@ export const LESSONS: GrammarLesson[] = [
 {
     id: 'l11',
     topic: 'Feb 20: Benefits, Finance & Grammar Structures',
-    focus: 'Synonyms, Conditionals & Workplace Benefits Vocabulary',
-    explanation: 'Learn workplace benefits vocabulary, financial terms, and key grammar structures including "Reported to be", "have yet to", and synonym groups.',
-    explanationVi: 'Học từ vựng phúc lợi nơi làm việc, thuật ngữ tài chính và các cấu trúc ngữ pháp quan trọng bao gồm "Reported to be", "have yet to", và nhóm từ đồng nghĩa.',
+    focus: 'Synonyms, Conditional Structures & Workplace Benefits Vocabulary',
+    explanation: 'Learn workplace benefits vocabulary, financial terms, and key grammar structures including "Reported to be", "have yet to", "however = no matter how", and synonym groups.',
+    explanationVi: 'Học từ vựng phúc lợi nơi làm việc, thuật ngữ tài chính và các cấu trúc ngữ pháp quan trọng bao gồm "Reported to be", "have yet to", "however = no matter how" và nhóm từ đồng nghĩa.',
     storyEn: [
       "The corporation offers dental coverage and a pension plan to all eligible employees.",
-      "The finance minister deducted government grants from college tuition costs.",
-      "Transport officials are reported to be responsive to public feedback.",
-      "The company has yet to recover from the landscaping project delay.",
-      "More and more employees are using bulk purchase discounts to reduce costs.",
-      "The regulation is accessible online; hence, all staff can proceed with enrollment.",
-      "Those entitled to benefits must register due to proximity to the deadline.",
-      "However intense the negotiations, the corporation maintains its fixed policies."
+      "Earlier this morning, the finance minister announced new regulations on college tuition.",
+      "The transport official persuasively presented the landscaping project to the board.",
+      "Employees can undergo training to remain accessible and responsive to clients.",
+      "A bulk purchase discount is available; hence, we should proceed with the bulk order.",
+      "More and more staff have yet to recover their earnings after the deductions.",
+      "The government grant is reported to be accessible to any eligible applicant.",
+      "However intense the negotiations, we will never compromise on regulations.",
+      "No matter how many times we ask, proximity to the office remains a frequent concern.",
+      "Otherwise, the corporation would struggle to maintain its revenue targets."
     ],
     storyVi: [
       "Tập đoàn cung cấp bảo hiểm nha khoa và kế hoạch hưu trí cho tất cả nhân viên đủ điều kiện.",
-      "Bộ trưởng tài chính đã khấu trừ tài trợ của chính phủ khỏi chi phí học phí đại học.",
-      "Các quan chức giao thông được cho là phản hồi nhanh với phản hồi của công chúng.",
-      "Công ty vẫn chưa phục hồi sau sự chậm trễ của dự án thi công sân vườn.",
-      "Ngày càng nhiều nhân viên sử dụng mức giảm giá cho khách hàng mua nhiều để giảm chi phí.",
-      "Quy định có thể truy cập trực tuyến; do đó, tất cả nhân viên có thể tiếp tục đăng ký.",
-      "Những người đủ điều kiện hưởng phúc lợi phải đăng ký do thời hạn gần đến.",
-      "Cho dù cuộc đàm phán có căng thẳng đến đâu, tập đoàn vẫn duy trì chính sách cố định."
+      "Sáng sớm hôm nay, bộ trưởng tài chính đã công bố quy định mới về học phí đại học.",
+      "Quan chức giao thông đã thuyết phục trình bày dự án thi công sân vườn trước hội đồng.",
+      "Nhân viên có thể trải qua đào tạo để duy trì khả năng tiếp cận và phản hồi tốt với khách hàng.",
+      "Mức giảm giá mua nhiều có sẵn; do đó, chúng ta nên tiếp tục với đơn hàng số lượng lớn.",
+      "Ngày càng nhiều nhân viên vẫn chưa lấy lại thu nhập sau các khoản khấu trừ.",
+      "Tài trợ của chính phủ được cho là dễ tiếp cận với bất kỳ người nộp đơn đủ điều kiện nào.",
+      "Cho dù cuộc đàm phán có mãnh liệt đến đâu, chúng tôi sẽ không bao giờ nhượng bộ về quy định.",
+      "Cho dù chúng tôi hỏi bao nhiêu lần, khoảng cách gần với văn phòng vẫn là mối lo ngại thường xuyên.",
+      "Nếu không, tập đoàn sẽ gặp khó khăn để duy trì mục tiêu doanh thu."
     ],
     vocabulary: [
       {
@@ -3003,6 +3007,15 @@ export const LESSONS: GrammarLesson[] = [
         meaningVi: "Kế hoạch hưu trí",
         exampleEn: "She enrolled in the company pension plan on her first day.",
         exampleVi: "Cô ấy đăng ký kế hoạch hưu trí của công ty vào ngày đầu tiên."
+      },
+      {
+        word: "earlier this morning",
+        ipa: "/ˈɜːliə ðɪs ˈmɔːnɪŋ/",
+        form: "phrase",
+        meaningEn: "At some point this morning; same meaning as 'this morning'.",
+        meaningVi: "Sáng sớm hôm nay (= this morning)",
+        exampleEn: "Earlier this morning, the manager called a meeting.",
+        exampleVi: "Sáng sớm hôm nay, người quản lý đã triệu tập một cuộc họp."
       },
       {
         word: "transport official",
@@ -3029,14 +3042,14 @@ export const LESSONS: GrammarLesson[] = [
         meaningEn: "A price reduction offered when buying large quantities.",
         meaningVi: "Mức giảm giá dành cho khách hàng mua nhiều",
         exampleEn: "The supplier offers a bulk purchase discount for orders over 100 units.",
-        exampleVi: "Nhà cung cấp cung cấp mức giảm giá cho khách hàng mua nhiều cho đơn hàng trên 100 đơn vị."
+        exampleVi: "Nhà cung cấp cung cấp mức giảm giá cho đơn hàng trên 100 đơn vị."
       },
       {
         word: "eligible for",
         ipa: "/ˈelɪdʒəbl fɔː/",
         form: "adjective phrase",
-        meaningEn: "Meeting the necessary requirements; qualified for. (= qualified for = entitled to)",
-        meaningVi: "Đủ điều kiện",
+        meaningEn: "Meeting the necessary requirements. (= qualified for = entitled to)",
+        meaningVi: "Đủ điều kiện (= qualified for = entitled to)",
         exampleEn: "Employees with two years of service are eligible for the bonus.",
         exampleVi: "Nhân viên có hai năm thâm niên đủ điều kiện nhận thưởng."
       },
@@ -3045,7 +3058,7 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/dɪˈdʌkt/",
         form: "verb",
         meaningEn: "To subtract an amount from a total. (= subtract)",
-        meaningVi: "Khấu trừ",
+        meaningVi: "Khấu trừ (= subtract)",
         exampleEn: "The company will deduct taxes from your monthly paycheck.",
         exampleVi: "Công ty sẽ khấu trừ thuế từ phiếu lương hàng tháng của bạn."
       },
@@ -3059,11 +3072,29 @@ export const LESSONS: GrammarLesson[] = [
         exampleVi: "Ngày càng nhiều công ty đang áp dụng chính sách làm việc từ xa."
       },
       {
+        word: "undergo",
+        ipa: "/ˌʌndəˈɡəʊ/",
+        form: "verb",
+        meaningEn: "To go through or experience something. (= experience)",
+        meaningVi: "Trải qua (= experience)",
+        exampleEn: "The system will undergo maintenance this weekend.",
+        exampleVi: "Hệ thống sẽ trải qua bảo trì cuối tuần này."
+      },
+      {
+        word: "otherwise",
+        ipa: "/ˈʌðəwaɪz/",
+        form: "adverb",
+        meaningEn: "If not; in a different situation.",
+        meaningVi: "Nếu không thì",
+        exampleEn: "Submit the form today; otherwise, you will miss the deadline.",
+        exampleVi: "Nộp biểu mẫu hôm nay; nếu không bạn sẽ bỏ lỡ thời hạn."
+      },
+      {
         word: "hence",
         ipa: "/hens/",
         form: "adverb",
         meaningEn: "Therefore; for this reason. Used after a semicolon. (= so = therefore)",
-        meaningVi: "Do đó, vì vậy",
+        meaningVi: "Do đó, vì vậy (dùng sau dấu chấm phẩy ; = so = therefore)",
         exampleEn: "The data was unclear; hence, we requested a new report.",
         exampleVi: "Dữ liệu không rõ ràng; do đó, chúng tôi yêu cầu một báo cáo mới."
       },
@@ -3072,9 +3103,18 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/haʊˈevə/",
         form: "conjunction/adverb",
         meaningEn: "No matter how; despite that. (= no matter how)",
-        meaningVi: "Cho dù, tuy nhiên",
+        meaningVi: "Cho dù, dù thế nào (= no matter how)",
         exampleEn: "However difficult the task, we will complete it.",
         exampleVi: "Cho dù nhiệm vụ khó khăn đến đâu, chúng tôi sẽ hoàn thành nó."
+      },
+      {
+        word: "never ... however many times",
+        ipa: "/ˈnevə ... haʊˈevə meni taɪmz/",
+        form: "grammar structure",
+        meaningEn: "No matter how many times something happens, the result does not change.",
+        meaningVi: "Dù bao nhiêu lần... cũng không bao giờ (= no matter how many times)",
+        exampleEn: "Never give up, however many times you fail.",
+        exampleVi: "Đừng bao giờ bỏ cuộc, dù bạn thất bại bao nhiêu lần."
       },
       {
         word: "responsive",
@@ -3135,7 +3175,7 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/ˌreɡjuˈleɪʃn/",
         form: "noun",
         meaningEn: "An official rule or law. (= rule = law)",
-        meaningVi: "Quy định",
+        meaningVi: "Quy định (= rule = law)",
         exampleEn: "All employees must comply with workplace safety regulations.",
         exampleVi: "Tất cả nhân viên phải tuân thủ các quy định an toàn nơi làm việc."
       },
@@ -3144,7 +3184,7 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/ˈɜːnɪŋz/",
         form: "noun",
         meaningEn: "Money received as wages or profit. (= income = revenue)",
-        meaningVi: "Thu nhập, doanh thu",
+        meaningVi: "Thu nhập, doanh thu (= income = revenue)",
         exampleEn: "The company's earnings increased by 15% this quarter.",
         exampleVi: "Thu nhập của công ty tăng 15% trong quý này."
       },
@@ -3170,8 +3210,8 @@ export const LESSONS: GrammarLesson[] = [
         word: "accessible",
         ipa: "/əkˈsesəbl/",
         form: "adjective",
-        meaningEn: "Easy to reach, enter, or use.",
-        meaningVi: "Dễ tiếp cận",
+        meaningEn: "Easy to reach, enter, or use. 'Be accessible' = to be available/reachable.",
+        meaningVi: "Dễ tiếp cận; 'be accessible' = có thể tiếp cận được",
         exampleEn: "The new platform makes financial tools accessible to everyone.",
         exampleVi: "Nền tảng mới giúp các công cụ tài chính dễ tiếp cận với mọi người."
       },
@@ -3188,8 +3228,8 @@ export const LESSONS: GrammarLesson[] = [
         word: "proximity to",
         ipa: "/prɒkˈsɪməti tuː/",
         form: "noun phrase",
-        meaningEn: "Nearness in distance or time.",
-        meaningVi: "Khoảng cách gần",
+        meaningEn: "Nearness in distance or time to something.",
+        meaningVi: "Khoảng cách gần, sự gần gũi",
         exampleEn: "The office's proximity to the train station is convenient.",
         exampleVi: "Vị trí gần ga tàu của văn phòng rất thuận tiện."
       },
@@ -3207,7 +3247,7 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/prəˈsiːd wɪð/",
         form: "verb phrase",
         meaningEn: "To continue with a plan or action. (= continue)",
-        meaningVi: "Tiếp tục",
+        meaningVi: "Tiếp tục (= continue)",
         exampleEn: "We will proceed with the project as planned.",
         exampleVi: "Chúng tôi sẽ tiếp tục dự án như kế hoạch."
       },
@@ -3215,8 +3255,8 @@ export const LESSONS: GrammarLesson[] = [
         word: "Reported to be + adj/N",
         ipa: "/rɪˈpɔːtɪd tuː biː/",
         form: "grammar structure",
-        meaningEn: "Used to indicate something is claimed or said to be true (passive relative clause).",
-        meaningVi: "Được cho là (mệnh đề quan hệ bị động)",
+        meaningEn: "Used to indicate something is claimed or said to be true (passive relative clause structure).",
+        meaningVi: "Được cho là... (cấu trúc mệnh đề quan hệ bị động)",
         exampleEn: "The new system is reported to be highly efficient.",
         exampleVi: "Hệ thống mới được cho là rất hiệu quả."
       }
@@ -3226,14 +3266,14 @@ export const LESSONS: GrammarLesson[] = [
         id: 'e11_1',
         type: 'fill',
         questionEn: "All full-time staff are ____ for dental coverage.",
-        questionVi: "Tất cả nhân viên toàn thời gian ____ bảo hiểm nha khoa.",
+        questionVi: "Tất cả nhân viên toàn thời gian đủ ____ để nhận bảo hiểm nha khoa.",
         correctAnswer: "eligible"
       },
       {
         id: 'e11_2',
         type: 'mcq',
-        questionEn: "The company will ____ insurance premiums from your salary.",
-        questionVi: "Công ty sẽ ____ phí bảo hiểm từ lương của bạn.",
+        questionEn: "The company will ____ taxes from your salary each month.",
+        questionVi: "Công ty sẽ ____ thuế từ lương của bạn mỗi tháng.",
         options: ["deduct", "recover", "proceed"],
         correctAnswer: "deduct"
       },
@@ -3271,7 +3311,7 @@ export const LESSONS: GrammarLesson[] = [
         id: 'e11_7',
         type: 'complete',
         questionEn: "____ difficult the task, we will finish it on time.",
-        questionVi: "____ nhiệm vụ khó khăn đến đâu, chúng tôi sẽ hoàn thành đúng hạn.",
+        questionVi: "____ nhiệm vụ khó đến đâu, chúng tôi sẽ hoàn thành đúng hạn.",
         correctAnswer: "However"
       },
       {
@@ -3284,8 +3324,8 @@ export const LESSONS: GrammarLesson[] = [
       {
         id: 'e11_9',
         type: 'mcq',
-        questionEn: "The supplier offers a ____ discount for orders over 500 units.",
-        questionVi: "Nhà cung cấp cung cấp giảm giá ____ cho đơn hàng trên 500 đơn vị.",
+        questionEn: "The supplier offers a ____ discount for large orders.",
+        questionVi: "Nhà cung cấp cung cấp giảm giá ____ cho đơn hàng lớn.",
         options: ["bulk purchase", "college tuition", "government grant"],
         correctAnswer: "bulk purchase"
       },
@@ -3299,49 +3339,123 @@ export const LESSONS: GrammarLesson[] = [
       {
         id: 'e11_11',
         type: 'fill',
-        questionEn: "The team is ____ to complaints from customers.",
-        questionVi: "Đội nhóm ____ với các khiếu nại từ khách hàng.",
-        correctAnswer: "responsive"
+        questionEn: "The staff must ____ training before using the new software.",
+        questionVi: "Nhân viên phải ____ đào tạo trước khi sử dụng phần mềm mới.",
+        correctAnswer: "undergo"
       },
       {
         id: 'e11_12',
         type: 'mcq',
-        questionEn: "What is a synonym of 'earnings'?",
-        questionVi: "Từ đồng nghĩa với 'earnings' là gì?",
-        options: ["Expense", "Revenue", "Discount"],
-        correctAnswer: "Revenue"
+        questionEn: "Submit the report today; ____, the deadline will be missed.",
+        questionVi: "Nộp báo cáo hôm nay; ____, thời hạn sẽ bị bỏ lỡ.",
+        options: ["otherwise", "hence", "however"],
+        correctAnswer: "otherwise"
       },
       {
         id: 'e11_13',
         type: 'complete',
-        questionEn: "The company has yet ____ recover its losses.",
-        questionVi: "Công ty vẫn chưa ____ lấy lại tổn thất.",
-        correctAnswer: "to"
+        questionEn: "The team is ____ to questions and feedback from clients.",
+        questionVi: "Đội nhóm ____ với các câu hỏi và phản hồi từ khách hàng.",
+        correctAnswer: "responsive"
       },
       {
         id: 'e11_14',
         type: 'fill',
-        questionEn: "We will ____ with the project as originally planned.",
-        questionVi: "Chúng tôi sẽ ____ dự án như kế hoạch ban đầu.",
-        correctAnswer: "proceed"
+        questionEn: "They received a ____ grant to support the training program.",
+        questionVi: "Họ đã nhận được tài trợ ____ để hỗ trợ chương trình đào tạo.",
+        correctAnswer: "government"
       },
       {
         id: 'e11_15',
-        type: 'meaning',
+        type: 'mcq',
         questionEn: "Which word means 'a large company or group of companies'?",
         questionVi: "Từ nào có nghĩa là 'một công ty lớn hoặc tập đoàn'?",
         options: ["Corporation", "Regulation", "Grant"],
         correctAnswer: "Corporation"
+      },
+      {
+        id: 'e11_16',
+        type: 'fill',
+        questionEn: "We will ____ with the plan after receiving approval.",
+        questionVi: "Chúng tôi sẽ ____ với kế hoạch sau khi nhận được phê duyệt.",
+        correctAnswer: "proceed"
+      },
+      {
+        id: 'e11_17',
+        type: 'mcq',
+        questionEn: "'Earnings' is the same as ____.",
+        questionVi: "'Earnings' có nghĩa tương tự là ____.",
+        options: ["Expenses", "Revenue", "Discount"],
+        correctAnswer: "Revenue"
+      },
+      {
+        id: 'e11_18',
+        type: 'complete',
+        questionEn: "The office's ____ to public transport is very convenient.",
+        questionVi: "Vị trí ____ của văn phòng với giao thông công cộng rất thuận tiện.",
+        correctAnswer: "proximity"
+      },
+      {
+        id: 'e11_19',
+        type: 'fill',
+        questionEn: "She ____ argued for a higher budget allocation.",
+        questionVi: "Cô ấy lập luận ____ cho việc phân bổ ngân sách cao hơn.",
+        correctAnswer: "persuasively"
+      },
+      {
+        id: 'e11_20',
+        type: 'mcq',
+        questionEn: "The company has yet ____ recover from last year's losses.",
+        questionVi: "Công ty vẫn chưa ____ phục hồi sau tổn thất năm ngoái.",
+        options: ["to", "for", "with"],
+        correctAnswer: "to"
+      },
+      {
+        id: 'e11_21',
+        type: 'meaning',
+        questionEn: "Which phrase means 'never, regardless of how many times'?",
+        questionVi: "Cụm từ nào có nghĩa là 'không bao giờ, bất kể bao nhiêu lần'?",
+        options: ["Never ... however many times", "More and more", "Have yet to"],
+        correctAnswer: "Never ... however many times"
+      },
+      {
+        id: 'e11_22',
+        type: 'fill',
+        questionEn: "The information is easily ____ on the company website.",
+        questionVi: "Thông tin có thể dễ dàng ____ trên trang web công ty.",
+        correctAnswer: "accessible"
+      },
+      {
+        id: 'e11_23',
+        type: 'complete',
+        questionEn: "The landscaping ____ will be completed by next month.",
+        questionVi: "Dự án thi công sân ____ sẽ hoàn thành vào tháng tới.",
+        correctAnswer: "project"
+      },
+      {
+        id: 'e11_24',
+        type: 'mcq',
+        questionEn: "The ____ minister announced a reduction in college tuition.",
+        questionVi: "Bộ trưởng ____ đã công bố giảm học phí đại học.",
+        options: ["finance", "transport", "regulation"],
+        correctAnswer: "finance"
+      },
+      {
+        id: 'e11_25',
+        type: 'fill',
+        questionEn: "She is a ____ customer who visits the store every week.",
+        questionVi: "Cô ấy là khách hàng ____ lui tới cửa hàng mỗi tuần.",
+        correctAnswer: "frequent"
       }
     ],
     rearrangeExercises: [
       {
-        sentenceEn: "The company offers dental coverage.",
-        sentenceVi: "Công ty cung cấp bảo hiểm nha khoa."
+        sentenceEn: "The company offers dental coverage to eligible staff.",
+        sentenceVi: "Công ty cung cấp bảo hiểm nha khoa cho nhân viên đủ điều kiện."
       },
       {
-        sentenceEn: "She is eligible for the pension plan.",
-        sentenceVi: "Cô ấy đủ điều kiện nhận kế hoạch hưu trí."
+        sentenceEn: "She enrolled in the pension plan on her first day.",
+        sentenceVi: "Cô ấy đăng ký kế hoạch hưu trí vào ngày đầu tiên."
       },
       {
         sentenceEn: "The policy is reported to be effective.",
@@ -3356,12 +3470,12 @@ export const LESSONS: GrammarLesson[] = [
         sentenceVi: "Thuế sẽ được khấu trừ từ thu nhập."
       },
       {
-        sentenceEn: "More and more staff use bulk discounts.",
-        sentenceVi: "Ngày càng nhiều nhân viên sử dụng giảm giá mua nhiều."
+        sentenceEn: "More and more staff use bulk purchase discounts.",
+        sentenceVi: "Ngày càng nhiều nhân viên sử dụng giảm giá mua số lượng lớn."
       },
       {
         sentenceEn: "However intense, the negotiations succeeded.",
-        sentenceVi: "Cho dù căng thẳng, các cuộc đàm phán đã thành công."
+        sentenceVi: "Cho dù căng thẳng đến đâu, các cuộc đàm phán đã thành công."
       },
       {
         sentenceEn: "The data was incomplete; hence, we revised it.",
@@ -3374,42 +3488,62 @@ export const LESSONS: GrammarLesson[] = [
       {
         sentenceEn: "They received a government grant for the project.",
         sentenceVi: "Họ đã nhận được tài trợ của chính phủ cho dự án."
+      },
+      {
+        sentenceEn: "Submit the form; otherwise, you will miss the deadline.",
+        sentenceVi: "Nộp biểu mẫu; nếu không bạn sẽ bỏ lỡ thời hạn."
+      },
+      {
+        sentenceEn: "The staff will undergo training next week.",
+        sentenceVi: "Nhân viên sẽ trải qua đào tạo vào tuần tới."
+      },
+      {
+        sentenceEn: "Never give up, however many times you fail.",
+        sentenceVi: "Đừng bao giờ bỏ cuộc, dù bạn thất bại bao nhiêu lần."
+      },
+      {
+        sentenceEn: "The team is responsive to all client feedback.",
+        sentenceVi: "Đội nhóm phản hồi tốt với mọi phản hồi của khách hàng."
+      },
+      {
+        sentenceEn: "The office's proximity to the station is an advantage.",
+        sentenceVi: "Vị trí gần ga của văn phòng là một lợi thế."
       }
     ]
   },
 
-  {
+ {
     id: 'l12',
-    topic: 'Feb 21: Grammar Structures & General Vocabulary',
-    focus: 'Reduced Relative Clauses, "Those/Whoever" & Travel Vocabulary',
-    explanation: 'Learn reduced relative clauses (N + V3), "Those + V3/adj", "Whoever" structures, and vocabulary related to negotiations, travel, and discovery.',
-    explanationVi: 'Học mệnh đề quan hệ rút gọn (N + V3), cấu trúc "Those + V3/adj", "Whoever" và từ vựng liên quan đến đàm phán, du lịch và khám phá.',
+    topic: 'Feb 21: Reduced Clauses, Grammar Structures & General Vocabulary',
+    focus: 'N + V3 Reduction, Those/Whoever Structures & Travel/Discovery Vocabulary',
+    explanation: 'Learn how to reduce relative clauses (N + that/which are + V3 → N + V3), use "Those + V3/adj" and "Whoever" structures, plus vocabulary about negotiations, discovery, and timing.',
+    explanationVi: 'Học cách rút gọn mệnh đề quan hệ (N + that/which are + V3 → N + V3), sử dụng cấu trúc "Those + V3/adj" và "Whoever", cùng từ vựng về đàm phán, khám phá và thời gian.',
     storyEn: [
-      "Products made from recycled materials are increasingly popular.",
-      "Those approved for the program will receive an email notification.",
-      "Whoever is selected for the role must have strong negotiation skills.",
-      "The attraction discovered last year has great appeal to tourists.",
-      "Ultimately, the tough negotiation was settled after several sessions.",
-      "The upcoming journal will feature articles on intense color trends.",
-      "Construction projects that have been halted will resume in the near future.",
-      "They track data at regular intervals to date back changes in the market."
+      "Products approved by the board will be launched in the near future.",
+      "The upcoming journal features articles about attractions discovered last year.",
+      "Those selected for the program must attend an orientation session.",
+      "Whoever is assigned to the role should settle the tough negotiation quickly.",
+      "The construction project has been halted; ultimately, a new plan was abandoned.",
+      "The appeal of the antique shop dates back to its intense color displays.",
+      "They track market changes at regular intervals to stay up to date.",
+      "N + V3 structure: Documents submitted late will not be accepted."
     ],
     storyVi: [
-      "Các sản phẩm làm từ vật liệu tái chế ngày càng phổ biến.",
-      "Những người được phê duyệt cho chương trình sẽ nhận được thông báo qua email.",
-      "Bất kỳ ai được chọn cho vai trò này phải có kỹ năng đàm phán mạnh.",
-      "Điểm tham quan được phát hiện năm ngoái có sức hấp dẫn lớn đối với khách du lịch.",
-      "Cuối cùng, cuộc đàm phán khó khăn đã được giải quyết sau nhiều buổi.",
-      "Tạp chí sắp tới sẽ có các bài viết về xu hướng màu đậm.",
-      "Các dự án xây dựng đã bị tạm dừng sẽ tiếp tục trong tương lai gần.",
-      "Họ theo dõi dữ liệu đều đặn để truy ngược lại những thay đổi trên thị trường."
+      "Các sản phẩm được hội đồng phê duyệt sẽ được ra mắt trong tương lai gần.",
+      "Tạp chí sắp tới có các bài viết về điểm tham quan được phát hiện năm ngoái.",
+      "Những người được chọn cho chương trình phải tham dự buổi định hướng.",
+      "Bất kỳ ai được phân công vai trò này nên giải quyết cuộc đàm phán khó khăn nhanh chóng.",
+      "Dự án xây dựng đã bị tạm dừng; cuối cùng, một kế hoạch mới đã bị bỏ.",
+      "Sức hấp dẫn của cửa hàng đồ cổ bắt nguồn từ màu sắc đậm đà của các màn trưng bày.",
+      "Họ theo dõi những thay đổi thị trường đều đặn để luôn cập nhật.",
+      "Cấu trúc N + V3: Tài liệu nộp trễ sẽ không được chấp nhận."
     ],
     vocabulary: [
       {
         word: "N + V3 (reduced relative clause)",
-        ipa: "/...",
+        ipa: "/ˌredjuːst ˈrelətɪv klɔːz/",
         form: "grammar structure",
-        meaningEn: "A shortened form of 'N + that/which are + V3'. Used to describe nouns with passive meaning.",
+        meaningEn: "Shortened form of 'N + that/which are + V3'. Also written as 'N + can be made'. Describes nouns with a passive meaning.",
         meaningVi: "Rút gọn của 'N + that/which are + V3'. Dùng để mô tả danh từ với nghĩa bị động.",
         exampleEn: "Products made locally are fresher. (= Products that are made locally)",
         exampleVi: "Sản phẩm làm tại địa phương tươi hơn. (= Sản phẩm được làm tại địa phương)"
@@ -3418,8 +3552,8 @@ export const LESSONS: GrammarLesson[] = [
         word: "journal",
         ipa: "/ˈdʒɜːnl/",
         form: "noun",
-        meaningEn: "A magazine or periodical, especially academic. (= magazine)",
-        meaningVi: "Tạp chí",
+        meaningEn: "A magazine or periodical, especially one focused on a specific subject. (= magazine)",
+        meaningVi: "Tạp chí (= magazine)",
         exampleEn: "She published her research in a scientific journal.",
         exampleVi: "Cô ấy đã công bố nghiên cứu của mình trên một tạp chí khoa học."
       },
@@ -3427,7 +3561,7 @@ export const LESSONS: GrammarLesson[] = [
         word: "in the near future",
         ipa: "/ɪn ðə nɪə ˈfjuːtʃə/",
         form: "phrase",
-        meaningEn: "Very soon; in a short time from now.",
+        meaningEn: "Very soon; within a short time from now.",
         meaningVi: "Trong tương lai gần",
         exampleEn: "We plan to open a new branch in the near future.",
         exampleVi: "Chúng tôi dự định mở một chi nhánh mới trong tương lai gần."
@@ -3446,7 +3580,7 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/hæv bɪn ˈhɔːltɪd/",
         form: "verb phrase (passive perfect)",
         meaningEn: "Have been stopped or paused temporarily.",
-        meaningVi: "Được tạm dừng",
+        meaningVi: "Đã được tạm dừng",
         exampleEn: "Operations have been halted due to safety concerns.",
         exampleVi: "Hoạt động đã được tạm dừng do lo ngại về an toàn."
       },
@@ -3454,8 +3588,8 @@ export const LESSONS: GrammarLesson[] = [
         word: "ultimately",
         ipa: "/ˈʌltɪmətli/",
         form: "adverb",
-        meaningEn: "In the end; after everything else. (= finally)",
-        meaningVi: "Cuối cùng thì",
+        meaningEn: "In the end; finally, after everything else. (= finally)",
+        meaningVi: "Cuối cùng thì (= finally)",
         exampleEn: "Ultimately, the board approved the new strategy.",
         exampleVi: "Cuối cùng thì, hội đồng đã phê duyệt chiến lược mới."
       },
@@ -3463,7 +3597,7 @@ export const LESSONS: GrammarLesson[] = [
         word: "date back to",
         ipa: "/deɪt bæk tuː/",
         form: "verb phrase",
-        meaningEn: "To have originated at a particular time in the past.",
+        meaningEn: "To have originated or existed since a particular time in the past.",
         meaningVi: "Bắt nguồn từ, có từ",
         exampleEn: "This tradition dates back to the 18th century.",
         exampleVi: "Truyền thống này bắt nguồn từ thế kỷ 18."
@@ -3472,7 +3606,7 @@ export const LESSONS: GrammarLesson[] = [
         word: "abandon",
         ipa: "/əˈbændən/",
         form: "verb",
-        meaningEn: "To leave behind or stop continuing with something.",
+        meaningEn: "To leave behind permanently or stop continuing with something.",
         meaningVi: "Bỏ rơi, không tiếp tục nữa",
         exampleEn: "They were forced to abandon the project due to lack of funding.",
         exampleVi: "Họ buộc phải bỏ dự án do thiếu vốn."
@@ -3499,8 +3633,8 @@ export const LESSONS: GrammarLesson[] = [
         word: "appeal",
         ipa: "/əˈpiːl/",
         form: "noun/verb",
-        meaningEn: "(n) The quality of being attractive or interesting. (v) To attract or interest.",
-        meaningVi: "(n) Sự hấp dẫn, (v) sức hút",
+        meaningEn: "(n) The quality of being attractive or interesting. (v) To attract or interest someone.",
+        meaningVi: "(n) Sự hấp dẫn, (v) sức hút, thu hút",
         exampleEn: "The destination's appeal lies in its natural beauty.",
         exampleVi: "Sức hấp dẫn của điểm đến nằm ở vẻ đẹp thiên nhiên."
       },
@@ -3508,17 +3642,17 @@ export const LESSONS: GrammarLesson[] = [
         word: "Those + V3/adj",
         ipa: "/ðəʊz/",
         form: "grammar structure",
-        meaningEn: "Shortened form of 'Those who are + V3/adj'. Refers to people who meet a condition.",
+        meaningEn: "Shortened form of 'Those who are + V3/adj'. Refers to people who meet a certain condition.",
         meaningVi: "Rút gọn của 'Those who are + V3/adj'. Những người mà...",
         exampleEn: "Those interested in the role should apply by Friday.",
         exampleVi: "Những người quan tâm đến vị trí này nên nộp đơn trước thứ Sáu."
       },
       {
-        word: "Whoever + S + V",
+        word: "Whoever + S + V / Whoever is V3",
         ipa: "/huːˈevə/",
         form: "grammar structure",
-        meaningEn: "Any person who; the person that (used for unknown subjects).",
-        meaningVi: "Bất kỳ ai, người mà",
+        meaningEn: "Any person who; the person that. Used when the subject is unknown.",
+        meaningVi: "Bất kỳ ai, người mà (dùng khi chủ thể chưa xác định)",
         exampleEn: "Whoever finishes first will receive a reward.",
         exampleVi: "Bất kỳ ai hoàn thành trước sẽ nhận được phần thưởng."
       },
@@ -3526,7 +3660,7 @@ export const LESSONS: GrammarLesson[] = [
         word: "tough negotiation",
         ipa: "/tʌf nɪˌɡəʊʃiˈeɪʃn/",
         form: "noun phrase",
-        meaningEn: "A difficult discussion to reach an agreement.",
+        meaningEn: "A difficult and demanding discussion aimed at reaching an agreement.",
         meaningVi: "Cuộc đàm phán khó khăn",
         exampleEn: "After tough negotiations, both sides reached a deal.",
         exampleVi: "Sau cuộc đàm phán khó khăn, cả hai bên đã đạt được thỏa thuận."
@@ -3535,7 +3669,7 @@ export const LESSONS: GrammarLesson[] = [
         word: "settle",
         ipa: "/ˈsetl/",
         form: "verb",
-        meaningEn: "To resolve a dispute or reach a final decision.",
+        meaningEn: "To resolve a dispute or argument; to reach a final decision.",
         meaningVi: "Giải quyết, dàn xếp",
         exampleEn: "The two companies settled their dispute out of court.",
         exampleVi: "Hai công ty đã giải quyết tranh chấp ngoài tòa án."
@@ -3544,7 +3678,7 @@ export const LESSONS: GrammarLesson[] = [
         word: "intense color",
         ipa: "/ɪnˈtens ˈkʌlə/",
         form: "noun phrase",
-        meaningEn: "A very deep, rich, or strong color.",
+        meaningEn: "A very deep, rich, or strongly saturated color.",
         meaningVi: "Màu đậm",
         exampleEn: "The designer used intense colors to make the logo stand out.",
         exampleVi: "Nhà thiết kế sử dụng màu đậm để làm logo nổi bật."
@@ -3554,7 +3688,7 @@ export const LESSONS: GrammarLesson[] = [
         ipa: "/æt ˈreɡjələ ˈɪntəvlz/",
         form: "phrase",
         meaningEn: "Happening repeatedly at equal or consistent periods of time.",
-        meaningVi: "Đều đặn",
+        meaningVi: "Đều đặn, theo chu kỳ đều",
         exampleEn: "The system backs up data at regular intervals.",
         exampleVi: "Hệ thống sao lưu dữ liệu đều đặn."
       }
@@ -3563,23 +3697,23 @@ export const LESSONS: GrammarLesson[] = [
       {
         id: 'e12_1',
         type: 'fill',
-        questionEn: "Products ____ (make) locally are often fresher.",
-        questionVi: "Các sản phẩm ____ tại địa phương thường tươi hơn.",
-        correctAnswer: "made"
+        questionEn: "Products ____ (approve) by the board will be launched next month.",
+        questionVi: "Các sản phẩm ____ bởi hội đồng sẽ được ra mắt vào tháng tới.",
+        correctAnswer: "approved"
       },
       {
         id: 'e12_2',
         type: 'mcq',
-        questionEn: "____  selected for the role must attend an orientation.",
-        questionVi: "____ được chọn cho vai trò này phải tham dự buổi định hướng.",
+        questionEn: "____ selected for the program will receive an email.",
+        questionVi: "____ được chọn cho chương trình sẽ nhận được email.",
         options: ["Those", "Whoever is", "Both are correct"],
         correctAnswer: "Both are correct"
       },
       {
         id: 'e12_3',
         type: 'complete',
-        questionEn: "The project dates back ____ the early 1990s.",
-        questionVi: "Dự án bắt nguồn ____ những năm 1990.",
+        questionEn: "The tradition dates back ____ the early 1900s.",
+        questionVi: "Truyền thống bắt nguồn ____ những năm 1900.",
         correctAnswer: "to"
       },
       {
@@ -3615,8 +3749,8 @@ export const LESSONS: GrammarLesson[] = [
       {
         id: 'e12_8',
         type: 'fill',
-        questionEn: "____ applies first will be considered for the position.",
-        questionVi: "____ nộp đơn trước sẽ được xem xét cho vị trí.",
+        questionEn: "____ submits the best proposal will win the contract.",
+        questionVi: "____ nộp đề xuất tốt nhất sẽ thắng hợp đồng.",
         correctAnswer: "Whoever"
       },
       {
@@ -3670,6 +3804,21 @@ export const LESSONS: GrammarLesson[] = [
         questionVi: "Cụm từ nào có nghĩa là 'sắp xảy ra'?",
         options: ["Upcoming", "Ongoing", "Previous"],
         correctAnswer: "Upcoming"
+      },
+      {
+        id: 'e12_16',
+        type: 'fill',
+        questionEn: "The designer used ____ colors to make the display stand out.",
+        questionVi: "Nhà thiết kế sử dụng màu ____ để làm màn trưng bày nổi bật.",
+        correctAnswer: "intense"
+      },
+      {
+        id: 'e12_17',
+        type: 'mcq',
+        questionEn: "Researchers ____ a new treatment for the disease.",
+        questionVi: "Các nhà nghiên cứu đã ____ ra một phương pháp điều trị mới.",
+        options: ["discovered", "abandoned", "halted"],
+        correctAnswer: "discovered"
       }
     ],
     rearrangeExercises: [
@@ -3678,8 +3827,8 @@ export const LESSONS: GrammarLesson[] = [
         sentenceVi: "Tài liệu nộp trễ sẽ không được chấp nhận."
       },
       {
-        sentenceEn: "Those approved will receive an email.",
-        sentenceVi: "Những người được phê duyệt sẽ nhận được email."
+        sentenceEn: "Those approved will receive an email notification.",
+        sentenceVi: "Những người được phê duyệt sẽ nhận được thông báo qua email."
       },
       {
         sentenceEn: "Whoever is selected must attend training.",
@@ -3702,16 +3851,24 @@ export const LESSONS: GrammarLesson[] = [
         sentenceVi: "Chúng tôi xuất bản báo cáo đều đặn."
       },
       {
-        sentenceEn: "The upcoming event will attract many visitors.",
-        sentenceVi: "Sự kiện sắp tới sẽ thu hút nhiều khách tham quan."
+        sentenceEn: "The upcoming journal will be released next week.",
+        sentenceVi: "Tạp chí sắp tới sẽ được phát hành vào tuần tới."
       },
       {
-        sentenceEn: "The museum's appeal is its history.",
-        sentenceVi: "Sức hấp dẫn của bảo tàng là lịch sử của nó."
+        sentenceEn: "The museum's appeal is its rich history.",
+        sentenceVi: "Sức hấp dẫn của bảo tàng là lịch sử phong phú."
       },
       {
         sentenceEn: "They abandoned the project last year.",
         sentenceVi: "Họ đã bỏ dự án năm ngoái."
+      },
+      {
+        sentenceEn: "Researchers discovered a new attraction near the city.",
+        sentenceVi: "Các nhà nghiên cứu đã phát hiện một điểm tham quan mới gần thành phố."
+      },
+      {
+        sentenceEn: "The designer used intense colors throughout the display.",
+        sentenceVi: "Nhà thiết kế sử dụng màu đậm trong suốt màn trưng bày."
       }
     ]
   },
@@ -4701,6 +4858,738 @@ export const LESSONS: GrammarLesson[] = [
       {
         sentenceEn: "Submit travel expenses for reimbursement.",
         sentenceVi: "Nộp chi phí đi lại để được hoàn trả."
+      }
+    ]
+  },
+  {
+    id: 'l13',
+    topic: 'Feb 22: Advanced Grammar Connectors & Business Operations',
+    focus: '"After/During/Before which", Synonyms & Professional Vocabulary',
+    explanation: 'Learn advanced relative connectors (after which, during which, before which, in/on/at which), key synonym groups, and professional business vocabulary.',
+    explanationVi: 'Học các liên từ quan hệ nâng cao (after which, during which, before which, in/on/at which), nhóm từ đồng nghĩa quan trọng và từ vựng kinh doanh chuyên nghiệp.',
+    storyEn: [
+      "The board of directors held a meeting, after which they approved the contract.",
+      "There was a workshop, during which staff discussed the manufacturing system.",
+      "They reviewed the inventory before which the approval had been granted.",
+      "The antique shop was inspected, at which point a suspicious email was discovered.",
+      "The manager sought to actively solicit feedback and move the ongoing project forward.",
+      "Diligent staff work precisely and with certainty to locate underground minerals.",
+      "They used a fixed price assurance rather than a variable model to compensate for lumber costs.",
+      "The remaining inventory would not be sufficient; hence, they used a bulk purchase strategy.",
+      "Both plans were presented, but neither was met with opposition from the diagnostic team.",
+      "Cash register data and OTC medication sales were tracked extensively across all outlets."
+    ],
+    storyVi: [
+      "Hội đồng quản trị đã họp, sau đó họ phê duyệt hợp đồng.",
+      "Có một hội thảo, trong đó nhân viên thảo luận về hệ thống sản xuất.",
+      "Họ đã xem xét hàng tồn kho trước khi sự phê duyệt được cấp.",
+      "Cửa hàng đồ cổ đã được kiểm tra, lúc đó một email đáng ngờ được phát hiện.",
+      "Người quản lý tìm cách chủ động kêu gọi phản hồi và tiến lên với dự án đang diễn ra.",
+      "Nhân viên chăm chỉ làm việc chính xác và chắc chắn để xác định vị trí khoáng sản.",
+      "Họ sử dụng cam kết giá cố định thay vì mô hình biến đổi để bù đắp chi phí gỗ.",
+      "Hàng tồn kho còn lại sẽ không đủ; do đó, họ sử dụng chiến lược mua số lượng lớn.",
+      "Cả hai kế hoạch được trình bày, nhưng không có kế hoạch nào gặp phải sự phản đối từ nhóm chẩn đoán.",
+      "Dữ liệu máy tính tiền và doanh số thuốc không kê toa được theo dõi sâu rộng trên tất cả các cửa hàng."
+    ],
+    vocabulary: [
+      {
+        word: "after which",
+        ipa: "/ˈɑːftə wɪtʃ/",
+        form: "phrase",
+        meaningEn: "Following that event; 'which' replaces the entire preceding clause.",
+        meaningVi: "Sau đó thì; 'which' thay thế cho cả mệnh đề phía trước",
+        exampleEn: "We completed the audit, after which we submitted the report.",
+        exampleVi: "Chúng tôi hoàn thành kiểm toán, sau đó nộp báo cáo."
+      },
+      {
+        word: "before which",
+        ipa: "/bɪˈfɔː wɪtʃ/",
+        form: "phrase",
+        meaningEn: "Prior to that event; 'which' replaces the entire preceding clause.",
+        meaningVi: "Trước đó; 'which' thay thế cho cả mệnh đề phía trước",
+        exampleEn: "We reviewed the data before which the contract was signed.",
+        exampleVi: "Chúng tôi đã xem xét dữ liệu trước khi hợp đồng được ký."
+      },
+      {
+        word: "during which",
+        ipa: "/ˈdjʊərɪŋ wɪtʃ/",
+        form: "phrase",
+        meaningEn: "Throughout the period of the event previously mentioned.",
+        meaningVi: "Trong suốt thời gian đó",
+        exampleEn: "We held a workshop, during which employees shared ideas.",
+        exampleVi: "Chúng tôi tổ chức hội thảo, trong đó nhân viên chia sẻ ý tưởng."
+      },
+      {
+        word: "in/on/at which",
+        ipa: "/ɪn/ɒn/æt wɪtʃ/",
+        form: "phrase",
+        meaningEn: "Used to refer back to a time, place, or moment; 'at/in/on that point/time/place'.",
+        meaningVi: "Khi đó, lúc đó, tại đó",
+        exampleEn: "The approval was granted, at which point we began work.",
+        exampleVi: "Sự phê duyệt được cấp, lúc đó chúng tôi bắt đầu công việc."
+      },
+      {
+        word: "the last",
+        ipa: "/ðə lɑːst/",
+        form: "adjective",
+        meaningEn: "The final one in a series or sequence.",
+        meaningVi: "Cuối cùng (trong chuỗi)",
+        exampleEn: "He was the last person to leave the office.",
+        exampleVi: "Anh ấy là người cuối cùng rời văn phòng."
+      },
+      {
+        word: "the latest",
+        ipa: "/ðə ˈleɪtɪst/",
+        form: "adjective",
+        meaningEn: "The most recent or newest. (≠ 'the last' = the final one)",
+        meaningVi: "Mới nhất, gần đây nhất (≠ 'the last' = cuối cùng)",
+        exampleEn: "Have you seen the latest report on sales figures?",
+        exampleVi: "Bạn đã xem báo cáo mới nhất về doanh số chưa?"
+      },
+      {
+        word: "antique shop",
+        ipa: "/ænˈtiːk ʃɒp/",
+        form: "noun phrase",
+        meaningEn: "A store that sells old, collectible, or historically valuable items.",
+        meaningVi: "Cửa hàng đồ cổ",
+        exampleEn: "She found a rare vase at the antique shop.",
+        exampleVi: "Cô ấy tìm thấy một chiếc bình hiếm tại cửa hàng đồ cổ."
+      },
+      {
+        word: "ongoing project",
+        ipa: "/ˈɒnɡəʊɪŋ ˈprɒdʒekt/",
+        form: "noun phrase",
+        meaningEn: "A project that is currently in progress and not yet finished.",
+        meaningVi: "Dự án đang diễn ra",
+        exampleEn: "The ongoing project requires daily status updates.",
+        exampleVi: "Dự án đang diễn ra yêu cầu cập nhật trạng thái hàng ngày."
+      },
+      {
+        word: "as a result of",
+        ipa: "/æz ə rɪˈzʌlt ɒv/",
+        form: "phrase",
+        meaningEn: "Because of; due to something.",
+        meaningVi: "Vì, do, là kết quả của",
+        exampleEn: "As a result of the merger, 200 new jobs were created.",
+        exampleVi: "Do việc sáp nhập, 200 việc làm mới đã được tạo ra."
+      },
+      {
+        word: "suspicious email",
+        ipa: "/səˈspɪʃəs ˈiːmeɪl/",
+        form: "noun phrase",
+        meaningEn: "An email that appears fraudulent or potentially harmful. (= scam email)",
+        meaningVi: "Email đáng ngờ (= scam email)",
+        exampleEn: "Do not click on links in suspicious emails.",
+        exampleVi: "Đừng nhấp vào các liên kết trong email đáng ngờ."
+      },
+      {
+        word: "leave for",
+        ipa: "/liːv fɔː/",
+        form: "verb phrase",
+        meaningEn: "To depart in order to go to a particular place.",
+        meaningVi: "Rời đi để đến nơi nào đó",
+        exampleEn: "She will leave for the conference tomorrow morning.",
+        exampleVi: "Cô ấy sẽ rời đi để đến hội nghị vào sáng mai."
+      },
+      {
+        word: "oversee",
+        ipa: "/ˌəʊvəˈsiː/",
+        form: "verb",
+        meaningEn: "To supervise and manage. (= supervise = monitor)",
+        meaningVi: "Giám sát, trông coi (= supervise = monitor)",
+        exampleEn: "She was hired to oversee the entire production process.",
+        exampleVi: "Cô ấy được tuyển dụng để giám sát toàn bộ quy trình sản xuất."
+      },
+      {
+        word: "vary",
+        ipa: "/ˈveəri/",
+        form: "verb",
+        meaningEn: "To make or become different; to add variety.",
+        meaningVi: "Làm đa dạng, thay đổi",
+        exampleEn: "The prices vary depending on the season.",
+        exampleVi: "Giá cả thay đổi tùy theo mùa."
+      },
+      {
+        word: "over-the-counter medication (OTC)",
+        ipa: "/ˌəʊvə ðə ˈkaʊntə ˌmedɪˈkeɪʃn/",
+        form: "noun phrase",
+        meaningEn: "Medicine that can be purchased without a doctor's prescription.",
+        meaningVi: "Thuốc không cần kê toa",
+        exampleEn: "Aspirin is an over-the-counter medication.",
+        exampleVi: "Aspirin là thuốc không cần kê toa."
+      },
+      {
+        word: "seek",
+        ipa: "/siːk/",
+        form: "verb",
+        meaningEn: "To look for or try to obtain or achieve something.",
+        meaningVi: "Tìm kiếm, cố gắng đạt được",
+        exampleEn: "They seek to improve customer satisfaction every quarter.",
+        exampleVi: "Họ cố gắng cải thiện sự hài lòng của khách hàng mỗi quý."
+      },
+      {
+        word: "cash register",
+        ipa: "/kæʃ ˈredʒɪstə/",
+        form: "noun phrase",
+        meaningEn: "A machine used in stores to calculate and record sales transactions.",
+        meaningVi: "Máy tính tiền",
+        exampleEn: "The cashier processed the payment at the cash register.",
+        exampleVi: "Thu ngân đã xử lý thanh toán tại máy tính tiền."
+      },
+      {
+        word: "remaining inventory",
+        ipa: "/rɪˈmeɪnɪŋ ˈɪnvəntri/",
+        form: "noun phrase",
+        meaningEn: "Stock or goods that are still available or left over.",
+        meaningVi: "Hàng tồn kho còn lại",
+        exampleEn: "We need to sell the remaining inventory before year end.",
+        exampleVi: "Chúng tôi cần bán hết hàng tồn kho còn lại trước cuối năm."
+      },
+      {
+        word: "precisely",
+        ipa: "/prɪˈsaɪsli/",
+        form: "adverb",
+        meaningEn: "Exactly; with complete accuracy. (= exactly = accurately)",
+        meaningVi: "Chính xác (= exactly = accurately)",
+        exampleEn: "Follow the instructions precisely.",
+        exampleVi: "Làm theo hướng dẫn một cách chính xác."
+      },
+      {
+        word: "infinitely",
+        ipa: "/ˈɪnfɪnətli/",
+        form: "adverb",
+        meaningEn: "To an unlimited degree; extremely. (= extremely)",
+        meaningVi: "Vô hạn, cực kỳ (= extremely)",
+        exampleEn: "This approach is infinitely better than the previous one.",
+        exampleVi: "Cách tiếp cận này cực kỳ tốt hơn so với cách trước đó."
+      },
+      {
+        word: "locate underground minerals",
+        ipa: "/ləʊˈkeɪt ˌʌndəˈɡraʊnd ˈmɪnərəlz/",
+        form: "verb phrase",
+        meaningEn: "To identify and find the position of minerals beneath the earth's surface.",
+        meaningVi: "Xác định vị trí khoáng sản dưới lòng đất",
+        exampleEn: "The team used advanced tools to locate underground minerals.",
+        exampleVi: "Đội đã sử dụng các công cụ tiên tiến để xác định vị trí khoáng sản."
+      },
+      {
+        word: "would not be + adj/N",
+        ipa: "/wʊd nɒt biː/",
+        form: "grammar structure",
+        meaningEn: "Used to express a hypothetical negative state or condition.",
+        meaningVi: "Sẽ không là... (cấu trúc giả định phủ định)",
+        exampleEn: "This would not be possible without your support.",
+        exampleVi: "Điều này sẽ không thể thực hiện được nếu không có sự hỗ trợ của bạn."
+      },
+      {
+        word: "with certainty",
+        ipa: "/wɪð ˈsɜːtnti/",
+        form: "phrase",
+        meaningEn: "Without doubt; in a definite and sure manner.",
+        meaningVi: "Một cách chắc chắn",
+        exampleEn: "We cannot say with certainty when the project will end.",
+        exampleVi: "Chúng tôi không thể nói một cách chắc chắn khi nào dự án sẽ kết thúc."
+      },
+      {
+        word: "solicit",
+        ipa: "/səˈlɪsɪt/",
+        form: "verb",
+        meaningEn: "To ask for or try to obtain something. (= ask for = request = seek)",
+        meaningVi: "Kêu gọi, vận động (= ask for = request = seek)",
+        exampleEn: "The company solicits feedback from all customers.",
+        exampleVi: "Công ty kêu gọi phản hồi từ tất cả khách hàng."
+      },
+      {
+        word: "actively solicit",
+        ipa: "/ˈæktɪvli səˈlɪsɪt/",
+        form: "verb phrase",
+        meaningEn: "To proactively and energetically seek input or responses.",
+        meaningVi: "Chủ động, tích cực kêu gọi",
+        exampleEn: "Managers actively solicit ideas from their teams.",
+        exampleVi: "Các quản lý chủ động kêu gọi ý tưởng từ nhóm của họ."
+      },
+      {
+        word: "intend to",
+        ipa: "/ɪnˈtend tuː/",
+        form: "verb phrase",
+        meaningEn: "To plan or mean to do something. (= plan to)",
+        meaningVi: "Dự định, có ý định (= plan to)",
+        exampleEn: "We intend to launch the product next quarter.",
+        exampleVi: "Chúng tôi dự định ra mắt sản phẩm vào quý tới."
+      },
+      {
+        word: "be intended to",
+        ipa: "/bi ɪnˈtendɪd tuː/",
+        form: "phrase (passive)",
+        meaningEn: "To be designed or meant for a specific purpose.",
+        meaningVi: "Được thiết kế, được dự định để",
+        exampleEn: "This feature is intended to improve user experience.",
+        exampleVi: "Tính năng này được thiết kế để cải thiện trải nghiệm người dùng."
+      },
+      {
+        word: "absorb",
+        ipa: "/əbˈzɔːb/",
+        form: "verb",
+        meaningEn: "To take in or soak up (water, heat, ideas, costs).",
+        meaningVi: "Hấp thụ (nước, nhiệt, ý tưởng, chi phí)",
+        exampleEn: "New staff quickly absorb the company culture.",
+        exampleVi: "Nhân viên mới nhanh chóng hấp thụ văn hóa công ty."
+      },
+      {
+        word: "manufacturing system",
+        ipa: "/ˌmænjʊˈfæktʃərɪŋ ˈsɪstəm/",
+        form: "noun phrase",
+        meaningEn: "The processes and equipment used to produce goods in a factory.",
+        meaningVi: "Hệ thống sản xuất",
+        exampleEn: "The new manufacturing system reduced production time by 30%.",
+        exampleVi: "Hệ thống sản xuất mới đã giảm thời gian sản xuất 30%."
+      },
+      {
+        word: "board of directors",
+        ipa: "/bɔːd ɒv dɪˈrektəz/",
+        form: "noun phrase",
+        meaningEn: "The group of people elected to govern and oversee a company.",
+        meaningVi: "Hội đồng quản trị",
+        exampleEn: "The board of directors meets quarterly to review performance.",
+        exampleVi: "Hội đồng quản trị họp hàng quý để xem xét hiệu suất."
+      },
+      {
+        word: "his role in",
+        ipa: "/hɪz rəʊl ɪn/",
+        form: "noun phrase",
+        meaningEn: "The function or position a person holds within an activity or organization.",
+        meaningVi: "Vai trò của anh ấy trong (việc/tổ chức)",
+        exampleEn: "His role in the project was to oversee quality control.",
+        exampleVi: "Vai trò của anh ấy trong dự án là giám sát kiểm soát chất lượng."
+      },
+      {
+        word: "approval",
+        ipa: "/əˈpruːvl/",
+        form: "noun",
+        meaningEn: "Official agreement or permission; a positive decision.",
+        meaningVi: "Sự đồng ý, sự phê duyệt",
+        exampleEn: "The project received approval from the board last week.",
+        exampleVi: "Dự án đã nhận được sự phê duyệt từ hội đồng tuần trước."
+      },
+      {
+        word: "move forward",
+        ipa: "/muːv ˈfɔːwəd/",
+        form: "verb phrase",
+        meaningEn: "To progress or advance; to continue with a plan.",
+        meaningVi: "Tiến lên, tiếp tục tiến",
+        exampleEn: "Once approved, we can move forward with the plan.",
+        exampleVi: "Sau khi được phê duyệt, chúng tôi có thể tiến lên với kế hoạch."
+      },
+      {
+        word: "compensate for",
+        ipa: "/ˈkɒmpenseɪt fɔː/",
+        form: "verb phrase",
+        meaningEn: "To make up for something; to offset a loss or disadvantage.",
+        meaningVi: "Bù đắp cho",
+        exampleEn: "The bonus will compensate for the overtime hours worked.",
+        exampleVi: "Tiền thưởng sẽ bù đắp cho những giờ làm thêm."
+      },
+      {
+        word: "a little",
+        ipa: "/ə ˈlɪtl/",
+        form: "quantifier",
+        meaningEn: "A small amount; some (positive meaning — there IS some).",
+        meaningVi: "Có một chút (mang nghĩa tích cực — có một ít)",
+        exampleEn: "There is a little time left before the meeting.",
+        exampleVi: "Còn một chút thời gian trước cuộc họp."
+      },
+      {
+        word: "little",
+        ipa: "/ˈlɪtl/",
+        form: "quantifier",
+        meaningEn: "Very small amount; almost none (negative meaning — barely any).",
+        meaningVi: "Rất ít, hầu như không, thiếu hụt (mang nghĩa tiêu cực)",
+        exampleEn: "There is little time left; we must hurry.",
+        exampleVi: "Còn rất ít thời gian; chúng ta phải nhanh lên."
+      },
+      {
+        word: "accumulate",
+        ipa: "/əˈkjuːmjəleɪt/",
+        form: "verb",
+        meaningEn: "To gradually gather or collect something over time.",
+        meaningVi: "Tích lũy",
+        exampleEn: "She accumulated years of experience in the industry.",
+        exampleVi: "Cô ấy đã tích lũy nhiều năm kinh nghiệm trong ngành."
+      },
+      {
+        word: "both ... but neither",
+        ipa: "/bəʊθ ... bʌt ˈnaɪðə/",
+        form: "grammar structure",
+        meaningEn: "Used to indicate two options exist but neither of them applies/qualifies.",
+        meaningVi: "Cả hai... nhưng không ai được / không cái nào được",
+        exampleEn: "Both plans were presented, but neither was approved.",
+        exampleVi: "Cả hai kế hoạch được trình bày, nhưng không có kế hoạch nào được phê duyệt."
+      },
+      {
+        word: "contact",
+        ipa: "/ˈkɒntækt/",
+        form: "verb/noun",
+        meaningEn: "(v) To communicate with someone. (n) A person you know professionally.",
+        meaningVi: "Liên hệ; mối liên lạc",
+        exampleEn: "Please contact us if you have any questions.",
+        exampleVi: "Vui lòng liên hệ với chúng tôi nếu bạn có câu hỏi."
+      },
+      {
+        word: "contract",
+        ipa: "/ˈkɒntrækt/",
+        form: "noun",
+        meaningEn: "A formal written agreement between parties. (= agreement)",
+        meaningVi: "Hợp đồng (= agreement)",
+        exampleEn: "Both parties signed the contract yesterday.",
+        exampleVi: "Cả hai bên đã ký hợp đồng hôm qua."
+      },
+      {
+        word: "parking restriction",
+        ipa: "/ˈpɑːkɪŋ rɪˈstrɪkʃn/",
+        form: "noun phrase",
+        meaningEn: "A rule that limits or prohibits parking in a certain area.",
+        meaningVi: "Quy định đỗ xe",
+        exampleEn: "New parking restrictions were introduced in the city center.",
+        exampleVi: "Các quy định đỗ xe mới được áp dụng ở trung tâm thành phố."
+      },
+      {
+        word: "be met with opposition",
+        ipa: "/bi met wɪð ˌɒpəˈzɪʃn/",
+        form: "phrase",
+        meaningEn: "To encounter resistance, disagreement, or objection.",
+        meaningVi: "Gặp phải sự phản đối",
+        exampleEn: "The new parking restrictions were met with strong opposition.",
+        exampleVi: "Các quy định đỗ xe mới đã gặp phải sự phản đối mạnh mẽ."
+      },
+      {
+        word: "extensive",
+        ipa: "/ɪkˈstensɪv/",
+        form: "adjective",
+        meaningEn: "Covering a large area or range; thorough and wide-ranging.",
+        meaningVi: "Sâu rộng, phong phú",
+        exampleEn: "She has extensive experience in project management.",
+        exampleVi: "Cô ấy có kinh nghiệm sâu rộng trong quản lý dự án."
+      },
+      {
+        word: "diligent",
+        ipa: "/ˈdɪlɪdʒənt/",
+        form: "adjective",
+        meaningEn: "Showing care and consistent effort in work. (= hardworking)",
+        meaningVi: "Chăm chỉ, siêng năng (= hardworking)",
+        exampleEn: "She is a diligent worker who always meets deadlines.",
+        exampleVi: "Cô ấy là nhân viên chăm chỉ luôn đáp ứng thời hạn."
+      },
+      {
+        word: "fixed price assurance",
+        ipa: "/fɪkst praɪs əˈʃʊərəns/",
+        form: "noun phrase",
+        meaningEn: "A guarantee that the price agreed upon will not change.",
+        meaningVi: "Cam kết giá cố định",
+        exampleEn: "The contractor offered a fixed price assurance for the renovation.",
+        exampleVi: "Nhà thầu cung cấp cam kết giá cố định cho việc cải tạo."
+      },
+      {
+        word: "rather than",
+        ipa: "/ˈrɑːðə ðæn/",
+        form: "phrase",
+        meaningEn: "Instead of; used to show preference for one thing over another.",
+        meaningVi: "Chứ không phải, thay vì",
+        exampleEn: "We chose quality rather than quantity.",
+        exampleVi: "Chúng tôi chọn chất lượng chứ không phải số lượng."
+      },
+      {
+        word: "inventory",
+        ipa: "/ˈɪnvəntri/",
+        form: "noun",
+        meaningEn: "All goods or stock held by a business.",
+        meaningVi: "Hàng hóa, hàng tồn kho",
+        exampleEn: "We conduct a full inventory check every quarter.",
+        exampleVi: "Chúng tôi kiểm tra toàn bộ hàng tồn kho mỗi quý."
+      },
+      {
+        word: "lumber",
+        ipa: "/ˈlʌmbə/",
+        form: "noun",
+        meaningEn: "Timber or wood that has been cut and prepared for use in building.",
+        meaningVi: "Gỗ xẻ",
+        exampleEn: "They ordered lumber for the new construction project.",
+        exampleVi: "Họ đặt gỗ xẻ cho dự án xây dựng mới."
+      },
+      {
+        word: "diagnostic",
+        ipa: "/ˌdaɪəɡˈnɒstɪk/",
+        form: "adjective",
+        meaningEn: "Relating to the process of identifying a problem or disease.",
+        meaningVi: "Mang tính chẩn đoán",
+        exampleEn: "The doctor ordered diagnostic tests.",
+        exampleVi: "Bác sĩ đã yêu cầu các xét nghiệm chẩn đoán."
+      },
+      {
+        word: "diagnosable",
+        ipa: "/ˌdaɪəɡˈnəʊzəbl/",
+        form: "adjective",
+        meaningEn: "Able to be identified or diagnosed.",
+        meaningVi: "Có thể chẩn đoán được",
+        exampleEn: "The condition is diagnosable through a simple blood test.",
+        exampleVi: "Tình trạng có thể chẩn đoán được thông qua xét nghiệm máu đơn giản."
+      },
+      {
+        word: "diagnosed",
+        ipa: "/ˌdaɪəɡˈnəʊzd/",
+        form: "verb (V3/past participle)",
+        meaningEn: "Identified as having a particular condition or problem.",
+        meaningVi: "Đã được chẩn đoán",
+        exampleEn: "She was diagnosed with the condition last year.",
+        exampleVi: "Cô ấy đã được chẩn đoán mắc bệnh vào năm ngoái."
+      }
+    ],
+    exercises: [
+      {
+        id: 'e13_1',
+        type: 'fill',
+        questionEn: "We had a meeting, ____ which we finalized the contract.",
+        questionVi: "Chúng tôi đã họp, ____ đó chúng tôi hoàn thiện hợp đồng.",
+        correctAnswer: "after"
+      },
+      {
+        id: 'e13_2',
+        type: 'mcq',
+        questionEn: "She was appointed to ____ the entire project.",
+        questionVi: "Cô ấy được bổ nhiệm để ____ toàn bộ dự án.",
+        options: ["oversee", "absorb", "solicit"],
+        correctAnswer: "oversee"
+      },
+      {
+        id: 'e13_3',
+        type: 'complete',
+        questionEn: "The system is ____ to process large volumes of data.",
+        questionVi: "Hệ thống được ____ để xử lý khối lượng dữ liệu lớn.",
+        correctAnswer: "intended"
+      },
+      {
+        id: 'e13_4',
+        type: 'meaning',
+        questionEn: "What is the difference between 'a little' and 'little'?",
+        questionVi: "Sự khác biệt giữa 'a little' và 'little' là gì?",
+        options: ["No difference", "'a little' is positive (some), 'little' is negative (almost none)", "'little' means more than 'a little'"],
+        correctAnswer: "'a little' is positive (some), 'little' is negative (almost none)"
+      },
+      {
+        id: 'e13_5',
+        type: 'fill',
+        questionEn: "The policy was met ____ strong opposition from staff.",
+        questionVi: "Chính sách đã gặp phải ____ sự phản đối mạnh mẽ từ nhân viên.",
+        correctAnswer: "with"
+      },
+      {
+        id: 'e13_6',
+        type: 'mcq',
+        questionEn: "We held a seminar, ____ which employees asked questions.",
+        questionVi: "Chúng tôi tổ chức hội thảo, ____ đó nhân viên đặt câu hỏi.",
+        options: ["after", "during", "at"],
+        correctAnswer: "during"
+      },
+      {
+        id: 'e13_7',
+        type: 'complete',
+        questionEn: "The company will ____ for overtime hours with bonuses.",
+        questionVi: "Công ty sẽ ____ cho những giờ làm thêm bằng tiền thưởng.",
+        correctAnswer: "compensate"
+      },
+      {
+        id: 'e13_8',
+        type: 'fill',
+        questionEn: "We need to sell the ____ inventory before the holiday.",
+        questionVi: "Chúng ta cần bán hết hàng tồn kho ____ trước kỳ nghỉ.",
+        correctAnswer: "remaining"
+      },
+      {
+        id: 'e13_9',
+        type: 'mcq',
+        questionEn: "She ____ years of expertise in financial management.",
+        questionVi: "Cô ấy đã ____ nhiều năm chuyên môn trong quản lý tài chính.",
+        options: ["accumulated", "absorbed", "solicited"],
+        correctAnswer: "accumulated"
+      },
+      {
+        id: 'e13_10',
+        type: 'complete',
+        questionEn: "We chose online rather ____ in-person training.",
+        questionVi: "Chúng tôi chọn đào tạo trực tuyến ____ đào tạo trực tiếp.",
+        correctAnswer: "than"
+      },
+      {
+        id: 'e13_11',
+        type: 'fill',
+        questionEn: "The contract was approved, ____ which we started the work.",
+        questionVi: "Hợp đồng được phê duyệt, lúc ____ chúng tôi bắt đầu công việc.",
+        correctAnswer: "at"
+      },
+      {
+        id: 'e13_12',
+        type: 'mcq',
+        questionEn: "'Solicit' is closest in meaning to ____.",
+        questionVi: "'Solicit' gần nghĩa nhất với ____.",
+        options: ["provide", "request", "refuse"],
+        correctAnswer: "request"
+      },
+      {
+        id: 'e13_13',
+        type: 'complete',
+        questionEn: "As a result ____ the merger, new jobs were created.",
+        questionVi: "Do ____ việc sáp nhập, các việc làm mới đã được tạo ra.",
+        correctAnswer: "of"
+      },
+      {
+        id: 'e13_14',
+        type: 'fill',
+        questionEn: "The contractor provided a ____ price assurance for the project.",
+        questionVi: "Nhà thầu cung cấp cam kết giá ____ cho dự án.",
+        correctAnswer: "fixed"
+      },
+      {
+        id: 'e13_15',
+        type: 'meaning',
+        questionEn: "What does 'board of directors' mean?",
+        questionVi: "'Board of directors' là gì?",
+        options: ["A team of workers", "The governing group of a company", "A finance committee"],
+        correctAnswer: "The governing group of a company"
+      },
+      {
+        id: 'e13_16',
+        type: 'fill',
+        questionEn: "Do not open ____ emails from unknown senders.",
+        questionVi: "Đừng mở email ____ từ người gửi không quen biết.",
+        correctAnswer: "suspicious"
+      },
+      {
+        id: 'e13_17',
+        type: 'mcq',
+        questionEn: "The prices ____ depending on the time of year.",
+        questionVi: "Giá cả ____ tùy theo thời điểm trong năm.",
+        options: ["vary", "seek", "locate"],
+        correctAnswer: "vary"
+      },
+      {
+        id: 'e13_18',
+        type: 'complete',
+        questionEn: "She has ____ experience in international project management.",
+        questionVi: "Cô ấy có kinh nghiệm ____ trong quản lý dự án quốc tế.",
+        correctAnswer: "extensive"
+      },
+      {
+        id: 'e13_19',
+        type: 'fill',
+        questionEn: "Both reports were reviewed, but ____ was approved.",
+        questionVi: "Cả hai báo cáo đã được xem xét, nhưng không có báo cáo ____ được phê duyệt.",
+        correctAnswer: "neither"
+      },
+      {
+        id: 'e13_20',
+        type: 'mcq',
+        questionEn: "The patient was ____ with a rare condition.",
+        questionVi: "Bệnh nhân đã được ____ mắc một bệnh hiếm gặp.",
+        options: ["diagnosed", "diagnostic", "diagnosable"],
+        correctAnswer: "diagnosed"
+      },
+      {
+        id: 'e13_21',
+        type: 'fill',
+        questionEn: "We reviewed the data ____ which the plan was finalized.",
+        questionVi: "Chúng tôi đã xem xét dữ liệu ____ đó kế hoạch được hoàn thiện.",
+        correctAnswer: "before"
+      },
+      {
+        id: 'e13_22',
+        type: 'complete',
+        questionEn: "The team ____ to improve the manufacturing system.",
+        questionVi: "Đội nhóm ____ để cải thiện hệ thống sản xuất.",
+        correctAnswer: "seeks"
+      },
+      {
+        id: 'e13_23',
+        type: 'mcq',
+        questionEn: "He left ____ the conference in Singapore.",
+        questionVi: "Anh ấy đã rời đi ____ hội nghị ở Singapore.",
+        options: ["for", "to", "with"],
+        correctAnswer: "for"
+      },
+      {
+        id: 'e13_24',
+        type: 'fill',
+        questionEn: "We need to ____ with the plan after receiving board approval.",
+        questionVi: "Chúng tôi cần ____ với kế hoạch sau khi nhận được sự phê duyệt của hội đồng.",
+        correctAnswer: "move forward"
+      },
+      {
+        id: 'e13_25',
+        type: 'meaning',
+        questionEn: "Which word means 'to take in or soak up'?",
+        questionVi: "Từ nào có nghĩa là 'hấp thụ'?",
+        options: ["Absorb", "Accumulate", "Compensate"],
+        correctAnswer: "Absorb"
+      }
+    ],
+    rearrangeExercises: [
+      {
+        sentenceEn: "We held a meeting, after which we decided.",
+        sentenceVi: "Chúng tôi tổ chức cuộc họp, sau đó chúng tôi quyết định."
+      },
+      {
+        sentenceEn: "During which, staff shared their concerns.",
+        sentenceVi: "Trong suốt thời gian đó, nhân viên chia sẻ mối quan tâm."
+      },
+      {
+        sentenceEn: "The board of directors approved the plan.",
+        sentenceVi: "Hội đồng quản trị đã phê duyệt kế hoạch."
+      },
+      {
+        sentenceEn: "The policy was met with strong opposition.",
+        sentenceVi: "Chính sách đã gặp phải sự phản đối mạnh mẽ."
+      },
+      {
+        sentenceEn: "She accumulated years of experience.",
+        sentenceVi: "Cô ấy đã tích lũy nhiều năm kinh nghiệm."
+      },
+      {
+        sentenceEn: "The system is intended to absorb large amounts of data.",
+        sentenceVi: "Hệ thống được thiết kế để hấp thụ lượng dữ liệu lớn."
+      },
+      {
+        sentenceEn: "We chose quality rather than cost.",
+        sentenceVi: "Chúng tôi chọn chất lượng chứ không phải chi phí."
+      },
+      {
+        sentenceEn: "The company actively solicits feedback.",
+        sentenceVi: "Công ty chủ động kêu gọi phản hồi."
+      },
+      {
+        sentenceEn: "She oversees the entire manufacturing system.",
+        sentenceVi: "Cô ấy giám sát toàn bộ hệ thống sản xuất."
+      },
+      {
+        sentenceEn: "We cannot say with certainty when it will end.",
+        sentenceVi: "Chúng tôi không thể nói chắc chắn khi nào nó sẽ kết thúc."
+      },
+      {
+        sentenceEn: "Both plans were presented but neither was approved.",
+        sentenceVi: "Cả hai kế hoạch được trình bày nhưng không cái nào được phê duyệt."
+      },
+      {
+        sentenceEn: "The remaining inventory must be sold before year end.",
+        sentenceVi: "Hàng tồn kho còn lại phải được bán trước cuối năm."
+      },
+      {
+        sentenceEn: "She was diagnosed with a rare condition.",
+        sentenceVi: "Cô ấy đã được chẩn đoán mắc bệnh hiếm."
+      },
+      {
+        sentenceEn: "The contractor offered a fixed price assurance.",
+        sentenceVi: "Nhà thầu cung cấp cam kết giá cố định."
+      },
+      {
+        sentenceEn: "New parking restrictions were met with opposition.",
+        sentenceVi: "Các quy định đỗ xe mới đã gặp phải sự phản đối."
       }
     ]
   }
