@@ -3872,590 +3872,6 @@ export const LESSONS: GrammarLesson[] = [
       }
     ]
   },
-
-  {
-    id: 'l14',
-    topic: 'Feb 23: Finance, Qualifications & Workplace Terms',
-    focus: 'Reliability Word Family, Qualified Structures & Financial Vocabulary',
-    explanation: 'Learn the rely/reliable/reliability word family, qualified for/to/in structures, financial terms, and key workplace expressions.',
-    explanationVi: 'Học họ từ rely/reliable/reliability, cấu trúc qualified for/to/in, thuật ngữ tài chính và các cụm từ quan trọng nơi làm việc.',
-    storyEn: [
-      "The manufacturing plant relies on reliable machinery with proven reliability.",
-      "Staff who are qualified in accounting specialize in financial reporting.",
-      "Employees are grateful to the manager for approving their travel expense reimbursements.",
-      "We are grateful for the ample time left before the deadline.",
-      "The expansion took longer than expected due to unforeseen circumstances.",
-      "The new equipment comes with a warranty and is generally cost-effective.",
-      "The fund-raising event will be held promptly; those responsible must be top priority.",
-      "An abundance of staff frequently visited the staff lounge to master new techniques.",
-      "She remained relieved and delightful after being qualified for the promotion.",
-      "Unseasonably cold temperatures abruptly changed conditions at the manufacturing plant."
-    ],
-    storyVi: [
-      "Nhà máy sản xuất dựa vào máy móc đáng tin cậy với độ tin cậy đã được chứng minh.",
-      "Nhân viên có chuyên môn kế toán chuyên về báo cáo tài chính.",
-      "Nhân viên biết ơn người quản lý vì đã phê duyệt hoàn trả chi phí đi lại.",
-      "Chúng tôi biết ơn vì còn dư nhiều thời gian trước thời hạn.",
-      "Việc mở rộng mất nhiều thời gian hơn dự kiến do những tình huống không lường trước.",
-      "Thiết bị mới đi kèm bảo hành và thường tiết kiệm chi phí.",
-      "Sự kiện gây quỹ sẽ được tổ chức ngay; những người có trách nhiệm phải ưu tiên hàng đầu.",
-      "Rất nhiều nhân viên thường xuyên lui tới phòng nghỉ để thành thạo kỹ thuật mới.",
-      "Cô ấy cảm thấy nhẹ nhõm và vui sướng sau khi đủ điều kiện thăng chức.",
-      "Nhiệt độ lạnh bất thường so với mùa đã thay đổi đột ngột điều kiện tại nhà máy sản xuất."
-    ],
-    vocabulary: [
-      {
-        word: "rely on",
-        ipa: "/rɪˈlaɪ ɒn/",
-        form: "verb phrase",
-        meaningEn: "To depend on someone or something.",
-        meaningVi: "Dựa vào, phụ thuộc vào",
-        exampleEn: "We rely on our suppliers to deliver on time.",
-        exampleVi: "Chúng tôi dựa vào nhà cung cấp để giao hàng đúng hạn."
-      },
-      {
-        word: "reliable",
-        ipa: "/rɪˈlaɪəbl/",
-        form: "adjective",
-        meaningEn: "Consistently dependable and trustworthy.",
-        meaningVi: "Đáng tin cậy",
-        exampleEn: "We need a reliable system to track expenses.",
-        exampleVi: "Chúng ta cần hệ thống đáng tin cậy để theo dõi chi phí."
-      },
-      {
-        word: "reliability",
-        ipa: "/rɪˌlaɪəˈbɪləti/",
-        form: "noun",
-        meaningEn: "The quality of being consistently dependable.",
-        meaningVi: "Độ tin cậy",
-        exampleEn: "The reliability of the data is crucial for decision-making.",
-        exampleVi: "Độ tin cậy của dữ liệu rất quan trọng cho việc ra quyết định."
-      },
-      {
-        word: "gas mileage",
-        ipa: "/ɡæs ˈmaɪlɪdʒ/",
-        form: "noun phrase",
-        meaningEn: "The distance a vehicle can travel per unit of fuel.",
-        meaningVi: "Mức tiêu hao xăng",
-        exampleEn: "This hybrid car has excellent gas mileage.",
-        exampleVi: "Xe hybrid này có mức tiêu hao xăng tuyệt vời."
-      },
-      {
-        word: "grateful for",
-        ipa: "/ˈɡreɪtfl fɔː/",
-        form: "adjective phrase",
-        meaningEn: "Thankful because of something (a thing or situation).",
-        meaningVi: "Biết ơn vì cái gì",
-        exampleEn: "We are grateful for the support received.",
-        exampleVi: "Chúng tôi biết ơn vì sự hỗ trợ nhận được."
-      },
-      {
-        word: "grateful to",
-        ipa: "/ˈɡreɪtfl tuː/",
-        form: "adjective phrase",
-        meaningEn: "Thankful toward a person.",
-        meaningVi: "Biết ơn ai",
-        exampleEn: "I am grateful to my team for their hard work.",
-        exampleVi: "Tôi biết ơn đội nhóm của tôi vì sự chăm chỉ của họ."
-      },
-      {
-        word: "be held promptly",
-        ipa: "/bi held ˈprɒmptli/",
-        form: "verb phrase (passive)",
-        meaningEn: "To take place without delay; to be conducted immediately.",
-        meaningVi: "Được tổ chức ngay, không trì hoãn",
-        exampleEn: "The emergency meeting will be held promptly at noon.",
-        exampleVi: "Cuộc họp khẩn cấp sẽ được tổ chức ngay lúc 12 giờ."
-      },
-      {
-        word: "reimbursement",
-        ipa: "/ˌriːɪmˈbɜːsmənt/",
-        form: "noun",
-        meaningEn: "Repayment of money spent. (= refund = repayment = payback)",
-        meaningVi: "Hoàn trả tiền",
-        exampleEn: "Submit your receipts to request reimbursement.",
-        exampleVi: "Nộp biên lai để yêu cầu hoàn trả."
-      },
-      {
-        word: "paycheck",
-        ipa: "/ˈpeɪtʃek/",
-        form: "noun",
-        meaningEn: "An employee's salary payment. (= salary)",
-        meaningVi: "Phiếu lương",
-        exampleEn: "His paycheck is deposited on the last Friday of each month.",
-        exampleVi: "Phiếu lương của anh ấy được chuyển vào ngày thứ Sáu cuối cùng của mỗi tháng."
-      },
-      {
-        word: "travel expense",
-        ipa: "/ˈtrævl ɪkˈspens/",
-        form: "noun phrase",
-        meaningEn: "Costs incurred while traveling for business.",
-        meaningVi: "Chi phí đi lại công tác",
-        exampleEn: "All travel expenses must be approved in advance.",
-        exampleVi: "Tất cả chi phí đi lại phải được phê duyệt trước."
-      },
-      {
-        word: "expansion",
-        ipa: "/ɪkˈspænʃn/",
-        form: "noun",
-        meaningEn: "The process of becoming larger or more extensive.",
-        meaningVi: "Sự mở rộng",
-        exampleEn: "The company's expansion into Europe begins next year.",
-        exampleVi: "Việc mở rộng của công ty sang châu Âu bắt đầu năm sau."
-      },
-      {
-        word: "staff lounge",
-        ipa: "/stɑːf laʊndʒ/",
-        form: "noun phrase",
-        meaningEn: "A room in a workplace where employees can rest and relax.",
-        meaningVi: "Phòng nghỉ của nhân viên",
-        exampleEn: "Coffee and snacks are available in the staff lounge.",
-        exampleVi: "Cà phê và đồ ăn nhẹ có sẵn trong phòng nghỉ của nhân viên."
-      },
-      {
-        word: "manufacturing plant",
-        ipa: "/ˌmænjʊˈfæktʃərɪŋ plɑːnt/",
-        form: "noun phrase",
-        meaningEn: "A factory where goods are produced.",
-        meaningVi: "Nhà máy sản xuất",
-        exampleEn: "The new manufacturing plant will create 500 jobs.",
-        exampleVi: "Nhà máy sản xuất mới sẽ tạo ra 500 việc làm."
-      },
-      {
-        word: "master something",
-        ipa: "/ˈmɑːstə ˈsʌmθɪŋ/",
-        form: "verb phrase",
-        meaningEn: "To become highly skilled or proficient at something.",
-        meaningVi: "Thành thạo cái gì đó",
-        exampleEn: "It takes years to master a new language.",
-        exampleVi: "Cần nhiều năm để thành thạo một ngôn ngữ mới."
-      },
-      {
-        word: "relieved",
-        ipa: "/rɪˈliːvd/",
-        form: "adjective",
-        meaningEn: "Feeling less anxious because something worrying has ended.",
-        meaningVi: "Nhẹ nhõm, thở phào",
-        exampleEn: "She was relieved to hear the project was approved.",
-        exampleVi: "Cô ấy cảm thấy nhẹ nhõm khi nghe dự án được phê duyệt."
-      },
-      {
-        word: "delightful",
-        ipa: "/dɪˈlaɪtfl/",
-        form: "adjective",
-        meaningEn: "Causing delight or great pleasure.",
-        meaningVi: "Vui sướng, trải nghiệm gây vui",
-        exampleEn: "The team had a delightful celebration after the launch.",
-        exampleVi: "Đội nhóm có một buổi ăn mừng vui sướng sau khi ra mắt."
-      },
-      {
-        word: "top priority",
-        ipa: "/tɒp praɪˈɒrəti/",
-        form: "noun phrase",
-        meaningEn: "The most important matter requiring immediate attention.",
-        meaningVi: "Ưu tiên hàng đầu",
-        exampleEn: "Employee safety is our top priority.",
-        exampleVi: "Sự an toàn của nhân viên là ưu tiên hàng đầu của chúng tôi."
-      },
-      {
-        word: "abruptly change",
-        ipa: "/əˈbrʌptli tʃeɪndʒ/",
-        form: "verb phrase",
-        meaningEn: "To change suddenly and unexpectedly. (= suddenly change)",
-        meaningVi: "Thay đổi đột ngột",
-        exampleEn: "Market conditions abruptly changed after the announcement.",
-        exampleVi: "Điều kiện thị trường đã thay đổi đột ngột sau thông báo."
-      },
-      {
-        word: "an abundance of",
-        ipa: "/ən əˈbʌndəns ɒv/",
-        form: "phrase",
-        meaningEn: "A very large quantity of something. (= a large number of)",
-        meaningVi: "Rất nhiều",
-        exampleEn: "There is an abundance of opportunities in this market.",
-        exampleVi: "Có rất nhiều cơ hội trong thị trường này."
-      },
-      {
-        word: "qualified for",
-        ipa: "/ˈkwɒlɪfaɪd fɔː/",
-        form: "adjective phrase",
-        meaningEn: "Meeting the requirements for a job or position.",
-        meaningVi: "Đủ điều kiện (cho công việc/vị trí)",
-        exampleEn: "She is qualified for the senior analyst position.",
-        exampleVi: "Cô ấy đủ điều kiện cho vị trí chuyên viên phân tích cấp cao."
-      },
-      {
-        word: "qualified to",
-        ipa: "/ˈkwɒlɪfaɪd tuː/",
-        form: "adjective phrase",
-        meaningEn: "Having the ability or authorization to do something.",
-        meaningVi: "Đủ điều kiện để làm gì",
-        exampleEn: "Only certified staff are qualified to operate the equipment.",
-        exampleVi: "Chỉ nhân viên được chứng nhận mới đủ điều kiện để vận hành thiết bị."
-      },
-      {
-        word: "qualified in",
-        ipa: "/ˈkwɒlɪfaɪd ɪn/",
-        form: "adjective phrase",
-        meaningEn: "Having professional expertise in a specific field.",
-        meaningVi: "Có chuyên môn trong (lĩnh vực)",
-        exampleEn: "He is qualified in both finance and marketing.",
-        exampleVi: "Anh ấy có chuyên môn cả tài chính lẫn marketing."
-      },
-      {
-        word: "take longer than expected",
-        ipa: "/teɪk ˈlɒŋɡə ðæn ɪkˈspektɪd/",
-        form: "phrase",
-        meaningEn: "To require more time than was originally planned.",
-        meaningVi: "Mất nhiều thời gian hơn dự kiến",
-        exampleEn: "The renovation took longer than expected due to supply issues.",
-        exampleVi: "Việc cải tạo mất nhiều thời gian hơn dự kiến do vấn đề cung cấp."
-      },
-      {
-        word: "come with a warranty",
-        ipa: "/kʌm wɪð ə ˈwɒrənti/",
-        form: "phrase",
-        meaningEn: "To include a guarantee of repair or replacement if defective.",
-        meaningVi: "Đi kèm bảo hành",
-        exampleEn: "All our products come with a one-year warranty.",
-        exampleVi: "Tất cả sản phẩm của chúng tôi đều đi kèm bảo hành một năm."
-      },
-      {
-        word: "be composed of",
-        ipa: "/bi kəmˈpəʊzd ɒv/",
-        form: "phrase (passive)",
-        meaningEn: "To consist of; to be made up of. (= consist of = include)",
-        meaningVi: "Bao gồm",
-        exampleEn: "The team is composed of five specialists.",
-        exampleVi: "Đội nhóm bao gồm năm chuyên gia."
-      },
-      {
-        word: "unforeseen circumstances",
-        ipa: "/ˌʌnfɔːˈsiːn ˈsɜːkəmstənsɪz/",
-        form: "noun phrase",
-        meaningEn: "Unexpected events or situations that could not be predicted.",
-        meaningVi: "Những tình huống không lường trước",
-        exampleEn: "Due to unforeseen circumstances, the event was postponed.",
-        exampleVi: "Do những tình huống không lường trước, sự kiện đã bị hoãn."
-      },
-      {
-        word: "specialize in",
-        ipa: "/ˈspeʃəlaɪz ɪn/",
-        form: "verb phrase",
-        meaningEn: "To focus on and become expert in a particular area.",
-        meaningVi: "Chuyên về",
-        exampleEn: "Our firm specializes in corporate law.",
-        exampleVi: "Công ty chúng tôi chuyên về luật doanh nghiệp."
-      },
-      {
-        word: "ample time left",
-        ipa: "/ˈæmpl taɪm left/",
-        form: "noun phrase",
-        meaningEn: "More than enough time remaining.",
-        meaningVi: "Còn dư nhiều thời gian",
-        exampleEn: "There is ample time left to review the proposal.",
-        exampleVi: "Còn dư nhiều thời gian để xem xét đề xuất."
-      },
-      {
-        word: "responsible",
-        ipa: "/rɪˈspɒnsəbl/",
-        form: "adjective",
-        meaningEn: "Having a duty to deal with something; accountable.",
-        meaningVi: "Có trách nhiệm",
-        exampleEn: "Each manager is responsible for their team's performance.",
-        exampleVi: "Mỗi người quản lý có trách nhiệm về hiệu suất của nhóm."
-      },
-      {
-        word: "unseasonably cold temperature",
-        ipa: "/ʌnˈsiːznəbli kəʊld ˈtemprɪtʃə/",
-        form: "noun phrase",
-        meaningEn: "A temperature that is colder than normal for that time of year.",
-        meaningVi: "Nhiệt độ lạnh bất thường so với mùa",
-        exampleEn: "Unseasonably cold temperatures damaged the crops.",
-        exampleVi: "Nhiệt độ lạnh bất thường so với mùa đã làm hỏng mùa màng."
-      },
-      {
-        word: "fund-raising",
-        ipa: "/ˈfʌnd reɪzɪŋ/",
-        form: "noun/adjective",
-        meaningEn: "The activity of collecting money for a cause or organization.",
-        meaningVi: "Gây quỹ",
-        exampleEn: "The fund-raising event raised over $10,000 for charity.",
-        exampleVi: "Sự kiện gây quỹ đã huy động được hơn $10,000 cho từ thiện."
-      },
-      {
-        word: "distinguish from",
-        ipa: "/dɪˈstɪŋɡwɪʃ frɒm/",
-        form: "verb phrase",
-        meaningEn: "To recognize the difference between two things.",
-        meaningVi: "Phân biệt cái gì với cái gì",
-        exampleEn: "It is important to distinguish facts from opinions.",
-        exampleVi: "Điều quan trọng là phân biệt sự thật với ý kiến."
-      },
-      {
-        word: "occasionally",
-        ipa: "/əˈkeɪʒnəli/",
-        form: "adverb",
-        meaningEn: "Sometimes but not regularly. (= sometimes)",
-        meaningVi: "Thỉnh thoảng",
-        exampleEn: "We occasionally hold team-building events.",
-        exampleVi: "Chúng tôi thỉnh thoảng tổ chức các sự kiện xây dựng đội nhóm."
-      }
-    ],
-    exercises: [
-      {
-        id: 'e14_1',
-        type: 'fill',
-        questionEn: "We ____ on our IT team to resolve system issues.",
-        questionVi: "Chúng tôi ____ vào đội IT để giải quyết các vấn đề hệ thống.",
-        correctAnswer: "rely"
-      },
-      {
-        id: 'e14_2',
-        type: 'mcq',
-        questionEn: "She is ____ in finance and has years of experience.",
-        questionVi: "Cô ấy có ____ tài chính và có nhiều năm kinh nghiệm.",
-        options: ["qualified in", "qualified for", "qualified to"],
-        correctAnswer: "qualified in"
-      },
-      {
-        id: 'e14_3',
-        type: 'complete',
-        questionEn: "All products ____ with a two-year warranty.",
-        questionVi: "Tất cả sản phẩm ____ bảo hành hai năm.",
-        correctAnswer: "come"
-      },
-      {
-        id: 'e14_4',
-        type: 'meaning',
-        questionEn: "What does 'relieved' mean?",
-        questionVi: "'Relieved' có nghĩa là gì?",
-        options: ["Excited", "Feeling less anxious", "Delightful"],
-        correctAnswer: "Feeling less anxious"
-      },
-      {
-        id: 'e14_5',
-        type: 'fill',
-        questionEn: "The renovation took longer ____ expected.",
-        questionVi: "Việc cải tạo mất nhiều thời gian hơn ____ kiến.",
-        correctAnswer: "than"
-      },
-      {
-        id: 'e14_6',
-        type: 'mcq',
-        questionEn: "The event will be held ____ at 9 AM sharp.",
-        questionVi: "Sự kiện sẽ được tổ chức ____ lúc đúng 9 giờ sáng.",
-        options: ["promptly", "abruptly", "occasionally"],
-        correctAnswer: "promptly"
-      },
-      {
-        id: 'e14_7',
-        type: 'complete',
-        questionEn: "Due to ____ circumstances, the deadline was extended.",
-        questionVi: "Do những tình huống ____ trước, thời hạn đã được gia hạn.",
-        correctAnswer: "unforeseen"
-      },
-      {
-        id: 'e14_8',
-        type: 'fill',
-        questionEn: "There is an ____ of candidates for the position.",
-        questionVi: "Có ____ nhiều ứng viên cho vị trí này.",
-        correctAnswer: "abundance"
-      },
-      {
-        id: 'e14_9',
-        type: 'mcq',
-        questionEn: "Which word describes trustworthiness of a system?",
-        questionVi: "Từ nào mô tả độ tin cậy của một hệ thống?",
-        options: ["Reliability", "Reimbursement", "Expansion"],
-        correctAnswer: "Reliability"
-      },
-      {
-        id: 'e14_10',
-        type: 'complete',
-        questionEn: "I am grateful ____ my mentor for her guidance.",
-        questionVi: "Tôi biết ơn ____ người cố vấn của tôi vì sự hướng dẫn.",
-        correctAnswer: "to"
-      },
-      {
-        id: 'e14_11',
-        type: 'fill',
-        questionEn: "The team ____ in data analytics and business intelligence.",
-        questionVi: "Đội nhóm ____ về phân tích dữ liệu và tình báo kinh doanh.",
-        correctAnswer: "specializes"
-      },
-      {
-        id: 'e14_12',
-        type: 'mcq',
-        questionEn: "She was ____ to hear she passed the certification exam.",
-        questionVi: "Cô ấy cảm thấy ____ khi nghe đã vượt qua kỳ thi chứng chỉ.",
-        options: ["relieved", "delightful", "abruptly"],
-        correctAnswer: "relieved"
-      },
-      {
-        id: 'e14_13',
-        type: 'complete',
-        questionEn: "We are grateful ____ the extra funding received.",
-        questionVi: "Chúng tôi biết ơn ____ nguồn vốn bổ sung nhận được.",
-        correctAnswer: "for"
-      },
-      {
-        id: 'e14_14',
-        type: 'fill',
-        questionEn: "Staff must submit travel ____ within 30 days.",
-        questionVi: "Nhân viên phải nộp ____ đi lại trong vòng 30 ngày.",
-        correctAnswer: "expenses"
-      },
-      {
-        id: 'e14_15',
-        type: 'mcq',
-        questionEn: "The temperatures ____ changed, disrupting operations.",
-        questionVi: "Nhiệt độ đã ____ thay đổi, làm gián đoạn hoạt động.",
-        options: ["abruptly", "gradually", "frequently"],
-        correctAnswer: "abruptly"
-      },
-      {
-        id: 'e14_16',
-        type: 'complete',
-        questionEn: "The committee is composed ____ five senior members.",
-        questionVi: "Ủy ban bao gồm ____ năm thành viên cấp cao.",
-        correctAnswer: "of"
-      },
-      {
-        id: 'e14_17',
-        type: 'fill',
-        questionEn: "It is important to ____ facts from opinions.",
-        questionVi: "Điều quan trọng là ____ sự thật với ý kiến.",
-        correctAnswer: "distinguish"
-      },
-      {
-        id: 'e14_18',
-        type: 'mcq',
-        questionEn: "The fund-raising event is our ____ for this month.",
-        questionVi: "Sự kiện gây quỹ là ____ của chúng tôi trong tháng này.",
-        options: ["top priority", "travel expense", "staff lounge"],
-        correctAnswer: "top priority"
-      },
-      {
-        id: 'e14_19',
-        type: 'complete',
-        questionEn: "There is ample time ____ to complete the review.",
-        questionVi: "Còn dư nhiều thời gian ____ để hoàn thành việc xem xét.",
-        correctAnswer: "left"
-      },
-      {
-        id: 'e14_20',
-        type: 'fill',
-        questionEn: "She is ____ for the director role based on her experience.",
-        questionVi: "Cô ấy ____ cho vai trò giám đốc dựa trên kinh nghiệm của mình.",
-        correctAnswer: "qualified"
-      },
-      {
-        id: 'e14_21',
-        type: 'meaning',
-        questionEn: "What does 'reimbursement' mean?",
-        questionVi: "'Reimbursement' có nghĩa là gì?",
-        options: ["A salary increase", "Repayment of money spent", "A performance bonus"],
-        correctAnswer: "Repayment of money spent"
-      },
-      {
-        id: 'e14_22',
-        type: 'mcq',
-        questionEn: "We ____ hold workshops to upskill our team.",
-        questionVi: "Chúng tôi ____ tổ chức hội thảo để nâng cao kỹ năng đội nhóm.",
-        options: ["occasionally", "abruptly", "promptly"],
-        correctAnswer: "occasionally"
-      },
-      {
-        id: 'e14_23',
-        type: 'complete',
-        questionEn: "It takes years to ____ a complex skill.",
-        questionVi: "Cần nhiều năm để ____ một kỹ năng phức tạp.",
-        correctAnswer: "master"
-      },
-      {
-        id: 'e14_24',
-        type: 'fill',
-        questionEn: "The new plant will ____ in automobile parts manufacturing.",
-        questionVi: "Nhà máy mới sẽ ____ sản xuất phụ tùng ô tô.",
-        correctAnswer: "specialize"
-      },
-      {
-        id: 'e14_25',
-        type: 'meaning',
-        questionEn: "Which phrase means 'very large amount of something'?",
-        questionVi: "Cụm từ nào có nghĩa là 'lượng rất lớn của cái gì đó'?",
-        options: ["Ample time left", "An abundance of", "Top priority"],
-        correctAnswer: "An abundance of"
-      }
-    ],
-    rearrangeExercises: [
-      {
-        sentenceEn: "We rely on reliable systems for accuracy.",
-        sentenceVi: "Chúng tôi dựa vào các hệ thống đáng tin cậy để đảm bảo độ chính xác."
-      },
-      {
-        sentenceEn: "She is qualified in finance and accounting.",
-        sentenceVi: "Cô ấy có chuyên môn tài chính và kế toán."
-      },
-      {
-        sentenceEn: "The meeting will be held promptly at noon.",
-        sentenceVi: "Cuộc họp sẽ được tổ chức ngay lúc 12 giờ."
-      },
-      {
-        sentenceEn: "All products come with a warranty.",
-        sentenceVi: "Tất cả sản phẩm đều đi kèm bảo hành."
-      },
-      {
-        sentenceEn: "The expansion took longer than expected.",
-        sentenceVi: "Việc mở rộng mất nhiều thời gian hơn dự kiến."
-      },
-      {
-        sentenceEn: "There is an abundance of candidates available.",
-        sentenceVi: "Có rất nhiều ứng viên sẵn có."
-      },
-      {
-        sentenceEn: "Staff are grateful to the manager for approvals.",
-        sentenceVi: "Nhân viên biết ơn người quản lý vì đã phê duyệt."
-      },
-      {
-        sentenceEn: "Due to unforeseen circumstances, we delayed the launch.",
-        sentenceVi: "Do những tình huống không lường trước, chúng tôi trì hoãn việc ra mắt."
-      },
-      {
-        sentenceEn: "The team specializes in data analysis.",
-        sentenceVi: "Đội nhóm chuyên về phân tích dữ liệu."
-      },
-      {
-        sentenceEn: "She was relieved after receiving the approval.",
-        sentenceVi: "Cô ấy cảm thấy nhẹ nhõm sau khi nhận được sự phê duyệt."
-      },
-      {
-        sentenceEn: "Temperatures abruptly changed last night.",
-        sentenceVi: "Nhiệt độ đã thay đổi đột ngột tối qua."
-      },
-      {
-        sentenceEn: "Employee safety is our top priority.",
-        sentenceVi: "Sự an toàn của nhân viên là ưu tiên hàng đầu của chúng tôi."
-      },
-      {
-        sentenceEn: "There is ample time left to finish the task.",
-        sentenceVi: "Còn dư nhiều thời gian để hoàn thành nhiệm vụ."
-      },
-      {
-        sentenceEn: "We occasionally review our training materials.",
-        sentenceVi: "Chúng tôi thỉnh thoảng xem lại tài liệu đào tạo."
-      },
-      {
-        sentenceEn: "The fund-raising event was a great success.",
-        sentenceVi: "Sự kiện gây quỹ đã thành công rực rỡ."
-      },
-      {
-        sentenceEn: "Submit travel expenses for reimbursement.",
-        sentenceVi: "Nộp chi phí đi lại để được hoàn trả."
-      }
-    ]
-  },
   {
     id: 'l13',
     topic: 'Feb 22: Advanced Grammar Connectors & Business Operations',
@@ -5187,6 +4603,1107 @@ export const LESSONS: GrammarLesson[] = [
         sentenceVi: "Các quy định đỗ xe mới đã gặp phải sự phản đối."
       }
     ]
-  }
+  },
+  {
+  id: 'l14',
+  topic: 'Feb 23: Reliability, Qualifications & Workplace Finance',
+  focus: 'Word Family (rely/reliable/reliability), Qualified For/To/In, Financial & Workplace Vocabulary',
+  explanation: 'Learn the rely→reliable→reliability word family, three patterns of "qualified", financial vocabulary (reimbursement, paycheck, travel expense), and useful workplace expressions.',
+  explanationVi: 'Học nhóm từ rely→reliable→reliability, ba cách dùng "qualified" (for/to/in), từ vựng tài chính (reimbursement, paycheck, travel expense) và các cụm từ hữu ích nơi làm việc.',
+  storyEn: [
+    "The manufacturing plant relies on reliable equipment; its reliability is our top priority.",
+    "Earlier this morning, staff collected their paychecks along with travel expense reimbursements.",
+    "The company's expansion is extensive; hence, we need people qualified in accounting.",
+    "Those qualified to oversee the project should apply; whoever is selected will be delightful to work with.",
+    "The fund-raising event will be held promptly — conducted immediately after the presentation.",
+    "An abundance of ample time is left, so we can distinguish genuine costs from others.",
+    "Unseasonably cold temperatures abruptly changed the schedule; unforeseen circumstances may arise frequently.",
+    "New equipment comes with a warranty and is generally cost-effective.",
+    "We need to decide which supplier to partner with; products must be composed of quality materials.",
+    "Staff who occasionally struggle should use the staff lounge and master new techniques at their own pace."
+  ],
+  storyVi: [
+    "Nhà máy sản xuất dựa vào thiết bị đáng tin cậy; độ tin cậy của nó là ưu tiên hàng đầu.",
+    "Sáng sớm hôm nay, nhân viên nhận phiếu lương cùng với hoàn trả chi phí đi lại.",
+    "Việc mở rộng của công ty rất sâu rộng; do đó, chúng tôi cần người có chuyên môn kế toán.",
+    "Những người đủ điều kiện giám sát dự án nên nộp đơn; bất kỳ ai được chọn sẽ rất dễ chịu khi cộng tác.",
+    "Sự kiện gây quỹ sẽ được tổ chức ngay — tiến hành ngay sau buổi thuyết trình.",
+    "Còn rất nhiều thời gian dư, vì vậy chúng ta có thể phân biệt chi phí thực với các chi phí khác.",
+    "Nhiệt độ lạnh bất thường đã thay đổi đột ngột lịch trình; tình huống không lường trước có thể xảy ra thường xuyên.",
+    "Thiết bị mới đi kèm bảo hành và thường tiết kiệm chi phí.",
+    "Chúng tôi cần quyết định nhà cung cấp nào để hợp tác; sản phẩm phải bao gồm vật liệu chất lượng.",
+    "Nhân viên thỉnh thoảng gặp khó khăn nên sử dụng phòng nghỉ và thành thạo kỹ thuật mới theo tốc độ của mình."
+  ],
+  vocabulary: [
+    {
+      word: "rely on",
+      ipa: "/rɪˈlaɪ ɒn/",
+      form: "verb phrase",
+      meaningEn: "To depend on someone or something for support or help.",
+      meaningVi: "Dựa vào, phụ thuộc vào",
+      exampleEn: "We rely on our suppliers to deliver on time.",
+      exampleVi: "Chúng tôi dựa vào nhà cung cấp để giao hàng đúng hạn."
+    },
+    {
+      word: "reliable",
+      ipa: "/rɪˈlaɪəbl/",
+      form: "adjective",
+      meaningEn: "Consistently dependable and trustworthy. (adj form of 'rely')",
+      meaningVi: "Đáng tin cậy (dạng tính từ của 'rely')",
+      exampleEn: "She is a reliable employee who is always on time.",
+      exampleVi: "Cô ấy là nhân viên đáng tin cậy luôn đúng giờ."
+    },
+    {
+      word: "reliability",
+      ipa: "/rɪˌlaɪəˈbɪləti/",
+      form: "noun",
+      meaningEn: "The quality of being dependable and consistent. (noun form of 'rely')",
+      meaningVi: "Độ tin cậy (dạng danh từ của 'rely')",
+      exampleEn: "The reliability of this system is excellent.",
+      exampleVi: "Độ tin cậy của hệ thống này rất xuất sắc."
+    },
+    {
+      word: "gas mileage",
+      ipa: "/ɡæs ˈmaɪlɪdʒ/",
+      form: "noun phrase",
+      meaningEn: "The distance a vehicle can travel per unit of fuel; fuel efficiency.",
+      meaningVi: "Mức tiêu hao xăng (quãng đường đi được trên mỗi lít/gallon xăng)",
+      exampleEn: "This car has excellent gas mileage — very fuel-efficient.",
+      exampleVi: "Xe này có mức tiêu hao xăng xuất sắc — rất tiết kiệm nhiên liệu."
+    },
+    {
+      word: "grateful for",
+      ipa: "/ˈɡreɪtfl fɔː/",
+      form: "adjective phrase",
+      meaningEn: "Feeling thankful because of something (a thing, event, or situation).",
+      meaningVi: "Biết ơn vì cái gì (vì một điều/sự việc)",
+      exampleEn: "We are grateful for your generous donation.",
+      exampleVi: "Chúng tôi biết ơn vì sự đóng góp hào phóng của bạn."
+    },
+    {
+      word: "grateful to",
+      ipa: "/ˈɡreɪtfl tuː/",
+      form: "adjective phrase",
+      meaningEn: "Feeling thankful toward a person.",
+      meaningVi: "Biết ơn ai (biết ơn một người)",
+      exampleEn: "I am grateful to my manager for his support.",
+      exampleVi: "Tôi biết ơn người quản lý của tôi vì sự hỗ trợ của ông ấy."
+    },
+    {
+      word: "be held promptly",
+      ipa: "/bi held ˈprɒmptli/",
+      form: "verb phrase (passive)",
+      meaningEn: "To take place without delay; on time and without postponement. (= be conducted immediately)",
+      meaningVi: "Được tổ chức ngay, đúng giờ, không chậm trễ (= be conducted immediately)",
+      exampleEn: "The meeting will be held promptly at 9 AM sharp.",
+      exampleVi: "Cuộc họp sẽ được tổ chức ngay lúc 9 giờ sáng đúng giờ."
+    },
+    {
+      word: "be conducted immediately",
+      ipa: "/bi kənˈdʌktɪd ɪˈmiːdiətli/",
+      form: "verb phrase (passive)",
+      meaningEn: "To be carried out right away, without delay. (= be held promptly)",
+      meaningVi: "Được tiến hành ngay lập tức (= be held promptly)",
+      exampleEn: "The investigation will be conducted immediately.",
+      exampleVi: "Cuộc điều tra sẽ được tiến hành ngay lập tức."
+    },
+    {
+      word: "reimbursement",
+      ipa: "/ˌriːɪmˈbɜːsmənt/",
+      form: "noun",
+      meaningEn: "Money paid back to someone for expenses they have already paid. (= refund = repayment = payback)",
+      meaningVi: "Hoàn trả, bồi hoàn (= refund = repayment = payback)",
+      exampleEn: "Submit your receipts to receive reimbursement for travel costs.",
+      exampleVi: "Nộp biên lai để được hoàn trả chi phí đi lại."
+    },
+    {
+      word: "paycheck",
+      ipa: "/ˈpeɪtʃek/",
+      form: "noun",
+      meaningEn: "A document or payment representing wages earned. (= salary)",
+      meaningVi: "Phiếu lương, tiền lương (= salary)",
+      exampleEn: "I received my paycheck at the end of the month.",
+      exampleVi: "Tôi nhận phiếu lương vào cuối tháng."
+    },
+    {
+      word: "get my paycheck",
+      ipa: "/ɡet maɪ ˈpeɪtʃek/",
+      form: "verb phrase",
+      meaningEn: "To receive one's salary payment.",
+      meaningVi: "Nhận lương",
+      exampleEn: "I always get my paycheck on the last Friday of the month.",
+      exampleVi: "Tôi luôn nhận lương vào thứ Sáu cuối của tháng."
+    },
+    {
+      word: "travel expense",
+      ipa: "/ˈtrævl ɪkˈspens/",
+      form: "noun phrase",
+      meaningEn: "Costs incurred while traveling for work purposes.",
+      meaningVi: "Chi phí đi lại công tác",
+      exampleEn: "Please keep all receipts for travel expenses.",
+      exampleVi: "Vui lòng giữ tất cả biên lai cho chi phí đi lại."
+    },
+    {
+      word: "expand / expansion",
+      ipa: "/ɪkˈspænd/ /ɪkˈspænʃn/",
+      form: "verb / noun",
+      meaningEn: "(v) To grow or increase in size, scope, or number. (n) The process of expanding.",
+      meaningVi: "(v) Mở rộng / (n) Sự mở rộng",
+      exampleEn: "The company's expansion into Asia is on schedule.",
+      exampleVi: "Việc mở rộng của công ty vào châu Á đúng tiến độ."
+    },
+    {
+      word: "extensive",
+      ipa: "/ɪkˈstensɪv/",
+      form: "adjective",
+      meaningEn: "Covering a large area, range, or scope; thorough and wide-ranging.",
+      meaningVi: "Sâu rộng, quy mô lớn, toàn diện",
+      exampleEn: "She has extensive experience in project management.",
+      exampleVi: "Cô ấy có kinh nghiệm sâu rộng trong quản lý dự án."
+    },
+    {
+      word: "decide which + N + to V",
+      ipa: "/dɪˈsaɪd wɪtʃ ... tuː/",
+      form: "grammar structure",
+      meaningEn: "Used to express a choice between specific options for an action.",
+      meaningVi: "Quyết định cái gì để làm — cấu trúc chọn lựa",
+      exampleEn: "We need to decide which supplier to work with.",
+      exampleVi: "Chúng tôi cần quyết định nhà cung cấp nào để hợp tác."
+    },
+    {
+      word: "left",
+      ipa: "/left/",
+      form: "adjective (predicative)",
+      meaningEn: "Remaining; still available or not yet used.",
+      meaningVi: "Còn lại, chưa dùng đến",
+      exampleEn: "There are only three days left before the deadline.",
+      exampleVi: "Chỉ còn ba ngày trước thời hạn."
+    },
+    {
+      word: "staff lounge",
+      ipa: "/stɑːf laʊndʒ/",
+      form: "noun phrase",
+      meaningEn: "A rest area reserved for employees to relax during breaks.",
+      meaningVi: "Phòng nghỉ của nhân viên",
+      exampleEn: "The coffee machine in the staff lounge is always busy.",
+      exampleVi: "Máy pha cà phê trong phòng nghỉ nhân viên luôn bận."
+    },
+    {
+      word: "manufacturing plant",
+      ipa: "/ˌmænjʊˈfæktʃərɪŋ plɑːnt/",
+      form: "noun phrase",
+      meaningEn: "A factory or facility where goods are produced.",
+      meaningVi: "Nhà máy sản xuất",
+      exampleEn: "The new manufacturing plant will create 500 jobs.",
+      exampleVi: "Nhà máy sản xuất mới sẽ tạo ra 500 việc làm."
+    },
+    {
+      word: "master sth",
+      ipa: "/ˈmɑːstə/",
+      form: "verb",
+      meaningEn: "To become highly skilled or proficient at something. Used with: skill / subject / technique.",
+      meaningVi: "Thành thạo cái gì đó — dùng với: kỹ năng / môn học / kỹ thuật",
+      exampleEn: "She mastered the new accounting software within a week.",
+      exampleVi: "Cô ấy đã thành thạo phần mềm kế toán mới trong một tuần."
+    },
+    {
+      word: "relieved",
+      ipa: "/rɪˈliːvd/",
+      form: "adjective",
+      meaningEn: "Feeling ease after anxiety is removed; the end of something negative.",
+      meaningVi: "Nhẹ nhõm, thở phào — cảm giác khi thoát khỏi điều tiêu cực",
+      exampleEn: "She was relieved to hear the project had been approved.",
+      exampleVi: "Cô ấy nhẹ nhõm khi nghe dự án đã được phê duyệt."
+    },
+    {
+      word: "delightful",
+      ipa: "/dɪˈlaɪtfl/",
+      form: "adjective",
+      meaningEn: "Causing joy or pleasure; a very enjoyable experience.",
+      meaningVi: "Vui sướng, dễ chịu — trải nghiệm gây cảm giác vui vẻ, thú vị",
+      exampleEn: "The company retreat was a delightful experience for everyone.",
+      exampleVi: "Chuyến nghỉ dưỡng công ty là trải nghiệm tuyệt vời cho mọi người."
+    },
+    {
+      word: "top priority",
+      ipa: "/tɒp praɪˈɒrəti/",
+      form: "noun phrase",
+      meaningEn: "The most important task or goal that must be handled first.",
+      meaningVi: "Ưu tiên hàng đầu",
+      exampleEn: "Customer safety is always our top priority.",
+      exampleVi: "Sự an toàn của khách hàng luôn là ưu tiên hàng đầu của chúng tôi."
+    },
+    {
+      word: "abruptly change",
+      ipa: "/əˈbrʌptli tʃeɪndʒ/",
+      form: "verb phrase",
+      meaningEn: "To change suddenly and unexpectedly. (= suddenly change)",
+      meaningVi: "Thay đổi đột ngột (= suddenly change)",
+      exampleEn: "The weather abruptly changed during the outdoor event.",
+      exampleVi: "Thời tiết đã thay đổi đột ngột trong sự kiện ngoài trời."
+    },
+    {
+      word: "frequently",
+      ipa: "/ˈfriːkwəntli/",
+      form: "adverb",
+      meaningEn: "Often; happening many times in a short period.",
+      meaningVi: "Thường xuyên xảy ra",
+      exampleEn: "He frequently travels overseas for business.",
+      exampleVi: "Anh ấy thường xuyên đi công tác nước ngoài."
+    },
+    {
+      word: "an abundance of",
+      ipa: "/ən əˈbʌndəns ɒv/",
+      form: "phrase",
+      meaningEn: "A very large quantity of something. (= a large number of)",
+      meaningVi: "Rất nhiều (= a large number of)",
+      exampleEn: "There is an abundance of opportunities in this market.",
+      exampleVi: "Có rất nhiều cơ hội trong thị trường này."
+    },
+    {
+      word: "qualified for + job/position",
+      ipa: "/ˈkwɒlɪfaɪd fɔː/",
+      form: "adjective phrase",
+      meaningEn: "Meeting the requirements for a specific job or position.",
+      meaningVi: "Đủ điều kiện cho một vị trí/công việc cụ thể",
+      exampleEn: "She is qualified for the senior manager position.",
+      exampleVi: "Cô ấy đủ điều kiện cho vị trí quản lý cấp cao."
+    },
+    {
+      word: "qualified to + V",
+      ipa: "/ˈkwɒlɪfaɪd tuː/",
+      form: "adjective phrase",
+      meaningEn: "Authorized or permitted to perform a specific action.",
+      meaningVi: "Đủ điều kiện, được phép làm điều gì đó",
+      exampleEn: "Only certified staff are qualified to operate this machine.",
+      exampleVi: "Chỉ nhân viên được cấp phép mới đủ điều kiện vận hành máy này."
+    },
+    {
+      word: "qualified in + field",
+      ipa: "/ˈkwɒlɪfaɪd ɪn/",
+      form: "adjective phrase",
+      meaningEn: "Having formal qualifications or expertise in a specific subject or field.",
+      meaningVi: "Có chuyên môn, bằng cấp trong một lĩnh vực cụ thể",
+      exampleEn: "He is qualified in accounting and finance.",
+      exampleVi: "Anh ấy có chuyên môn kế toán và tài chính."
+    },
+    {
+      word: "take longer than expected",
+      ipa: "/teɪk ˈlɒŋɡə ðæn ɪkˈspektɪd/",
+      form: "phrase",
+      meaningEn: "To require more time than originally planned or anticipated.",
+      meaningVi: "Mất nhiều thời gian hơn dự kiến",
+      exampleEn: "The renovation took longer than expected due to bad weather.",
+      exampleVi: "Việc cải tạo mất nhiều thời gian hơn dự kiến do thời tiết xấu."
+    },
+    {
+      word: "come with a warranty",
+      ipa: "/kʌm wɪð ə ˈwɒrənti/",
+      form: "phrase",
+      meaningEn: "To include a guarantee covering repairs or replacement for a set period.",
+      meaningVi: "Đi kèm bảo hành",
+      exampleEn: "All our products come with a one-year warranty.",
+      exampleVi: "Tất cả sản phẩm của chúng tôi đều đi kèm bảo hành một năm."
+    },
+    {
+      word: "be composed of",
+      ipa: "/bi kəmˈpəʊzd ɒv/",
+      form: "phrase",
+      meaningEn: "To be made up of specific parts or elements. (= consist of = include)",
+      meaningVi: "Bao gồm, được tạo thành từ (= consist of = include)",
+      exampleEn: "The committee is composed of ten members.",
+      exampleVi: "Ủy ban bao gồm mười thành viên."
+    },
+    {
+      word: "generally",
+      ipa: "/ˈdʒenrəli/",
+      form: "adverb",
+      meaningEn: "In most cases; usually. (= usually)",
+      meaningVi: "Thường, nhìn chung (= usually)",
+      exampleEn: "The office is generally open from 8 AM to 6 PM.",
+      exampleVi: "Văn phòng thường mở cửa từ 8 giờ sáng đến 6 giờ chiều."
+    },
+    {
+      word: "unforeseen circumstances may arise",
+      ipa: "/ˌʌnfɔːˈsiːn ˈsɜːkəmstænsɪz meɪ əˈraɪz/",
+      form: "phrase",
+      meaningEn: "Unexpected situations that were not planned for may occur.",
+      meaningVi: "Những tình huống không lường trước có thể xảy ra",
+      exampleEn: "The project may be delayed if unforeseen circumstances arise.",
+      exampleVi: "Dự án có thể bị trễ nếu có tình huống không lường trước xảy ra."
+    },
+    {
+      word: "make unlimited transfers",
+      ipa: "/meɪk ʌnˈlɪmɪtɪd ˈtrænsfɜːz/",
+      form: "verb phrase",
+      meaningEn: "To perform bank or fund transfers without a maximum limit.",
+      meaningVi: "Thực hiện không giới hạn số lần chuyển (tiền)",
+      exampleEn: "Premium account holders can make unlimited transfers each month.",
+      exampleVi: "Chủ tài khoản cao cấp có thể thực hiện không giới hạn số lần chuyển mỗi tháng."
+    },
+    {
+      word: "1 percent interest",
+      ipa: "/wʌn pəˈsent ˈɪntrəst/",
+      form: "noun phrase",
+      meaningEn: "An interest rate of 1%, typically applied to savings accounts or loans.",
+      meaningVi: "Lãi suất 1%",
+      exampleEn: "The savings account offers 1 percent interest per month.",
+      exampleVi: "Tài khoản tiết kiệm cung cấp lãi suất 1% mỗi tháng."
+    },
+    {
+      word: "specialize in",
+      ipa: "/ˈspeʃəlaɪz ɪn/",
+      form: "verb phrase",
+      meaningEn: "To focus on or be an expert in a particular field or activity. + N or V-ing.",
+      meaningVi: "Chuyên về (+ danh từ hoặc V-ing)",
+      exampleEn: "She specializes in corporate tax law.",
+      exampleVi: "Cô ấy chuyên về luật thuế doanh nghiệp."
+    },
+    {
+      word: "ample time left",
+      ipa: "/ˈæmpl taɪm left/",
+      form: "phrase",
+      meaningEn: "More than enough time remaining before a deadline.",
+      meaningVi: "Còn dư nhiều thời gian",
+      exampleEn: "There is ample time left to review the contract.",
+      exampleVi: "Còn dư nhiều thời gian để xem xét hợp đồng."
+    },
+    {
+      word: "responsible / irresponsible",
+      ipa: "/rɪˈspɒnsɪbl/ /ˌɪrɪˈspɒnsɪbl/",
+      form: "adjective / adjective (antonym with prefix ir-)",
+      meaningEn: "'Responsible' = having a duty to manage or care for something. 'Irresponsible' = lacking care or accountability (prefix: ir-).",
+      meaningVi: "'Responsible' = có trách nhiệm. 'Irresponsible' = thiếu trách nhiệm (thêm tiền tố ir-)",
+      exampleEn: "A responsible manager always follows up; an irresponsible one does not.",
+      exampleVi: "Người quản lý có trách nhiệm luôn theo dõi; người thiếu trách nhiệm thì không."
+    },
+    {
+      word: "unseasonably cold temperature",
+      ipa: "/ʌnˈsiːzənəbli kəʊld ˈtemprɪtʃə/",
+      form: "noun phrase",
+      meaningEn: "A temperature that is unusually cold compared to what is typical for the season.",
+      meaningVi: "Nhiệt độ lạnh bất thường so với mùa",
+      exampleEn: "Unseasonably cold temperatures disrupted outdoor operations.",
+      exampleVi: "Nhiệt độ lạnh bất thường đã làm gián đoạn hoạt động ngoài trời."
+    },
+    {
+      word: "fund-raising",
+      ipa: "/ˈfʌnd reɪzɪŋ/",
+      form: "noun / adjective",
+      meaningEn: "The activity of collecting money for a cause, project, or organization.",
+      meaningVi: "Gây quỹ",
+      exampleEn: "The fund-raising event raised over $10,000 for charity.",
+      exampleVi: "Sự kiện gây quỹ đã quyên góp hơn 10.000 đô la cho từ thiện."
+    },
+    {
+      word: "distinguish sth from sth",
+      ipa: "/dɪˈstɪŋɡwɪʃ ... frɒm/",
+      form: "verb phrase",
+      meaningEn: "To recognize or identify the difference between two things.",
+      meaningVi: "Phân biệt cái gì với cái gì",
+      exampleEn: "Can you distinguish a genuine invoice from a fake one?",
+      exampleVi: "Bạn có thể phân biệt hóa đơn thật với hóa đơn giả không?"
+    },
+    {
+      word: "struggle",
+      ipa: "/ˈstrʌɡl/",
+      form: "verb",
+      meaningEn: "To have difficulty doing something; to work hard against obstacles.",
+      meaningVi: "Vật lộn, gặp khó khăn",
+      exampleEn: "New employees sometimes struggle to adapt to company culture.",
+      exampleVi: "Nhân viên mới đôi khi gặp khó khăn để thích nghi với văn hóa công ty."
+    },
+    {
+      word: "occasionally",
+      ipa: "/əˈkeɪʒnəli/",
+      form: "adverb",
+      meaningEn: "Sometimes but not regularly; from time to time. (= sometimes)",
+      meaningVi: "Thỉnh thoảng (= sometimes)",
+      exampleEn: "She occasionally works from the staff lounge on Fridays.",
+      exampleVi: "Cô ấy thỉnh thoảng làm việc tại phòng nghỉ nhân viên vào thứ Sáu."
+    }
+  ],
+  exercises: [
+    { id: 'e14_1', type: 'fill', questionEn: "The company ____ on its employees to maintain high quality.", questionVi: "Công ty ____ vào nhân viên để duy trì chất lượng cao.", correctAnswer: "relies" },
+    { id: 'e14_2', type: 'mcq', questionEn: "She is a ____ employee who always meets deadlines.", questionVi: "Cô ấy là nhân viên ____ luôn đáp ứng thời hạn.", options: ["reliable", "relieved", "responsible"], correctAnswer: "reliable" },
+    { id: 'e14_3', type: 'complete', questionEn: "The ____ of this machine is guaranteed for five years.", questionVi: "____ của máy này được đảm bảo trong năm năm.", correctAnswer: "reliability" },
+    { id: 'e14_4', type: 'meaning', questionEn: "What does 'reimbursement' mean?", questionVi: "'Reimbursement' có nghĩa là gì?", options: ["A salary increase", "Money paid back for expenses already spent", "A government grant"], correctAnswer: "Money paid back for expenses already spent" },
+    { id: 'e14_5', type: 'fill', questionEn: "Please submit your receipts for travel ____ reimbursement.", questionVi: "Vui lòng nộp biên lai để được hoàn trả chi phí đi ____.", correctAnswer: "expense" },
+    { id: 'e14_6', type: 'mcq', questionEn: "She is qualified ____ the senior accounting position.", questionVi: "Cô ấy đủ điều kiện ____ vị trí kế toán cấp cao.", options: ["for", "to", "in"], correctAnswer: "for" },
+    { id: 'e14_7', type: 'complete', questionEn: "He is qualified ____ accounting and can oversee the audit.", questionVi: "Anh ấy có chuyên môn ____ kế toán và có thể giám sát cuộc kiểm toán.", correctAnswer: "in" },
+    { id: 'e14_8', type: 'fill', questionEn: "Only certified engineers are qualified ____ operate this equipment.", questionVi: "Chỉ kỹ sư được cấp phép mới đủ điều kiện ____ vận hành thiết bị này.", correctAnswer: "to" },
+    { id: 'e14_9', type: 'mcq', questionEn: "The renovation took longer ____ expected due to bad weather.", questionVi: "Việc cải tạo mất nhiều thời gian hơn ____ do thời tiết xấu.", options: ["than", "as", "from"], correctAnswer: "than" },
+    { id: 'e14_10', type: 'complete', questionEn: "All products ____ a two-year warranty.", questionVi: "Tất cả sản phẩm đều ____ bảo hành hai năm.", correctAnswer: "come with" },
+    { id: 'e14_11', type: 'fill', questionEn: "The team is ____ of five engineers and two designers.", questionVi: "Đội nhóm ____ năm kỹ sư và hai nhà thiết kế.", correctAnswer: "composed" },
+    { id: 'e14_12', type: 'mcq', questionEn: "'An abundance of' has the same meaning as ____.", questionVi: "'An abundance of' có nghĩa tương tự là ____.", options: ["a shortage of", "a large number of", "a little bit of"], correctAnswer: "a large number of" },
+    { id: 'e14_13', type: 'complete', questionEn: "She specializes ____ corporate finance and tax law.", questionVi: "Cô ấy chuyên ____ tài chính doanh nghiệp và luật thuế.", correctAnswer: "in" },
+    { id: 'e14_14', type: 'fill', questionEn: "The schedule ____ changed due to unseasonably cold temperatures.", questionVi: "Lịch trình đã ____ thay đổi do nhiệt độ lạnh bất thường.", correctAnswer: "abruptly" },
+    { id: 'e14_15', type: 'mcq', questionEn: "There is ____ time left — more than enough to finish.", questionVi: "Còn ____ thời gian — nhiều hơn đủ để hoàn thành.", options: ["ample", "limited", "no"], correctAnswer: "ample" },
+    { id: 'e14_16', type: 'complete', questionEn: "The fund-raising event will be ____ promptly at noon.", questionVi: "Sự kiện gây quỹ sẽ được ____ ngay lúc buổi trưa.", correctAnswer: "held" },
+    { id: 'e14_17', type: 'fill', questionEn: "We need to decide which vendor ____ work with.", questionVi: "Chúng tôi cần quyết định nhà cung cấp nào ____ hợp tác.", correctAnswer: "to" },
+    { id: 'e14_18', type: 'mcq', questionEn: "Can you distinguish a genuine document ____ a fraudulent one?", questionVi: "Bạn có thể phân biệt tài liệu thật ____ tài liệu giả không?", options: ["from", "with", "to"], correctAnswer: "from" },
+    { id: 'e14_19', type: 'complete', questionEn: "The office is ____ open from 9 AM to 6 PM.", questionVi: "Văn phòng ____ mở cửa từ 9 giờ sáng đến 6 giờ chiều.", correctAnswer: "generally" },
+    { id: 'e14_20', type: 'fill', questionEn: "She was ____ to learn the project had been approved.", questionVi: "Cô ấy cảm thấy ____ khi biết dự án đã được phê duyệt.", correctAnswer: "relieved" },
+    { id: 'e14_21', type: 'mcq', questionEn: "The company's ____ into new markets is our top priority.", questionVi: "____ của công ty vào thị trường mới là ưu tiên hàng đầu.", options: ["expansion", "reimbursement", "reliability"], correctAnswer: "expansion" },
+    { id: 'e14_22', type: 'complete', questionEn: "He occasionally ____ to meet deadlines when the workload is heavy.", questionVi: "Anh ấy thỉnh thoảng ____ để đáp ứng thời hạn khi khối lượng công việc nhiều.", correctAnswer: "struggles" },
+    { id: 'e14_23', type: 'fill', questionEn: "New staff ____ use the staff lounge to relax between shifts.", questionVi: "Nhân viên mới ____ sử dụng phòng nghỉ để thư giãn giữa các ca.", correctAnswer: "frequently" },
+    { id: 'e14_24', type: 'mcq', questionEn: "Premium members can make ____ transfers each month.", questionVi: "Thành viên cao cấp có thể thực hiện chuyển khoản ____ mỗi tháng.", options: ["unlimited", "restricted", "occasional"], correctAnswer: "unlimited" },
+    { id: 'e14_25', type: 'fill', questionEn: "The trip to the manufacturing plant was absolutely ____.", questionVi: "Chuyến thăm nhà máy sản xuất thực sự rất ____.", correctAnswer: "delightful" },
+    { id: 'e14_26', type: 'mcq', questionEn: "This car has excellent gas ____; it uses very little fuel.", questionVi: "Xe này có ____ xăng xuất sắc; tiêu thụ rất ít nhiên liệu.", options: ["mileage", "expense", "warranty"], correctAnswer: "mileage" },
+    { id: 'e14_27', type: 'complete', questionEn: "I am grateful ____ my mentor for all his guidance.", questionVi: "Tôi biết ơn ____ người cố vấn của tôi vì tất cả sự hướng dẫn.", correctAnswer: "to" },
+    { id: 'e14_28', type: 'fill', questionEn: "We are grateful ____ your continued support.", questionVi: "Chúng tôi biết ơn ____ sự hỗ trợ liên tục của bạn.", correctAnswer: "for" },
+    { id: 'e14_29', type: 'mcq', questionEn: "An irresponsible manager ____ follow up on tasks.", questionVi: "Người quản lý thiếu trách nhiệm ____ theo dõi công việc.", options: ["does not", "always", "frequently"], correctAnswer: "does not" },
+    { id: 'e14_30', type: 'meaning', questionEn: "What does 'unseasonably cold' mean?", questionVi: "'Unseasonably cold' có nghĩa là gì?", options: ["Cold as expected for the season", "Unusually cold compared to the season norm", "Slightly cold"], correctAnswer: "Unusually cold compared to the season norm" },
+    { id: 'e14_31', type: 'fill', questionEn: "She ____ the new technique within two weeks of joining.", questionVi: "Cô ấy đã ____ kỹ thuật mới trong vòng hai tuần sau khi gia nhập.", correctAnswer: "mastered" },
+    { id: 'e14_32', type: 'complete', questionEn: "The savings account offers 1 percent ____ per month.", questionVi: "Tài khoản tiết kiệm cung cấp ____ 1% mỗi tháng.", correctAnswer: "interest" },
+    { id: 'e14_33', type: 'mcq', questionEn: "Unforeseen circumstances ____ arise and delay the project.", questionVi: "Những tình huống không lường trước ____ xảy ra và làm trễ dự án.", options: ["may", "will never", "should"], correctAnswer: "may" },
+    { id: 'e14_34', type: 'fill', questionEn: "There are only five days ____ before the contract expires.", questionVi: "Chỉ còn năm ngày ____ trước khi hợp đồng hết hạn.", correctAnswer: "left" },
+    { id: 'e14_35', type: 'mcq', questionEn: "'Occasionally' means the same as ____.", questionVi: "'Occasionally' có nghĩa tương tự là ____.", options: ["sometimes", "always", "frequently"], correctAnswer: "sometimes" }
+  ],
+  rearrangeExercises: [
+    { sentenceEn: "The manufacturing plant relies on reliable equipment.", sentenceVi: "Nhà máy sản xuất dựa vào thiết bị đáng tin cậy." },
+    { sentenceEn: "The reliability of this system is excellent.", sentenceVi: "Độ tin cậy của hệ thống này rất xuất sắc." },
+    { sentenceEn: "I received my paycheck at the end of the month.", sentenceVi: "Tôi nhận phiếu lương vào cuối tháng." },
+    { sentenceEn: "Submit receipts to receive travel expense reimbursement.", sentenceVi: "Nộp biên lai để được hoàn trả chi phí đi lại." },
+    { sentenceEn: "The meeting will be held promptly at 9 AM.", sentenceVi: "Cuộc họp sẽ được tổ chức ngay lúc 9 giờ sáng." },
+    { sentenceEn: "She is qualified for the senior accounting position.", sentenceVi: "Cô ấy đủ điều kiện cho vị trí kế toán cấp cao." },
+    { sentenceEn: "He is qualified in accounting and finance.", sentenceVi: "Anh ấy có chuyên môn kế toán và tài chính." },
+    { sentenceEn: "Only certified staff are qualified to operate this machine.", sentenceVi: "Chỉ nhân viên được cấp phép mới đủ điều kiện vận hành máy này." },
+    { sentenceEn: "The renovation took longer than expected.", sentenceVi: "Việc cải tạo mất nhiều thời gian hơn dự kiến." },
+    { sentenceEn: "All products come with a one-year warranty.", sentenceVi: "Tất cả sản phẩm đều đi kèm bảo hành một năm." },
+    { sentenceEn: "The committee is composed of ten members.", sentenceVi: "Ủy ban bao gồm mười thành viên." },
+    { sentenceEn: "There is an abundance of opportunities in this market.", sentenceVi: "Có rất nhiều cơ hội trong thị trường này." },
+    { sentenceEn: "She specializes in corporate finance.", sentenceVi: "Cô ấy chuyên về tài chính doanh nghiệp." },
+    { sentenceEn: "There is ample time left to review the contract.", sentenceVi: "Còn dư nhiều thời gian để xem xét hợp đồng." },
+    { sentenceEn: "Unforeseen circumstances may arise during the project.", sentenceVi: "Những tình huống không lường trước có thể xảy ra trong dự án." },
+    { sentenceEn: "The schedule abruptly changed due to cold weather.", sentenceVi: "Lịch trình đã thay đổi đột ngột do thời tiết lạnh." },
+    { sentenceEn: "Can you distinguish a real invoice from a fake one?", sentenceVi: "Bạn có thể phân biệt hóa đơn thật với hóa đơn giả không?" },
+    { sentenceEn: "She was relieved to hear the good news.", sentenceVi: "Cô ấy nhẹ nhõm khi nghe tin tốt." },
+    { sentenceEn: "The fund-raising event raised money for charity.", sentenceVi: "Sự kiện gây quỹ đã quyên góp tiền cho từ thiện." },
+    { sentenceEn: "He occasionally struggles with the new software.", sentenceVi: "Anh ấy thỉnh thoảng gặp khó khăn với phần mềm mới." }
+  ]
+}
+,{
+  id: 'l15',
+  topic: 'Feb 26: Adjective Groups, Eligibility & Professional Expressions',
+  focus: 'Satisfy/Respect/Novel word families, Eligible for/to structures, Regular basis expressions',
+  explanation: 'Learn the important difference between satisfactory vs satisfied, three "respect-" adjectives, novel as noun and adjective, eligibility structures (eligible for/to), and expressions for regularity.',
+  explanationVi: 'Học sự khác biệt quan trọng giữa satisfactory và satisfied, ba tính từ "respect-", novel là danh từ và tính từ, cấu trúc đủ điều kiện (eligible for/to), và các cụm từ chỉ sự đều đặn.',
+  storyEn: [
+    "The advisory board recently reviewed dozens of proposals and widely praised the most novel ideas.",
+    "All attendees received complimentary water bottles and were emailed their certificates shortly after.",
+    "The results were satisfactory overall, though not every participant was fully satisfied.",
+    "Respective team leaders gave lively presentations and met with the press after the session.",
+    "Staff are urged to submit feedback on a regular basis to maintain respectable standards.",
+    "Employees eligible for the award must be respectful of all colleagues to qualify.",
+    "The author is eligible to present her novel at the press event scheduled next week.",
+    "On a regular basis, the advisory board reviews whether programs remain widely praised."
+  ],
+  storyVi: [
+    "Hội đồng cố vấn gần đây đã xem xét hàng chục đề xuất và khen ngợi rộng rãi những ý tưởng mới lạ nhất.",
+    "Tất cả người tham dự nhận được chai nước miễn phí và được gửi chứng chỉ qua email trong thời gian ngắn.",
+    "Kết quả nhìn chung đạt yêu cầu, dù không phải người tham gia nào cũng hoàn toàn hài lòng.",
+    "Các trưởng nhóm tương ứng đã có những buổi thuyết trình sôi động và gặp gỡ báo chí sau phiên họp.",
+    "Nhân viên được khuyến nghị mạnh nộp phản hồi đều đặn để duy trì các tiêu chuẩn đáng kính.",
+    "Nhân viên đủ điều kiện nhận giải thưởng phải lễ phép với tất cả đồng nghiệp để đủ tiêu chuẩn.",
+    "Tác giả đủ điều kiện để trình bày cuốn tiểu thuyết của mình tại sự kiện báo chí được lên lịch tuần tới.",
+    "Đều đặn, hội đồng cố vấn xem xét liệu các chương trình có tiếp tục được khen ngợi rộng rãi không."
+  ],
+  vocabulary: [
+    {
+      word: "recently",
+      ipa: "/ˈriːsntli/",
+      form: "adverb",
+      meaningEn: "Not long ago; in the near past.",
+      meaningVi: "Gần đây",
+      exampleEn: "The company recently launched a new product line.",
+      exampleVi: "Công ty gần đây đã ra mắt dòng sản phẩm mới."
+    },
+    {
+      word: "advisory board",
+      ipa: "/ədˈvaɪzəri bɔːd/",
+      form: "noun phrase",
+      meaningEn: "A group of people who provide expert advice and recommendations to an organization.",
+      meaningVi: "Hội đồng cố vấn",
+      exampleEn: "The advisory board meets quarterly to review company strategy.",
+      exampleVi: "Hội đồng cố vấn họp hàng quý để xem xét chiến lược công ty."
+    },
+    {
+      word: "complimentary",
+      ipa: "/ˌkɒmplɪˈmentri/",
+      form: "adjective",
+      meaningEn: "Given free of charge as a courtesy or gift. (= free)",
+      meaningVi: "Miễn phí, tặng kèm (= free)",
+      exampleEn: "All guests received a complimentary breakfast.",
+      exampleVi: "Tất cả khách đều nhận bữa sáng miễn phí."
+    },
+    {
+      word: "water bottle / bottle of water",
+      ipa: "/ˈwɔːtə ˈbɒtl/",
+      form: "noun phrase",
+      meaningEn: "A container filled with water. Both 'water bottle' and 'bottle of water' are correct.",
+      meaningVi: "Chai nước — cả 'water bottle' và 'bottle of water' đều đúng",
+      exampleEn: "Each participant received a complimentary water bottle.",
+      exampleVi: "Mỗi người tham gia nhận được một chai nước miễn phí."
+    },
+    {
+      word: "will be emailed shortly",
+      ipa: "/wɪl bi ˈiːmeɪld ˈʃɔːtli/",
+      form: "phrase (passive future)",
+      meaningEn: "Will be sent by email within a short amount of time.",
+      meaningVi: "Sẽ được gửi qua email trong thời gian ngắn",
+      exampleEn: "Your confirmation will be emailed shortly.",
+      exampleVi: "Xác nhận của bạn sẽ được gửi qua email trong thời gian ngắn."
+    },
+    {
+      word: "satisfactory",
+      ipa: "/ˌsætɪsˈfæktəri/",
+      form: "adjective",
+      meaningEn: "Meeting the required standard; acceptable but not outstanding. Describes the STATE of a thing.",
+      meaningVi: "Đạt yêu cầu, chấp nhận được — mô tả TRẠNG THÁI của sự vật (không phải cảm xúc người)",
+      exampleEn: "The test results were satisfactory.",
+      exampleVi: "Kết quả kiểm tra đạt yêu cầu."
+    },
+    {
+      word: "satisfied",
+      ipa: "/ˈsætɪsfaɪd/",
+      form: "adjective",
+      meaningEn: "Feeling pleased or content because expectations have been met. Describes a PERSON's feeling.",
+      meaningVi: "Hài lòng — mô tả CẢM XÚC của người (không dùng cho sự vật)",
+      exampleEn: "The customer was satisfied with the service.",
+      exampleVi: "Khách hàng hài lòng với dịch vụ."
+    },
+    {
+      word: "dozens of",
+      ipa: "/ˈdʌzənz ɒv/",
+      form: "quantifier phrase",
+      meaningEn: "A large number of; many (originally 'dozens' = groups of 12, but used generally for 'many').",
+      meaningVi: "Rất nhiều (hàng chục)",
+      exampleEn: "Dozens of applicants submitted their resumes.",
+      exampleVi: "Hàng chục ứng viên đã nộp hồ sơ của họ."
+    },
+    {
+      word: "be widely praised",
+      ipa: "/bi ˈwaɪdli preɪzd/",
+      form: "verb phrase (passive)",
+      meaningEn: "To be admired and spoken of positively by many people.",
+      meaningVi: "Được khen ngợi rộng rãi",
+      exampleEn: "The new program has been widely praised by experts.",
+      exampleVi: "Chương trình mới đã được các chuyên gia khen ngợi rộng rãi."
+    },
+    {
+      word: "respective",
+      ipa: "/rɪˈspektɪv/",
+      form: "adjective",
+      meaningEn: "Belonging to or connected with each of the people or things already mentioned.",
+      meaningVi: "Tương ứng (của từng người/vật đã được đề cập)",
+      exampleEn: "The team leaders returned to their respective departments.",
+      exampleVi: "Các trưởng nhóm trở về bộ phận tương ứng của họ."
+    },
+    {
+      word: "respectful",
+      ipa: "/rɪˈspektfl/",
+      form: "adjective",
+      meaningEn: "Showing politeness and consideration for others. (= polite, courteous)",
+      meaningVi: "Lễ phép, tôn trọng người khác",
+      exampleEn: "Employees are expected to be respectful to all clients.",
+      exampleVi: "Nhân viên được kỳ vọng lễ phép với tất cả khách hàng."
+    },
+    {
+      word: "respectable",
+      ipa: "/rɪˈspektəbl/",
+      form: "adjective",
+      meaningEn: "Regarded by others as good, proper, or of high standing; deserving admiration.",
+      meaningVi: "Đáng kính, được xã hội đánh giá cao",
+      exampleEn: "She built a respectable career over 20 years.",
+      exampleVi: "Cô ấy đã xây dựng sự nghiệp đáng kính trong 20 năm."
+    },
+    {
+      word: "novel",
+      ipa: "/ˈnɒvl/",
+      form: "noun / adjective",
+      meaningEn: "(n) A full-length work of fiction. (adj) New and original; not seen before.",
+      meaningVi: "(n) Tiểu thuyết / (adj) Mới lạ, sáng tạo, chưa từng thấy trước đây",
+      exampleEn: "She wrote a novel about her travels. The team proposed a novel solution.",
+      exampleVi: "Cô ấy viết một cuốn tiểu thuyết về chuyến đi của mình. Nhóm đề xuất một giải pháp mới lạ."
+    },
+    {
+      word: "meet with the press",
+      ipa: "/miːt wɪð ðə pres/",
+      form: "verb phrase",
+      meaningEn: "To hold a meeting or conference with journalists and news reporters.",
+      meaningVi: "Gặp gỡ báo chí",
+      exampleEn: "The CEO will meet with the press after the announcement.",
+      exampleVi: "Giám đốc điều hành sẽ gặp gỡ báo chí sau thông báo."
+    },
+    {
+      word: "lively",
+      ipa: "/ˈlaɪvli/",
+      form: "adjective",
+      meaningEn: "Full of energy, excitement, and activity; animated and cheerful.",
+      meaningVi: "Sôi động, vui vẻ, vui nhộn",
+      exampleEn: "The training session was lively and engaging.",
+      exampleVi: "Buổi đào tạo rất sôi động và hấp dẫn."
+    },
+    {
+      word: "be eligible for + N",
+      ipa: "/bi ˈelɪdʒəbl fɔː/",
+      form: "adjective phrase",
+      meaningEn: "To meet the requirements needed to receive something or apply for a position. (= be qualified for + N)",
+      meaningVi: "Đủ điều kiện để nhận/ứng tuyển cái gì (= be qualified for + N)",
+      exampleEn: "Staff with 2 years of service are eligible for the promotion.",
+      exampleVi: "Nhân viên có 2 năm thâm niên đủ điều kiện để được thăng chức."
+    },
+    {
+      word: "be eligible to + V",
+      ipa: "/bi ˈelɪdʒəbl tuː/",
+      form: "adjective phrase",
+      meaningEn: "To meet the requirements needed to do something.",
+      meaningVi: "Đủ điều kiện để làm điều gì đó",
+      exampleEn: "You must be 18 to be eligible to vote.",
+      exampleVi: "Bạn phải 18 tuổi để đủ điều kiện bỏ phiếu."
+    },
+    {
+      word: "on a regular basis",
+      ipa: "/ɒn ə ˈreɡjələ ˈbeɪsɪs/",
+      form: "phrase",
+      meaningEn: "At consistent, repeated intervals; routinely. (= regularly = frequently)",
+      meaningVi: "Đều đặn, thường xuyên (= regularly = frequently)",
+      exampleEn: "The team reviews performance on a regular basis.",
+      exampleVi: "Nhóm xem xét hiệu suất đều đặn."
+    },
+    {
+      word: "be urged to",
+      ipa: "/bi ɜːdʒd tuː/",
+      form: "verb phrase (passive)",
+      meaningEn: "To be strongly encouraged or advised to do something.",
+      meaningVi: "Được thúc giục, được khuyến nghị mạnh",
+      exampleEn: "Staff are urged to report any safety issues immediately.",
+      exampleVi: "Nhân viên được thúc giục báo cáo bất kỳ vấn đề an toàn nào ngay lập tức."
+    }
+  ],
+  exercises: [
+    { id: 'e15_1', type: 'fill', questionEn: "The advisory board ____ reviewed dozens of proposals.", questionVi: "Hội đồng cố vấn ____ đã xem xét hàng chục đề xuất.", correctAnswer: "recently" },
+    { id: 'e15_2', type: 'mcq', questionEn: "All guests received a ____ water bottle at the event.", questionVi: "Tất cả khách nhận một chai nước ____ tại sự kiện.", options: ["complimentary", "satisfactory", "respective"], correctAnswer: "complimentary" },
+    { id: 'e15_3', type: 'meaning', questionEn: "What is the key difference between 'satisfactory' and 'satisfied'?", questionVi: "Sự khác biệt chính giữa 'satisfactory' và 'satisfied' là gì?", options: ["No difference", "'Satisfactory' describes a thing's state; 'satisfied' describes a person's feeling", "'Satisfied' describes a thing; 'satisfactory' describes a person"], correctAnswer: "'Satisfactory' describes a thing's state; 'satisfied' describes a person's feeling" },
+    { id: 'e15_4', type: 'complete', questionEn: "Your receipt will be ____ shortly.", questionVi: "Biên lai của bạn sẽ được ____ trong thời gian ngắn.", correctAnswer: "emailed" },
+    { id: 'e15_5', type: 'fill', questionEn: "____ of applicants submitted proposals for the grant.", questionVi: "Hàng ____ ứng viên đã nộp đề xuất cho khoản tài trợ.", correctAnswer: "Dozens" },
+    { id: 'e15_6', type: 'mcq', questionEn: "The program has been ____ praised by the media.", questionVi: "Chương trình đã được ____ khen ngợi bởi truyền thông.", options: ["widely", "recently", "lively"], correctAnswer: "widely" },
+    { id: 'e15_7', type: 'complete', questionEn: "Each team returned to their ____ office after the conference.", questionVi: "Mỗi nhóm trở về văn phòng ____ của họ sau hội nghị.", correctAnswer: "respective" },
+    { id: 'e15_8', type: 'mcq', questionEn: "Employees must be ____ to all clients at all times.", questionVi: "Nhân viên phải ____ với tất cả khách hàng mọi lúc.", options: ["respectful", "respectable", "respective"], correctAnswer: "respectful" },
+    { id: 'e15_9', type: 'fill', questionEn: "She built a ____ reputation over her 20-year career.", questionVi: "Cô ấy đã xây dựng danh tiếng ____ trong 20 năm sự nghiệp.", correctAnswer: "respectable" },
+    { id: 'e15_10', type: 'meaning', questionEn: "When 'novel' is used as an adjective, it means ____.", questionVi: "Khi 'novel' được dùng như tính từ, nó có nghĩa là ____.", options: ["a work of fiction", "new and original", "widely praised"], correctAnswer: "new and original" },
+    { id: 'e15_11', type: 'complete', questionEn: "The CEO will meet with the ____ after the announcement.", questionVi: "Giám đốc điều hành sẽ gặp gỡ ____ sau thông báo.", correctAnswer: "press" },
+    { id: 'e15_12', type: 'fill', questionEn: "The workshop was ____ and all participants were engaged.", questionVi: "Hội thảo rất ____ và tất cả người tham gia đều tham gia tích cực.", correctAnswer: "lively" },
+    { id: 'e15_13', type: 'mcq', questionEn: "Staff with three years of service are eligible ____ the housing benefit.", questionVi: "Nhân viên có ba năm thâm niên đủ điều kiện ____ phúc lợi nhà ở.", options: ["for", "to", "in"], correctAnswer: "for" },
+    { id: 'e15_14', type: 'complete', questionEn: "You must register first to be eligible ____ vote.", questionVi: "Bạn phải đăng ký trước để đủ điều kiện ____ bỏ phiếu.", correctAnswer: "to" },
+    { id: 'e15_15', type: 'fill', questionEn: "The team reports progress on a ____ basis.", questionVi: "Nhóm báo cáo tiến độ trên cơ sở ____.", correctAnswer: "regular" },
+    { id: 'e15_16', type: 'mcq', questionEn: "All employees are ____ to complete the safety training.", questionVi: "Tất cả nhân viên được ____ hoàn thành đào tạo an toàn.", options: ["urged", "eligible", "satisfied"], correctAnswer: "urged" },
+    { id: 'e15_17', type: 'complete', questionEn: "The customer was ____ with the quality of service.", questionVi: "Khách hàng ____ với chất lượng dịch vụ.", correctAnswer: "satisfied" },
+    { id: 'e15_18', type: 'fill', questionEn: "The test results were ____, meeting all required standards.", questionVi: "Kết quả kiểm tra ____, đáp ứng tất cả các tiêu chuẩn yêu cầu.", correctAnswer: "satisfactory" },
+    { id: 'e15_19', type: 'mcq', questionEn: "The advisory board meets ____ to review key decisions.", questionVi: "Hội đồng cố vấn họp ____ để xem xét các quyết định quan trọng.", options: ["on a regular basis", "at the box office", "beyond the limits"], correctAnswer: "on a regular basis" }
+  ],
+  rearrangeExercises: [
+    { sentenceEn: "The advisory board recently reviewed dozens of proposals.", sentenceVi: "Hội đồng cố vấn gần đây đã xem xét hàng chục đề xuất." },
+    { sentenceEn: "All guests received a complimentary water bottle.", sentenceVi: "Tất cả khách đều nhận được một chai nước miễn phí." },
+    { sentenceEn: "Your confirmation will be emailed shortly.", sentenceVi: "Xác nhận của bạn sẽ được gửi qua email trong thời gian ngắn." },
+    { sentenceEn: "The test results were satisfactory overall.", sentenceVi: "Kết quả kiểm tra nhìn chung đạt yêu cầu." },
+    { sentenceEn: "The customer was satisfied with the service.", sentenceVi: "Khách hàng hài lòng với dịch vụ." },
+    { sentenceEn: "The program has been widely praised by experts.", sentenceVi: "Chương trình đã được các chuyên gia khen ngợi rộng rãi." },
+    { sentenceEn: "Each team returned to their respective offices.", sentenceVi: "Mỗi nhóm trở về văn phòng tương ứng của họ." },
+    { sentenceEn: "Employees must be respectful to all clients.", sentenceVi: "Nhân viên phải lễ phép với tất cả khách hàng." },
+    { sentenceEn: "She built a respectable career over 20 years.", sentenceVi: "Cô ấy đã xây dựng sự nghiệp đáng kính trong 20 năm." },
+    { sentenceEn: "The team proposed a novel solution to the problem.", sentenceVi: "Nhóm đề xuất một giải pháp mới lạ cho vấn đề." },
+    { sentenceEn: "The CEO will meet with the press after the event.", sentenceVi: "Giám đốc điều hành sẽ gặp gỡ báo chí sau sự kiện." },
+    { sentenceEn: "Staff are urged to report issues on a regular basis.", sentenceVi: "Nhân viên được thúc giục báo cáo vấn đề đều đặn." },
+    { sentenceEn: "Staff eligible for the award must apply by Friday.", sentenceVi: "Nhân viên đủ điều kiện nhận giải thưởng phải nộp đơn trước thứ Sáu." },
+    { sentenceEn: "You must be 18 to be eligible to vote.", sentenceVi: "Bạn phải 18 tuổi để đủ điều kiện bỏ phiếu." },
+    { sentenceEn: "The session was lively and all participants were engaged.", sentenceVi: "Phiên họp rất sôi động và tất cả người tham gia đều tích cực." }
+  ]
+},
+{
+  id: 'l16',
+  topic: 'Feb 27: Real Estate, Construction, Film & Advanced Grammar',
+  focus: 'Housing/Market vocabulary, Keep A from B, Not only...but also inversion, Independent advice',
+  explanation: 'Learn real estate and housing vocabulary, the "keep A from B" structure, passive phrases (be awarded, all bids are submitted), and key grammar: "Not only has/does + S + V, but also + S + V".',
+  explanationVi: 'Học từ vựng bất động sản và thị trường nhà đất, cấu trúc "keep A from B", cụm từ bị động (be awarded, all bids are submitted), và ngữ pháp quan trọng: "Not only has/does + S + V, but also + S + V".',
+  storyEn: [
+    "Most financial analysts noted that real estate profit dragged down earnings on a seasonal basis.",
+    "The housing market showed weakness; initial results were wildly different from early forecasts.",
+    "The cargo ship can accommodate dozens of containers and is docked at the harbor.",
+    "After proofreading the email, the team confirmed its primary mission was delivered in a timely manner.",
+    "Soundproof panels absorb unwanted background noise and keep tiles from being scratched.",
+    "Not only has the independent consultant worked diligently, but she also gave impartial advice.",
+    "All bids were submitted before the deadline; among the winners, one was awarded a contract.",
+    "The film finally commenced at the box office; the results were beyond the limits expected.",
+    "Waterproof materials cause delays to decrease; a recent study confirmed this beyond doubt.",
+    "The shift workers urged management to accommodate their schedules on a seasonal basis."
+  ],
+  storyVi: [
+    "Hầu hết các nhà phân tích tài chính lưu ý rằng lợi nhuận bất động sản đã kéo xuống thu nhập theo mùa.",
+    "Thị trường nhà đất cho thấy sự yếu kém; kết quả ban đầu khác hoàn toàn so với dự báo sớm.",
+    "Tàu chở hàng có thể chứa hàng chục container và đang neo đậu tại cảng.",
+    "Sau khi soát lỗi email, nhóm đã xác nhận nhiệm vụ chính của nó được truyền đạt đúng hạn.",
+    "Các tấm cách âm hấp thụ tiếng ồn không mong muốn và bảo vệ bề mặt gạch khỏi bị trầy.",
+    "Không chỉ chuyên gia tư vấn độc lập làm việc chăm chỉ, mà cô ấy còn đưa ra lời khuyên khách quan.",
+    "Tất cả hồ sơ dự thầu được nộp trước thời hạn; trong số những người thắng cuộc, một người được trao hợp đồng.",
+    "Bộ phim cuối cùng đã bắt đầu tại phòng vé; kết quả vượt quá giới hạn dự kiến.",
+    "Vật liệu chống thấm khiến sự chậm trễ giảm bớt; một nghiên cứu gần đây đã xác nhận điều này không còn nghi ngờ.",
+    "Công nhân ca yêu cầu ban quản lý điều chỉnh lịch làm việc theo mùa."
+  ],
+  vocabulary: [
+    {
+      word: "on a seasonal basis",
+      ipa: "/ɒn ə ˈsiːzənl ˈbeɪsɪs/",
+      form: "phrase",
+      meaningEn: "According to or varying with the seasons of the year. (= seasonally)",
+      meaningVi: "Theo mùa, mang tính mùa vụ (= seasonally)",
+      exampleEn: "Staff are hired on a seasonal basis during the holiday period.",
+      exampleVi: "Nhân viên được tuyển dụng theo mùa trong kỳ nghỉ."
+    },
+    {
+      word: "real estate profit",
+      ipa: "/rɪəl ɪˈsteɪt ˈprɒfɪt/",
+      form: "noun phrase",
+      meaningEn: "Income or gains earned from buying, selling, or renting property.",
+      meaningVi: "Lợi nhuận bất động sản",
+      exampleEn: "Real estate profit declined due to the housing market slowdown.",
+      exampleVi: "Lợi nhuận bất động sản giảm do thị trường nhà đất chậm lại."
+    },
+    {
+      word: "property profit",
+      ipa: "/ˈprɒpəti ˈprɒfɪt/",
+      form: "noun phrase",
+      meaningEn: "Profit earned from land or property transactions.",
+      meaningVi: "Lợi nhuận từ đất, lợi nhuận từ bất động sản",
+      exampleEn: "Property profit was the company's main revenue source last year.",
+      exampleVi: "Lợi nhuận từ đất là nguồn doanh thu chính của công ty năm ngoái."
+    },
+    {
+      word: "drag (sth down)",
+      ipa: "/dræɡ/",
+      form: "verb",
+      meaningEn: "To pull something down; to reduce or worsen a result or performance.",
+      meaningVi: "Kéo xuống, làm giảm (kết quả hoặc hiệu suất)",
+      exampleEn: "Poor sales in one region dragged down overall revenue.",
+      exampleVi: "Doanh số kém ở một khu vực đã kéo giảm doanh thu tổng thể."
+    },
+    {
+      word: "housing market",
+      ipa: "/ˈhaʊzɪŋ ˈmɑːkɪt/",
+      form: "noun phrase",
+      meaningEn: "The sector of the economy involving the buying, selling, and renting of residential properties.",
+      meaningVi: "Thị trường nhà đất",
+      exampleEn: "The housing market has slowed significantly this quarter.",
+      exampleVi: "Thị trường nhà đất đã chậm lại đáng kể trong quý này."
+    },
+    {
+      word: "weakness",
+      ipa: "/ˈwiːknəs/",
+      form: "noun",
+      meaningEn: "A state of being weak, lacking strength, or underperforming.",
+      meaningVi: "Sự yếu kém, điểm yếu",
+      exampleEn: "Analysts pointed to weakness in the housing sector.",
+      exampleVi: "Các nhà phân tích chỉ ra sự yếu kém trong lĩnh vực nhà ở."
+    },
+    {
+      word: "most financial analysts",
+      ipa: "/məʊst faɪˈnænʃl ˈænəlɪsts/",
+      form: "noun phrase",
+      meaningEn: "The majority of professionals who study and report on financial markets.",
+      meaningVi: "Hầu hết các nhà phân tích tài chính",
+      exampleEn: "Most financial analysts predict a market recovery next quarter.",
+      exampleVi: "Hầu hết các nhà phân tích tài chính dự đoán thị trường phục hồi quý tới."
+    },
+    {
+      word: "proofreading the email",
+      ipa: "/ˈpruːfriːdɪŋ/",
+      form: "verb phrase / gerund",
+      meaningEn: "Carefully checking a written message for errors before sending. (= reviewing the email)",
+      meaningVi: "Soát lỗi email (= reviewing the email)",
+      exampleEn: "Always spend a minute proofreading the email before sending.",
+      exampleVi: "Luôn dành một phút soát lỗi email trước khi gửi."
+    },
+    {
+      word: "primary mission",
+      ipa: "/ˈpraɪməri ˈmɪʃn/",
+      form: "noun phrase",
+      meaningEn: "The most important goal or purpose of an organization or project. (= main mission = core mission)",
+      meaningVi: "Nhiệm vụ chính (= main mission = core mission)",
+      exampleEn: "Our primary mission is to provide quality education.",
+      exampleVi: "Nhiệm vụ chính của chúng tôi là cung cấp giáo dục chất lượng."
+    },
+    {
+      word: "in a timely manner",
+      ipa: "/ɪn ə ˈtaɪmli ˈmænə/",
+      form: "phrase",
+      meaningEn: "Done at the right time or without unnecessary delay. (= on time)",
+      meaningVi: "Đúng hạn, kịp thời (= on time)",
+      exampleEn: "Please respond to all client queries in a timely manner.",
+      exampleVi: "Vui lòng phản hồi tất cả câu hỏi của khách hàng một cách kịp thời."
+    },
+    {
+      word: "shift",
+      ipa: "/ʃɪft/",
+      form: "noun",
+      meaningEn: "A scheduled period of work, especially in a factory or 24-hour operation.",
+      meaningVi: "Ca làm việc",
+      exampleEn: "She works the night shift at the manufacturing plant.",
+      exampleVi: "Cô ấy làm ca đêm tại nhà máy sản xuất."
+    },
+    {
+      word: "cargo ship",
+      ipa: "/ˈkɑːɡəʊ ʃɪp/",
+      form: "noun phrase",
+      meaningEn: "A large vessel designed to carry goods and freight in containers.",
+      meaningVi: "Tàu chở hàng khổng lồ (chở thùng container)",
+      exampleEn: "The cargo ship arrived at the harbor with 2,000 containers.",
+      exampleVi: "Tàu chở hàng đến cảng với 2.000 container."
+    },
+    {
+      word: "accommodate",
+      ipa: "/əˈkɒmədeɪt/",
+      form: "verb",
+      meaningEn: "To provide space for; to hold a certain number of people or things. Also: to provide lodging.",
+      meaningVi: "Chứa (một số lượng); cung cấp chỗ ở",
+      exampleEn: "The venue can accommodate up to 500 guests.",
+      exampleVi: "Địa điểm có thể chứa tối đa 500 khách."
+    },
+    {
+      word: "harbor / harbour",
+      ipa: "/ˈhɑːbə/",
+      form: "noun",
+      meaningEn: "A sheltered area of water where ships can dock and load/unload. (= seaport)",
+      meaningVi: "Cảng, bến cảng (= seaport)",
+      exampleEn: "The cargo ship docked at the harbor overnight.",
+      exampleVi: "Tàu chở hàng cập cảng qua đêm."
+    },
+    {
+      word: "initial result",
+      ipa: "/ɪˈnɪʃl rɪˈzʌlt/",
+      form: "noun phrase",
+      meaningEn: "The first or early outcome before full analysis is complete. (= early result)",
+      meaningVi: "Kết quả ban đầu, kết quả sơ bộ (= early result)",
+      exampleEn: "Initial results suggest the campaign was successful.",
+      exampleVi: "Kết quả ban đầu cho thấy chiến dịch đã thành công."
+    },
+    {
+      word: "wildly different from",
+      ipa: "/ˈwaɪldli ˈdɪfrənt frɒm/",
+      form: "phrase",
+      meaningEn: "Extremely or dramatically unlike something; a very large difference.",
+      meaningVi: "Khác một trời một vực, khác biệt hoàn toàn",
+      exampleEn: "The final numbers were wildly different from our projections.",
+      exampleVi: "Các con số cuối cùng khác hoàn toàn so với dự đoán của chúng tôi."
+    },
+    {
+      word: "at the box office",
+      ipa: "/æt ðə bɒks ˈɒfɪs/",
+      form: "phrase",
+      meaningEn: "At the place where tickets are sold for films, shows, or events; used to describe commercial performance of a film.",
+      meaningVi: "Tại phòng vé; doanh thu phòng vé",
+      exampleEn: "The film performed well at the box office.",
+      exampleVi: "Bộ phim đã đạt doanh thu tốt tại phòng vé."
+    },
+    {
+      word: "keep A from B",
+      ipa: "/kiːp ... frɒm/",
+      form: "grammar structure",
+      meaningEn: "To prevent A from experiencing or doing B.",
+      meaningVi: "Giữ A không bị B, ngăn A bị B",
+      exampleEn: "This coating keeps the surface from being damaged.",
+      exampleVi: "Lớp phủ này giữ bề mặt không bị hỏng."
+    },
+    {
+      word: "keep your tiles from being scratched",
+      ipa: "/kiːp jɔː taɪlz frɒm biːɪŋ skrætʃt/",
+      form: "phrase (example of keep A from B)",
+      meaningEn: "To protect the surface of floor or wall tiles from getting scratch marks.",
+      meaningVi: "Bảo vệ bề mặt gạch khỏi bị trầy xước",
+      exampleEn: "Use furniture pads to keep your tiles from being scratched.",
+      exampleVi: "Dùng đệm bảo vệ đồ nội thất để tránh cho gạch khỏi bị trầy."
+    },
+    {
+      word: "be awarded",
+      ipa: "/bi əˈwɔːdɪd/",
+      form: "verb phrase (passive)",
+      meaningEn: "To officially receive a prize, contract, or honor.",
+      meaningVi: "Được trao (giải, hợp đồng, danh hiệu)",
+      exampleEn: "She was awarded the best employee of the year.",
+      exampleVi: "Cô ấy được trao danh hiệu nhân viên xuất sắc nhất năm."
+    },
+    {
+      word: "all bids are submitted",
+      ipa: "/ɔːl bɪdz ɑː səbˈmɪtɪd/",
+      form: "phrase (passive)",
+      meaningEn: "All formal offers or proposals for a contract have been officially sent in.",
+      meaningVi: "Tất cả hồ sơ dự thầu được nộp",
+      exampleEn: "Once all bids are submitted, the committee will evaluate them.",
+      exampleVi: "Sau khi tất cả hồ sơ dự thầu được nộp, ủy ban sẽ đánh giá."
+    },
+    {
+      word: "recent study",
+      ipa: "/ˈriːsnt ˈstʌdi/",
+      form: "noun phrase",
+      meaningEn: "A research project or investigation conducted in the near past.",
+      meaningVi: "Nghiên cứu gần đây",
+      exampleEn: "A recent study found that remote workers are more productive.",
+      exampleVi: "Một nghiên cứu gần đây phát hiện rằng nhân viên làm việc từ xa năng suất hơn."
+    },
+    {
+      word: "among the winners",
+      ipa: "/əˈmʌŋ ðə ˈwɪnəz/",
+      form: "phrase",
+      meaningEn: "As one of the people or groups who won. (= one of the winners)",
+      meaningVi: "Trong số những người thắng cuộc (= one of the winners)",
+      exampleEn: "Our company was among the winners of the sustainability award.",
+      exampleVi: "Công ty chúng tôi nằm trong số những người nhận giải thưởng phát triển bền vững."
+    },
+    {
+      word: "beyond the limits",
+      ipa: "/bɪˈjɒnd ðə ˈlɪmɪts/",
+      form: "phrase",
+      meaningEn: "Exceeding the set boundaries or expectations.",
+      meaningVi: "Vượt quá giới hạn",
+      exampleEn: "The results went beyond the limits of what was expected.",
+      exampleVi: "Kết quả đã vượt quá giới hạn dự kiến."
+    },
+    {
+      word: "cause sb to do sth",
+      ipa: "/kɔːz ... tuː duː/",
+      form: "grammar structure",
+      meaningEn: "To make someone do something; to be the reason someone performs an action.",
+      meaningVi: "Khiến ai đó làm gì, gây ra việc ai đó làm gì",
+      exampleEn: "The noise caused everyone to stop working.",
+      exampleVi: "Tiếng ồn khiến mọi người dừng làm việc."
+    },
+    {
+      word: "soundproof panel",
+      ipa: "/ˈsaʊndpruːf ˈpænl/",
+      form: "noun phrase",
+      meaningEn: "A wall panel designed to block or reduce the transmission of sound.",
+      meaningVi: "Tấm cách âm",
+      exampleEn: "Soundproof panels were installed in the recording studio.",
+      exampleVi: "Các tấm cách âm được lắp đặt trong phòng thu âm."
+    },
+    {
+      word: "waterproof",
+      ipa: "/ˈwɔːtəpruːf/",
+      form: "adjective",
+      meaningEn: "Designed to prevent water from passing through; resistant to water damage.",
+      meaningVi: "Chống thấm nước",
+      exampleEn: "These waterproof panels are suitable for wet areas.",
+      exampleVi: "Những tấm chống thấm này phù hợp cho khu vực ẩm ướt."
+    },
+    {
+      word: "absorb unwanted background noise",
+      ipa: "/əbˈzɔːb ʌnˈwɒntɪd ˈbækɡraʊnd nɔɪz/",
+      form: "verb phrase",
+      meaningEn: "To take in and reduce sounds that are distracting or undesired in an environment.",
+      meaningVi: "Hấp thụ / giảm bớt tiếng ồn nền không mong muốn",
+      exampleEn: "The panels absorb unwanted background noise effectively.",
+      exampleVi: "Các tấm hấp thụ tiếng ồn nền không mong muốn một cách hiệu quả."
+    },
+    {
+      word: "diligently work",
+      ipa: "/ˈdɪlɪdʒəntli wɜːk/",
+      form: "verb phrase",
+      meaningEn: "To work with consistent care and effort. (= work hard)",
+      meaningVi: "Làm việc chăm chỉ, siêng năng (= work hard)",
+      exampleEn: "She diligently worked through every task on the list.",
+      exampleVi: "Cô ấy chăm chỉ thực hiện từng công việc trong danh sách."
+    },
+    {
+      word: "Not only has/does + S + V, but (also) + S + V",
+      ipa: "/nɒt ˈəʊnli/",
+      form: "grammar structure (inversion)",
+      meaningEn: "An inverted structure used for emphasis. When 'not only' starts the clause, the auxiliary verb comes before the subject (inversion). Adds 'but also' to introduce a second idea.",
+      meaningVi: "Cấu trúc đảo ngữ dùng để nhấn mạnh. Khi 'not only' đứng đầu mệnh đề, trợ động từ đảo lên trước chủ ngữ.",
+      exampleEn: "Not only has she completed the project, but she also exceeded targets.",
+      exampleVi: "Không chỉ cô ấy hoàn thành dự án, mà còn vượt mục tiêu."
+    },
+    {
+      word: "finally commence",
+      ipa: "/ˈfaɪnəli kəˈmens/",
+      form: "verb phrase",
+      meaningEn: "To finally begin or start after a delay or period of waiting. (= finally start)",
+      meaningVi: "Cuối cùng bắt đầu (= finally start)",
+      exampleEn: "The construction finally commenced after months of planning.",
+      exampleVi: "Việc xây dựng cuối cùng đã bắt đầu sau nhiều tháng lên kế hoạch."
+    },
+    {
+      word: "independent consultant",
+      ipa: "/ˌɪndɪˈpendənt kənˈsʌltənt/",
+      form: "noun phrase",
+      meaningEn: "A professional who provides expert advice without being employed by the organization they advise.",
+      meaningVi: "Chuyên gia tư vấn độc lập (không thuộc biên chế của tổ chức)",
+      exampleEn: "They hired an independent consultant to review their financial processes.",
+      exampleVi: "Họ thuê một chuyên gia tư vấn độc lập để xem xét quy trình tài chính."
+    },
+    {
+      word: "impartial advice",
+      ipa: "/ɪmˈpɑːʃl ədˈvaɪs/",
+      form: "noun phrase",
+      meaningEn: "Advice that is fair and not influenced by personal interest or bias. (= objective advice = unbiased advice)",
+      meaningVi: "Lời khuyên khách quan, không thiên vị (= objective advice = unbiased advice)",
+      exampleEn: "An independent consultant provides impartial advice.",
+      exampleVi: "Một chuyên gia tư vấn độc lập cung cấp lời khuyên khách quan."
+    }
+  ],
+  exercises: [
+    { id: 'e16_1', type: 'fill', questionEn: "Staff are hired on a ____ basis during the summer.", questionVi: "Nhân viên được tuyển dụng theo ____ trong mùa hè.", correctAnswer: "seasonal" },
+    { id: 'e16_2', type: 'mcq', questionEn: "Weak housing sales ____ overall company profits.", questionVi: "Doanh số nhà đất yếu ____ lợi nhuận chung của công ty.", options: ["dragged down", "accommodated", "commenced"], correctAnswer: "dragged down" },
+    { id: 'e16_3', type: 'complete', questionEn: "The ____ market showed weakness in the third quarter.", questionVi: "Thị trường ____ cho thấy sự yếu kém trong quý ba.", correctAnswer: "housing" },
+    { id: 'e16_4', type: 'meaning', questionEn: "'In a timely manner' means ____.", questionVi: "'In a timely manner' có nghĩa là ____.", options: ["as quickly as possible", "on time and without unnecessary delay", "seasonally"], correctAnswer: "on time and without unnecessary delay" },
+    { id: 'e16_5', type: 'fill', questionEn: "Always spend time ____ the email before you send it.", questionVi: "Luôn dành thời gian ____ email trước khi gửi.", correctAnswer: "proofreading" },
+    { id: 'e16_6', type: 'mcq', questionEn: "Our ____ mission is to deliver quality service to clients.", questionVi: "Nhiệm vụ ____ của chúng tôi là cung cấp dịch vụ chất lượng cho khách hàng.", options: ["primary", "initial", "seasonal"], correctAnswer: "primary" },
+    { id: 'e16_7', type: 'complete', questionEn: "She works the night ____ at the factory.", questionVi: "Cô ấy làm ____ đêm tại nhà máy.", correctAnswer: "shift" },
+    { id: 'e16_8', type: 'fill', questionEn: "The cargo ship can ____ over 3,000 containers.", questionVi: "Tàu chở hàng có thể ____ hơn 3.000 container.", correctAnswer: "accommodate" },
+    { id: 'e16_9', type: 'mcq', questionEn: "The vessel docked at the ____ early in the morning.", questionVi: "Tàu cập ____ vào sáng sớm.", options: ["harbor", "box office", "shift"], correctAnswer: "harbor" },
+    { id: 'e16_10', type: 'complete', questionEn: "The ____ results were wildly different from final figures.", questionVi: "Kết quả ____ khác hoàn toàn so với số liệu cuối cùng.", correctAnswer: "initial" },
+    { id: 'e16_11', type: 'fill', questionEn: "The final figures were wildly different ____ our forecasts.", questionVi: "Các con số cuối cùng khác hoàn toàn ____ dự báo của chúng tôi.", correctAnswer: "from" },
+    { id: 'e16_12', type: 'mcq', questionEn: "The film opened ____ the box office to strong reviews.", questionVi: "Bộ phim ra mắt ____ phòng vé với các đánh giá tích cực.", options: ["at", "in", "on"], correctAnswer: "at" },
+    { id: 'e16_13', type: 'meaning', questionEn: "'Keep A from B' means ____.", questionVi: "'Keep A from B' có nghĩa là ____.", options: ["Allow A to do B", "Prevent A from experiencing B", "Cause A to move toward B"], correctAnswer: "Prevent A from experiencing B" },
+    { id: 'e16_14', type: 'complete', questionEn: "Use these pads to keep your floor ____ being scratched.", questionVi: "Dùng các tấm đệm này để giữ sàn nhà ____ bị trầy xước.", correctAnswer: "from" },
+    { id: 'e16_15', type: 'fill', questionEn: "She was ____ the employee of the year award.", questionVi: "Cô ấy được ____ giải thưởng nhân viên của năm.", correctAnswer: "awarded" },
+    { id: 'e16_16', type: 'mcq', questionEn: "Once all ____ are submitted, the review process begins.", questionVi: "Sau khi tất cả ____ được nộp, quá trình xem xét bắt đầu.", options: ["bids", "shifts", "panels"], correctAnswer: "bids" },
+    { id: 'e16_17', type: 'complete', questionEn: "A ____ study confirmed the link between sleep and productivity.", questionVi: "Một nghiên cứu ____ đã xác nhận mối liên hệ giữa giấc ngủ và năng suất.", correctAnswer: "recent" },
+    { id: 'e16_18', type: 'fill', questionEn: "Our company was ____ the winners of the innovation award.", questionVi: "Công ty chúng tôi ____ những người thắng giải sáng tạo.", correctAnswer: "among" },
+    { id: 'e16_19', type: 'mcq', questionEn: "The profits went ____ what the analysts had predicted.", questionVi: "Lợi nhuận đã ____ những gì các nhà phân tích đã dự đoán.", options: ["beyond the limits of", "among the winners of", "at the box office for"], correctAnswer: "beyond the limits of" },
+    { id: 'e16_20', type: 'complete', questionEn: "The loud noise ____ everyone to stop working.", questionVi: "Tiếng ồn lớn ____ mọi người dừng làm việc.", correctAnswer: "caused" },
+    { id: 'e16_21', type: 'fill', questionEn: "The ____ panels were installed to reduce noise in the office.", questionVi: "Các tấm ____ được lắp đặt để giảm tiếng ồn trong văn phòng.", correctAnswer: "soundproof" },
+    { id: 'e16_22', type: 'mcq', questionEn: "These tiles are ____ and suitable for bathrooms.", questionVi: "Những viên gạch này ____ và phù hợp cho phòng tắm.", options: ["waterproof", "soundproof", "lively"], correctAnswer: "waterproof" },
+    { id: 'e16_23', type: 'complete', questionEn: "The panels ____ unwanted background noise in the studio.", questionVi: "Các tấm ____ tiếng ồn nền không mong muốn trong phòng thu.", correctAnswer: "absorb" },
+    { id: 'e16_24', type: 'fill', questionEn: "She ____ worked through the weekend to meet the deadline.", questionVi: "Cô ấy đã làm việc ____ suốt cuối tuần để đáp ứng thời hạn.", correctAnswer: "diligently" },
+    { id: 'e16_25', type: 'meaning', questionEn: "In 'Not only has she finished, but she also won', why does 'has' come before 'she'?", questionVi: "Trong 'Not only has she finished, but she also won', tại sao 'has' đứng trước 'she'?", options: ["Random grammar", "Inversion required when 'not only' starts the clause", "It is a question form"], correctAnswer: "Inversion required when 'not only' starts the clause" },
+    { id: 'e16_26', type: 'complete', questionEn: "Not only has the team ____ the project, but they also exceeded targets.", questionVi: "Không chỉ nhóm đã ____ dự án, mà còn vượt mục tiêu.", correctAnswer: "completed" },
+    { id: 'e16_27', type: 'fill', questionEn: "The construction finally ____ after months of delays.", questionVi: "Việc xây dựng cuối cùng đã ____ sau nhiều tháng chậm trễ.", correctAnswer: "commenced" },
+    { id: 'e16_28', type: 'mcq', questionEn: "They hired an ____ consultant to review the processes.", questionVi: "Họ thuê một chuyên gia tư vấn ____ để xem xét quy trình.", options: ["independent", "impartial", "Both are correct"], correctAnswer: "independent" },
+    { id: 'e16_29', type: 'complete', questionEn: "An independent consultant provides ____ advice with no bias.", questionVi: "Một chuyên gia tư vấn độc lập cung cấp lời khuyên ____ không thiên vị.", correctAnswer: "impartial" },
+    { id: 'e16_30', type: 'fill', questionEn: "Most financial ____ predicted a housing market decline.", questionVi: "Hầu hết các nhà ____ tài chính dự đoán thị trường nhà đất sẽ giảm.", correctAnswer: "analysts" }
+  ],
+  rearrangeExercises: [
+    { sentenceEn: "Staff are hired on a seasonal basis during the holidays.", sentenceVi: "Nhân viên được tuyển dụng theo mùa trong kỳ nghỉ." },
+    { sentenceEn: "Real estate profit dragged down overall earnings.", sentenceVi: "Lợi nhuận bất động sản kéo giảm thu nhập tổng thể." },
+    { sentenceEn: "The housing market showed weakness this quarter.", sentenceVi: "Thị trường nhà đất cho thấy sự yếu kém trong quý này." },
+    { sentenceEn: "Most financial analysts expect a recovery soon.", sentenceVi: "Hầu hết các nhà phân tích tài chính kỳ vọng phục hồi sớm." },
+    { sentenceEn: "Always spend time proofreading the email before sending.", sentenceVi: "Luôn dành thời gian soát lỗi email trước khi gửi." },
+    { sentenceEn: "Our primary mission is to deliver quality service.", sentenceVi: "Nhiệm vụ chính của chúng tôi là cung cấp dịch vụ chất lượng." },
+    { sentenceEn: "Please respond to clients in a timely manner.", sentenceVi: "Vui lòng phản hồi khách hàng một cách kịp thời." },
+    { sentenceEn: "The cargo ship can accommodate 3,000 containers.", sentenceVi: "Tàu chở hàng có thể chứa 3.000 container." },
+    { sentenceEn: "The vessel docked at the harbor early this morning.", sentenceVi: "Tàu cập cảng vào sáng sớm hôm nay." },
+    { sentenceEn: "Initial results were wildly different from our forecasts.", sentenceVi: "Kết quả ban đầu khác hoàn toàn so với dự báo của chúng tôi." },
+    { sentenceEn: "The film performed well at the box office.", sentenceVi: "Bộ phim đạt doanh thu tốt tại phòng vé." },
+    { sentenceEn: "Use pads to keep your tiles from being scratched.", sentenceVi: "Dùng đệm để tránh gạch khỏi bị trầy xước." },
+    { sentenceEn: "She was awarded the best employee of the year.", sentenceVi: "Cô ấy được trao danh hiệu nhân viên xuất sắc nhất năm." },
+    { sentenceEn: "Once all bids are submitted, the review begins.", sentenceVi: "Sau khi tất cả hồ sơ dự thầu được nộp, việc xem xét bắt đầu." },
+    { sentenceEn: "Our company was among the winners of the award.", sentenceVi: "Công ty chúng tôi nằm trong số những người thắng giải." },
+    { sentenceEn: "The results went beyond the limits of expectations.", sentenceVi: "Kết quả đã vượt quá giới hạn kỳ vọng." },
+    { sentenceEn: "Soundproof panels absorb unwanted background noise.", sentenceVi: "Các tấm cách âm hấp thụ tiếng ồn nền không mong muốn." },
+    { sentenceEn: "Not only has she completed the project, but she also exceeded targets.", sentenceVi: "Không chỉ cô ấy hoàn thành dự án, mà còn vượt mục tiêu." },
+    { sentenceEn: "The construction finally commenced after months of planning.", sentenceVi: "Việc xây dựng cuối cùng đã bắt đầu sau nhiều tháng lên kế hoạch." },
+    { sentenceEn: "An independent consultant provides impartial advice.", sentenceVi: "Một chuyên gia tư vấn độc lập cung cấp lời khuyên khách quan." }
+  ]
+}
 
 ];
